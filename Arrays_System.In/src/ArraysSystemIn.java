@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class arraysSum {
+public class ArraysSystemIn {
 
 	public static void main(String[] args) {
 		Scanner nicky = new Scanner(System.in);
