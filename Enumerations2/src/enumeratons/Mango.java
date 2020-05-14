@@ -1,9 +1,17 @@
 package enumeratons;
 
 public enum Mango {
-	Lashley("Spear", "278LBS"),
-	GoldBerg("JackHammer", "282LBS"),
-	Charlotte("Figure4", "168LBS");
+	BobbyLashley("Spear", "278LBS"),
+	BillGoldBerg("JackHammer", "282LBS"),
+	CharlotteFlair("Figure4", "168LBS"),
+	FinnBalor("1960", "218LBS"),
+	AleisterBlack("Black-Mass", "270LBS"),
+	ShinsukeNakamura("Kinshasa", "240"),
+	sethRollins("Stomp", "221LBS"),
+	RayMysterio("619", "199LBS"),
+	RandyOrton("RKO", "260LBS"),
+	JohnCena("AA", "278LBS");
+	
 	
 	private final String Finisher;
 	private final String weights;
