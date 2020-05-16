@@ -7,7 +7,6 @@ import javax.swing.JLabel;
 public class NickFury extends JFrame{
 	
 	private JLabel item1;
-	private JLabel item2;
 	
 	public NickFury() {
 		super("HeavyWeight Title");
