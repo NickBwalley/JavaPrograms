@@ -6,7 +6,7 @@ public class EventHandler {
 	public static void main(String[] args) {
 		NickFury nicky = new NickFury();
 		nicky.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		nicky.setSize(500,400);
+		nicky.setSize(300,200);
 		nicky.setVisible(true);
 	}
 
