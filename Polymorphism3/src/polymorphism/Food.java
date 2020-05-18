@@ -1,7 +1,6 @@
 package polymorphism;
 
-public class Food {
-	void eat() {
-		System.out.println("I am the Food Class!");
-	}
+abstract public class Food {
+	public abstract void eat();
 }
+//Abstract class means that you cannot create an object out of this class then use it 
