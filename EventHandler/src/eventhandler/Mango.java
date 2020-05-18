@@ -27,7 +27,13 @@ public class Mango extends JFrame{
         myPassword = new JPasswordField();
         add(myPassword);
         
-        //
+        //creating an object for the ActionListener
+        actionList pointer = new actionList();
+        item1.addActionListener(pointer);
+        item2.addActionListener(pointer);
+        myPassword.addActionListener(pointer);
         
     }
+    
+    
 }
