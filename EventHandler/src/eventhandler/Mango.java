@@ -12,16 +12,18 @@ import javax.swing.JOptionPane;
 public class Mango extends JFrame{
     private JTextField item1;
     private JTextField item2;
+    private JTextField item3;
     private JPasswordField myPassword;
     
     public Mango(){
         super("WrestleMania!!");
         setLayout(new FlowLayout());
-        item1 = new JTextField(10);
+        
+        item1 = new JTextField("Who Won the Womens-Money-in-the-Bank", 40);
+        item1.setEditable(false);
         add(item1);
         
-        item2 = new JTextField("Royal-Rumble-Winner", 20);
-        item2.setEditable(false);
+        item2 = new JTextField(10);
         add(item2);
         
         myPassword = new JPasswordField();
@@ -39,7 +41,10 @@ public class Mango extends JFrame{
        
        public void actionPerformed(ActionEvent event){
            String pears = "";
-           
+           if(event.getSource() == item1)
+               pears = String.format("Your Choice was: %s", event.getActionCommand());
+           else if(event.getSource() == item2)
+               pears = String.format("You", os)
        }
    } 
 }
