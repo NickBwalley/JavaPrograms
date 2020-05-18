@@ -6,6 +6,21 @@ import javax.swing.JFrame;
 import javax.swing.JTextField;
 import javax.swing.JPasswordField;
 import javax.swing.JOptionPane;
-public class Apples {
+
+public class Apples extends JFrame{
+    private JTextField item1;
+    private JTextField item2;
+    private JPasswordField myPassword;
     
+    public Apples(){
+        super("World Cup 2018!");
+        setLayout(new FlowLayout());
+        item1 = new JTextField(10);
+        add(item1);
+        item2 = new JTextField("World-Cup Finals");
+        item2.setEditable(false);
+        add(item2);
+        
+            
+    }
 }
