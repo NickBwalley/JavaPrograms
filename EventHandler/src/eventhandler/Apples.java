@@ -17,9 +17,18 @@ public class Apples extends JFrame{
         setLayout(new FlowLayout());
         item1 = new JTextField(10);
         add(item1);
-        item2 = new JTextField("World-Cup Finals");
+        
+        item2 = new JTextField("World-Cup Finals", 20);
         item2.setEditable(false);
         add(item2);
+        
+        myPassword = new JPasswordField(10);
+        add(myPassword);
+        //creating an action Listener
+        theHandler Handler = new theHandler();
+        item1.addActionListener(Handler);
+        item2.addActionListener(Handler);
+        myPassword.addActionListener(Handler);
         
             
     }
