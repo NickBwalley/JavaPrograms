@@ -19,12 +19,14 @@ public class WorldCup2018 extends JFrame {
 		
 		item1 = new JTextField("Who Won the Mens WorldCup 2018?", 30);
 		item1.setEditable(false);
+		add(item1);
 		
 		item2 = new JTextField(10);
 		add(item2);
 		
 		item3 = new JTextField("Who Won the Womens WorldCup 2018?", 30);
 		item3.setEditable(false);
+		add(item3);
 		
 		item4 = new JTextField(10);
 		add(item4);
@@ -40,9 +42,9 @@ public class WorldCup2018 extends JFrame {
 		public void actionPerformed(ActionEvent event) {
 			String juice = "";
 			if(event.getSource() == item2)
-				juice = event.getActionCommand();
+				juice = String.format("Your Choice was: %s", event.getActionCommand()); 
 			else if(event.getSource() == item4)
-				juice = event.getActionCommand();
+				juice = String.format("Your Choice was: %s", event.getActionCommand());
 			
 			JOptionPane.showMessageDialog(null, juice);
 			

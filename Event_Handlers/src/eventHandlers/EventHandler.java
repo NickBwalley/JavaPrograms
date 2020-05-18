@@ -4,10 +4,10 @@ import javax.swing.JFrame;
 public class EventHandler {
 
 	public static void main(String[] args) {
-		NickFury nicky = new NickFury();
-		nicky.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		nicky.setSize(300,200);
-		nicky.setVisible(true);
+		WorldCup2018 world = new WorldCup2018();
+		world.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		world.setSize(500,400);
+		world.setVisible(true);
 	}
 
 }
