@@ -17,6 +17,11 @@ public class Mango extends JFrame{
     public Mango(){
         super("WrestleMania!!");
         setLayout(new FlowLayout());
+        item1 = new JTextField(10);
+        add(item1);
+        item2 = new JTextField("Royal-Rumble-Winner", 20);
+        item2.setEditable(false);
+        add(item2);
         
     }
 }
