@@ -28,8 +28,18 @@ public class Apples extends JFrame{
         theHandler Handler = new theHandler();
         item1.addActionListener(Handler);
         item2.addActionListener(Handler);
-        myPassword.addActionListener(Handler);
-        
+        myPassword.addActionListener(Handler);        
             
+    }
+    
+    private class theHandler implements ActionListener{
+        
+        public void actionPerformed(ActionEvent event){
+            String str = "";
+            if(event.getSource() == item1)
+                str = String.format("Field 1: %s", event.getActionCommand());
+            else if(event.getSource() == item2)
+                str = String.format()
+        }
     }
 }
