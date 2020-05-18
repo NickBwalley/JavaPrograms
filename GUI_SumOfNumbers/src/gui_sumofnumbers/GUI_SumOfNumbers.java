@@ -13,6 +13,8 @@ public class GUI_SumOfNumbers {
         int Number2 = Integer.parseInt(Num2);
         int Result = Number1 + Number2;
         
+        JOptionPane.showMessageDialog(null, "Result is: " +Result, "Addition", JOptionPane.PLAIN_MESSAGE);
+        
     }
     
 }
