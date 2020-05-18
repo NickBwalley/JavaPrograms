@@ -13,6 +13,7 @@ public class Mango extends JFrame{
     private JTextField item1;
     private JTextField item2;
     private JTextField item3;
+    private JTextField item4;
     private JPasswordField myPassword;
     
     public Mango(){
@@ -25,6 +26,13 @@ public class Mango extends JFrame{
         
         item2 = new JTextField(10);
         add(item2);
+        
+        item3 = new JTextField("Who Won the Men's Money-in-the-Bank", 40);
+        item3.setEditable(false);
+        add(item3);
+        
+        item4 = new JTextField(10);
+        add(item4);
         
         myPassword = new JPasswordField();
         add(myPassword);
