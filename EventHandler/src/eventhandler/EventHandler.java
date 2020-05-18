@@ -1,21 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package eventhandler;
 
-/**
- *
- * @author nickbwalley
- */
+import javax.swing.JFrame;
 public class EventHandler {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Apples candy = new Apples();
+        candy.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        candy.setSize(300,200);
+        candy.setVisible(true);
     }
     
 }
