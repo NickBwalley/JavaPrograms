@@ -10,8 +10,10 @@ public class Main {
 		
 		theAnimal[0] = hyena;
 		theAnimal[1] = cheetah;
-		//creating an enhanced forLoop for printing the varibles inside the classes 
+		//creating an enhanced forLoop for printing the varibles inside the classes
 		for(Animals x: theAnimal) {
+			//printing out the methods inside those classes instead of creating objects everytime 
+			//more effecient way to run methods inside different classes 
 			x.speed();
 		}
 	}
