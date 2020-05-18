@@ -29,8 +29,12 @@ public class WorldCup2018 extends JFrame {
 		item4 = new JTextField(10);
 		add(item4);
 		
-		
-		
+		actionList list = new actionList();
+		item2.addActionListener(list);
+		item4.addActionListener(list);
+				
 	}
+	
+	
 	
 }
