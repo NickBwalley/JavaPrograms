@@ -6,7 +6,6 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.JFrame;
 import javax.swing.JTextField;
-import javax.swing.JPasswordField;
 import javax.swing.JOptionPane;
 
 public class Mango extends JFrame{
@@ -14,7 +13,7 @@ public class Mango extends JFrame{
     private JTextField item2;
     private JTextField item3;
     private JTextField item4;
-    private JPasswordField myPassword;
+
     
     public Mango(){
         super("WrestleMania!!");
@@ -33,15 +32,13 @@ public class Mango extends JFrame{
         
         item4 = new JTextField(10);
         add(item4);
-        
-        myPassword = new JPasswordField();
-        add(myPassword);
+
         
         //creating an object for the ActionListener
         actionList pointer = new actionList();
-        item1.addActionListener(pointer);
         item2.addActionListener(pointer);
-        myPassword.addActionListener(pointer);
+        item4.addActionListener(pointer);
+        
         
     }
     
@@ -49,10 +46,13 @@ public class Mango extends JFrame{
        
        public void actionPerformed(ActionEvent event){
            String pears = "";
-           if(event.getSource() == item1)
+           if(event.getSource() == item2)
                pears = String.format("Your Choice was: %s", event.getActionCommand());
-           else if(event.getSource() == item2)
-               pears = String.format("You", os)
+           else if(event.getSource() == item4)
+               pears = String.format("Your Choice was: %s", event.getActionCommand());
+           
+           JOptionPane.showMessageDialog(null, pears);
+           
        }
    } 
 }

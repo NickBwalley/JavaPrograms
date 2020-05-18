@@ -5,10 +5,10 @@ import javax.swing.JFrame;
 public class EventHandler {
 
     public static void main(String[] args) {
-        Apples candy = new Apples();
-        candy.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        candy.setSize(300,200);
-        candy.setVisible(true);
+        Mango sweet = new Mango();
+        sweet.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        sweet.setSize(500,400);
+        sweet.setVisible(true);
     }
     
 }
