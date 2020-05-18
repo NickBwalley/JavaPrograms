@@ -35,6 +35,11 @@ public class WorldCup2018 extends JFrame {
 				
 	}
 	
-	
+	private class actionList implements ActionListener{
+		
+		public void actionPerformed(ActionEvent event) {
+			
+		}
+	}
 	
 }
