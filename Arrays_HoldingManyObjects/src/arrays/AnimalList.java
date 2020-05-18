@@ -1,7 +1,7 @@
 package arrays;
 
 public class AnimalList {
-	private Animal[] theAnimal  = new Animal[10];
+	private Animal[] theAnimal  = new Animal[5];
 	private int x = 0;
 	
 	public void add (Animal A) {

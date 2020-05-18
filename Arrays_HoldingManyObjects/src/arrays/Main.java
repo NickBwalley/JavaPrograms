@@ -8,6 +8,10 @@ public class Main {
 		Cat c = new Cat();
 		AL.add(d);
 		AL.add(c);
+		AL.add(d);
+		AL.add(c);
+		AL.add(d);
+		
 	}
 
 }
