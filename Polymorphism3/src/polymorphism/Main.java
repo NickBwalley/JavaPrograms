@@ -13,3 +13,7 @@ public class Main {
 	}
 
 }
+/*
+ * Abstract Class must be overridden 
+ * Abstract Class you cannot create an object out of it
+ * */
