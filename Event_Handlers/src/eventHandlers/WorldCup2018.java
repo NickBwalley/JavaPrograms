@@ -17,6 +17,11 @@ public class WorldCup2018 extends JFrame {
 		super("WorldCup2018!");
 		setLayout(new FlowLayout());
 		
+		item1 = new JTextField("Who Won the Mens WorldCup 2018?", 30);
+		item1.setEditable(false);
+		add(item1);
+		
+		
 	}
 	
 }
