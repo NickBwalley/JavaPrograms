@@ -39,7 +39,11 @@ public class Apples extends JFrame{
             if(event.getSource() == item1)
                 str = String.format("Field 1: %s", event.getActionCommand());
             else if(event.getSource() == item2)
-                str = String.format()
+                str = String.format("Field 2: %s", event.getActionCommand());
+            else if(event.getSource() == myPassword)
+                str = String.format("Your Password is: %s", event.getActionCommand());
+            
+            JOptionPane.showMessageDialog(null, str);
         }
     }
 }
