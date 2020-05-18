@@ -21,6 +21,9 @@ public class WorldCup2018 extends JFrame {
 		item1.setEditable(false);
 		add(item1);
 		
+		item2 = new JTextField("Who Won the Womens WorldCup 2018?", 30);
+		item2.setEditable(false);
+		add(item2);
 		
 	}
 	
