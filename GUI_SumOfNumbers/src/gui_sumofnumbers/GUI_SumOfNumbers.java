@@ -9,6 +9,10 @@ public class GUI_SumOfNumbers {
         String Num1 = JOptionPane.showInputDialog("Enter First Number: ");
         String Num2 = JOptionPane.showInputDialog("Enter Second Number: ");
         
+        int Number1 = Integer.parseInt(Num1);
+        int Number2 = Integer.parseInt(Num2);
+        int Result = Number1 + Number2;
+        
     }
     
 }
