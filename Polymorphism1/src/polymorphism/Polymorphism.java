@@ -19,6 +19,15 @@ public class Polymorphism {
 		for(int x = 0; x < 3; ++x) {
 			nicky[x].eat();
 		}
+		System.out.println("-------------");
+		FoodStuff fo = new FoodStuff();
+		FoodStuff ap = new Apple();
+		FoodStuff or = new Orange();
+		Digests dig = new Digests();
+		
+		dig.digest(fo);
+		dig.digest(ap);
+		dig.digest(or);
 	}
 
 }

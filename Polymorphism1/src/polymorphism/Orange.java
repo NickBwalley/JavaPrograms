@@ -2,6 +2,6 @@ package polymorphism;
 
 public class Orange extends FoodStuff {
 	void eat() {
-		System.out.println("I like Oranges!");
+		System.out.println("This Orange is Great!");
 	}
 }
