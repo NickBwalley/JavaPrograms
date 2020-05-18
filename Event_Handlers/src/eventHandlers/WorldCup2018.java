@@ -44,8 +44,10 @@ public class WorldCup2018 extends JFrame {
 			else if(event.getSource() == item4)
 				juice = event.getActionCommand();
 			
+			JOptionPane.showMessageDialog(null, juice);
 			
 		}
+		
 	}
 	
 }
