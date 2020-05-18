@@ -3,11 +3,11 @@ package arrays;
 public class Main {
 
 	public static void main(String[] args) {
-		DogList DLO = new DogList();
-		Dog dog = new Dog();
-
-		DLO.add(dog);
-
+		AnimalList AL = new AnimalList();
+		Dog d = new Dog();
+		Cat c = new Cat();
+		AL.add(d);
+		AL.add(c);
 	}
 
 }
