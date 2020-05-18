@@ -39,6 +39,10 @@ public class WorldCup2018 extends JFrame {
 		
 		public void actionPerformed(ActionEvent event) {
 			String juice = "";
+			if(event.getSource() == item2)
+				juice = event.getActionCommand();
+			else if(event.getSource() == item4)
+				juice = event.getActionCommand();
 			
 			
 		}
