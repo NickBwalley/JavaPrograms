@@ -13,7 +13,7 @@ Scanner nicky = new Scanner(System.in);
             sum+=num;
             counter++;
         }
-        return sum;
+        return sum/10;
     }
 
 }
