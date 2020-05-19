@@ -10,7 +10,7 @@ public class Logical_Operators {
         System.out.println("Enter second-Persons Age: ");
         num2 = nicky.nextInt();
         
-        if(num1 < 18 && num2 < 18){
+        if(num1 < 18 || num2 < 18){
             System.out.println("You Are Eligible to Join this Party!");
         }else{
             System.out.println("Your are Still Kids!!.. Go Back to School and Learn!!");
