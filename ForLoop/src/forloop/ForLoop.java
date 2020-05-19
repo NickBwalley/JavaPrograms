@@ -11,10 +11,10 @@ public class ForLoop {
         capital = nicky.nextDouble();
         System.out.println("Enter Your Rate of Interest: ");
         rate = nicky.nextDouble();
-        
+        System.out.println("day\tAmount");
         for(int x=1; x<31; x++){
             amount = capital * Math.pow(1+rate, x);
-            System.out.println("day\tAmount");
+            
             System.out.println(x +"\t" + amount);
         }
     }
