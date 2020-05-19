@@ -9,6 +9,7 @@ public class WhileLoopUsingAClass {
         System.out.println("Enter FirstNumber: ");
         number = rikki.nextInt();
         apples.addNum(number);
+        apples.returnSum();
     }
 
 }

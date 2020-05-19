@@ -6,14 +6,22 @@ Scanner nicky = new Scanner(System.in);
     int sum = 0;
     
     
-    public int addNum(int num ){
+    public void addNum(int num ){
         while(counter < 10){
             System.out.println("Enter Another Number: ");
             num = nicky.nextInt();
             sum+=num;
             counter++;
         }
-        return sum/10;
+        
+    }
+    
+    public int getSum(){
+        return sum;
+    }
+    
+    public void returnSum(){
+        System.out.printf("The Result is: %d", getSum());
     }
 
 }
