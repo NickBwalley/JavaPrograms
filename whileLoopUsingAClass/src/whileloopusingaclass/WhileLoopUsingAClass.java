@@ -6,6 +6,7 @@ public class WhileLoopUsingAClass {
         Scanner rikki = new Scanner(System.in);
         int number;
         Apples apples = new Apples();
+        System.out.println("Enter FirstNumber: ");
         number = rikki.nextInt();
         apples.addNum(number);
     }

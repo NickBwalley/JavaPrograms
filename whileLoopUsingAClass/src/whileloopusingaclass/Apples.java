@@ -8,7 +8,7 @@ Scanner nicky = new Scanner(System.in);
     
     public int addNum(int num ){
         while(counter < 10){
-            System.out.println("Enter Number: ");
+            System.out.println("Enter Another Number: ");
             num = nicky.nextInt();
             sum+=num;
             counter++;
