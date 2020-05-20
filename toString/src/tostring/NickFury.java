@@ -29,4 +29,13 @@ public class NickFury {
         day =((d>=1 && d<32)? d: 1);
     }
     
+    public void printDate(){
+        
+        System.out.printf("The Date is: %s", this);
+    }
+    
+    public String toString(){
+        return String.format("Year:%02d-Month:%02d-Day:%02d", year, month, day);
+    }
+    
 }
