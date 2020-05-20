@@ -14,13 +14,13 @@ public class NickFury {
             System.out.println("Enter Number: ");
             nick[x] = nicky.nextInt();
         }
-    }
-    //method to sum elements inside our array
-    public void sumOfArray(){
+        //creating a for loop to hold those values
         for(int y=0; y<nick.length; y++){
             total += nick[y];
         }
+        
     }
+
     //creating a method to return our sum
     public int returnTotal(){
         return total;
@@ -28,6 +28,7 @@ public class NickFury {
     //create another method to print the value
     public void printCrap(){
         System.out.printf("Result of Array is: %d", returnTotal());
+        System.out.println("");
     }
     
 }
