@@ -9,6 +9,10 @@ public class TimeClass {
         time2.setTime(14,34,69);        
         System.out.println(time2.toMillitary());
         System.out.println(time2.toNormal());
+        
+        Time3 time3 = new Time3();
+        time3.setTime(1, 12, 14);
+        System.out.println(time3.toMillitary());
     }
 
 }
