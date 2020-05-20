@@ -38,4 +38,18 @@ public class Time4 {
     public void setSecond(int s){
         second = ((s>=0 && s<24)? s: 0);
     }
+    
+    public  int getHour(){
+        return hour;
+    }
+    public int getMinute(){
+        return minute;
+    }
+    public int getSecond(){
+        return second;
+    }
+    
+    public String getTime(){
+        return String.format("%02d:%02d:%02d", getHour(), getMinute(), getSecond());
+    }
 }
