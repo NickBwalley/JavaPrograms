@@ -9,10 +9,10 @@ Scanner nicky = new Scanner(System.in);
     public void getInput(){
         //creating a for-loop to allow user to enter only 10Numbers
         for(int x=0; x<rikki.length; x++){
-            System.out.println("Enter Row-Values: ");
+            System.out.println("Enter Row-Value: ");
             rikki[x] = nicky.nextInt();
             for(int y=0; y<rikki[x].length; y++){
-                System.out.println("Enter Column-Values: ");
+                System.out.println("Enter Column-Value: ");
                 rikki[y] = nicky.nextInt();
             }
             
