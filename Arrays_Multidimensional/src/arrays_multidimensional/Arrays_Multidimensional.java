@@ -9,6 +9,7 @@ public class Arrays_Multidimensional {
         printArray(Apples);
         System.out.println("-----------------------------------");
         printArray(Mango);
+        System.out.println("***********************************");
         
     }
     //method to print out the multi-dimensional Array
