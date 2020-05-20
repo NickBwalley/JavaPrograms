@@ -9,6 +9,8 @@ public class Arrays_initializer {
             System.out.println(nick[x]);
         }
         
+        NickFury mango = new NickFury();
+        mango.fillArray(0);
         
     }
 
