@@ -5,12 +5,13 @@ public class VariableLengthArguments {
     public static void main(String[] args) {
         Scanner nicky = new Scanner(System.in);
         int counter = 0;
-        int rikki[] = new int[5];
+        int rikki[] = new int[6];
         rikki[0] = 45;
         rikki[1] = 45;
         rikki[2] = 45;
         rikki[3] = 45;
         rikki[4] = 45;
+        rikki[5] = 99;
         
         System.out.println(getAverage(rikki));
     }
