@@ -7,12 +7,25 @@ public class NickFury {
 	//creating an array
 	int rikki[] = new int[5];
 	
-	//creating method for user input to our array
+	// method for user input to our array
 	public void addNumber() {
 		for(int x=0; x<rikki.length; x++) {
 			System.out.println("Enter Your Number: ");
-			rikki = nicky.nextInt();			
+			rikki[x] = nicky.nextInt();			
 		}
-		
+		//for loop to hold the variables the user has inputted
+		for(int y=0; y<rikki.length; y++) {
+			total+=rikki[y];
+		}		
+	}
+	
+	//method to return the total of the result 
+	public int result() {
+		return total;
+	}
+	
+	//method to output the result in the result()
+	public void returnResult() {
+		System.out.printf("Result of your Numbers are: %d", result());
 	}
 }
