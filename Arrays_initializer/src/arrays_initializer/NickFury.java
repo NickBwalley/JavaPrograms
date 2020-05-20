@@ -5,7 +5,7 @@ public class NickFury {
     //int number;
     int apples[] = new int[5];
     
-    public void fillArray(int a){
+    public void fillArray(){
         for(int i=0; i<apples.length; i++){
             System.out.println("Enter Number: ");
             apples[i] = nicky.nextInt();

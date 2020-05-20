@@ -10,7 +10,7 @@ public class Arrays_initializer {
         }
         
         NickFury mango = new NickFury();
-        mango.fillArray(0);
+        mango.fillArray();
         
     }
 
