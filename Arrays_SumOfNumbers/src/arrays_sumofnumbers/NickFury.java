@@ -21,6 +21,11 @@ public class NickFury {
             total += nick[y];
         }
     }
+    //creating a method to return our sum
+    public int returnTotal(){
+        return total;
+    }
+    //create another method to print the value
     
     
 }
