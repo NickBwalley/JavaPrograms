@@ -26,6 +26,8 @@ public class NickFury {
         return total;
     }
     //create another method to print the value
-    
+    public void printCrap(){
+        System.out.printf("Result of Array is: %d", returnTotal());
+    }
     
 }
