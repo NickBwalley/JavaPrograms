@@ -11,4 +11,14 @@ public class Apples {
         members++;
         System.out.printf("constructor for %s %s.... Iam the %d member of the Club!\n", first, last, members);
     }
+    
+    public String getFirst(){
+        return first;
+    }
+    public String getSecond(){
+        return last;
+    }
+    public int getMember(){
+        return members;
+    }
 }
