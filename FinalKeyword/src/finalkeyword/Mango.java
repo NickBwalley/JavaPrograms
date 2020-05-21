@@ -12,5 +12,15 @@ Scanner nicky = new Scanner(System.in);
         userInput = nicky.nextInt();        
     }
     
+    public void Operation(){
+        sum= NUMBER * userInput;
+    }
     
+    public int getResult(){
+        return sum;
+    }
+    
+    public String toString(){
+        return String.format("The Result is: %d", getResult());
+    }
 }
