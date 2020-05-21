@@ -10,12 +10,9 @@ Scanner nicky = new Scanner(System.in);
         NUMBER = number;
         System.out.println("Enter Your value: ");
         userInput = nicky.nextInt();        
-    }
-    
-    public void Operation(){
         sum= NUMBER * userInput;
     }
-    
+        
     public int getResult(){
         return sum;
     }
