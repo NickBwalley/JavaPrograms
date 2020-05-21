@@ -11,8 +11,11 @@ public class Apples {
     public void add(){
         sum+=NUMBER;
     }
+    public int returnSum(){
+        return sum;
+    }
     
     public String toString(){
-        return String.format("Sum =: %d", sum);
+        return String.format("Sum =: %d", returnSum());
     }
 }
