@@ -14,5 +14,11 @@ public enum Apples {
         year = yr;
     }
     
-    public 
+    public String getDesc(){
+        return desc;
+    }
+    
+    public String getYear(){
+        return year;
+    }
 }
