@@ -1,6 +1,5 @@
 package enumerations;
 
-public enum Apples {
-    
+public class Apples {
 
 }
