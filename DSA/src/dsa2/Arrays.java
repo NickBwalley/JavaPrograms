@@ -5,7 +5,8 @@ public class Arrays {
 	public static void main(String[] args) {
 		//largestNumber();
 		//System.out.println(checkElement());
-		System.out.println(sumElements());
+		//System.out.println(sumElements());
+		evenNumbers();
 	}
 	
 	//method to determine the largest number in an array
@@ -59,6 +60,26 @@ public class Arrays {
 			total+=arr[i];
 		}
 		return total;
+	}
+	
+	//method to print Even numbers of our array
+	public static void evenNumbers() {
+		Scanner nicky = new Scanner(System.in);
+		int n;
+		System.out.println("Enter Size of Array: ");
+		n = nicky.nextInt();
+		int array[] = new int[n];
+		System.out.println("Enter Elements of the Array: ");
+		for (int i = 0; i < array.length; i++) {
+			array[i] = nicky.nextInt();
+		}
+		
+		System.out.println("The Even Numbers are:");
+		for (int i = 0; i < array.length; i++) {			
+			if(array[i]%2 == 0) {
+				System.out.println(array[i]);
+			}
+		}
 	}
 	
 
