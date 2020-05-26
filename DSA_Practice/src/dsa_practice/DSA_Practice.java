@@ -15,6 +15,10 @@ public class DSA_Practice {
     for(int i = 0; i < daysOfWeeks.length; i++){
         System.out.println(daysOfWeeks[i]);
     }
-    }
+    
+    LargestNumber maximum = new LargestNumber();
+    maximum.printArray();
+    
+   }
 
 }
