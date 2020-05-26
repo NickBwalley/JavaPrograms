@@ -19,7 +19,9 @@ public class DSA_Practice {
     //LargestNumber maximum = new LargestNumber();
     //maximum.printArray();
     //printArray();
-        System.out.println(checkElement());
+    //System.out.println(checkElement());
+        System.out.println(sumArray());
+
     
    }
     
@@ -58,6 +60,23 @@ public class DSA_Practice {
             }
             return false;    
         }
+    public static int sumArray(){
+        int n;
+        int total = 0;
+        Scanner nicky = new Scanner(System.in);
+        System.out.println("How Many Numbers do you Want to Add? ");
+        n = nicky.nextInt();
+        int arr[] = new int[n];
+        for(int i=0; i<n; i++){
+            System.out.println("Enter Your Numbers: ");
+            arr[i] = nicky.nextInt();
+        }
+        
+        for(int z=0; z<arr.length; z++){
+            total+=arr[z];
+        }
+        return total;
+    }
     
 
 }
