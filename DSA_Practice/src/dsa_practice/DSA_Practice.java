@@ -20,8 +20,9 @@ public class DSA_Practice {
     //maximum.printArray();
     //printArray();
     //System.out.println(checkElement());
-        System.out.println(sumArray());
+    //System.out.println(sumArray());
 
+    System.out.println(checkEvenNumbers());
     
    }
     
@@ -76,6 +77,25 @@ public class DSA_Practice {
             total+=arr[z];
         }
         return total;
+    }
+    public static boolean checkEvenNumbers(){
+        int n;
+        Scanner nicky = new Scanner(System.in);
+        System.out.println("How many Numbers do you  want to check?");
+        n = nicky.nextInt();
+        int arr[] = new int[n];
+        for(int i=0; i<n; i++){
+            System.out.println("Enter the Numbers: ");
+            arr[i] = nicky.nextInt();
+        }
+        int even;
+        for(int x=0; x<arr.length; x++){
+            if (arr[x]/2 == 0){
+                
+                return true;
+            } 
+        }
+        return false;
     }
     
 
