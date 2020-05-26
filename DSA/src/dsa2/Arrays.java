@@ -4,7 +4,8 @@ public class Arrays {
 
 	public static void main(String[] args) {
 		//largestNumber();
-		System.out.println(checkElement());
+		//System.out.println(checkElement());
+		System.out.println(sumElements());
 	}
 	
 	//method to determine the largest number in an array
@@ -40,6 +41,24 @@ public class Arrays {
 			}
 		}
 		return false;
+	}
+	
+	//method to add elements inside of an array:
+	public static int sumElements() {
+		Scanner nicky = new Scanner(System.in);
+		int n;
+		int total = 0;
+		System.out.println("Enter Size of the Array");
+		n = nicky.nextInt();
+		int arr[] = new int[n];
+		System.out.println("Enter Your Numbers: ");
+		for (int i = 0; i < arr.length; i++) {
+			arr[i] = nicky.nextInt();
+		}
+		for (int i = 0; i < arr.length; i++) {
+			total+=arr[i];
+		}
+		return total;
 	}
 	
 
