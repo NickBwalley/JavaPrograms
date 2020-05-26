@@ -18,7 +18,8 @@ public class DSA_Practice {
     
     //LargestNumber maximum = new LargestNumber();
     //maximum.printArray();
-    printArray();
+    //printArray();
+        System.out.println(checkElement());
     
    }
     
@@ -42,5 +43,21 @@ public class DSA_Practice {
         }
         System.out.println("The largest Element of the Array is: "+max);
     }
+    
+    public static boolean checkElement(){
+        int s, check;
+        Scanner nicky = new Scanner(System.in);
+        int array[] = {14,19,21,29,39,77,79,99};        
+        System.out.println("Search Number: ");
+        s = nicky.nextInt();
+        //creating an enhanced for loop
+        for(int z: array){
+            if( s == z){
+             return true;
+            }
+            }
+            return false;    
+        }
+    
 
 }
