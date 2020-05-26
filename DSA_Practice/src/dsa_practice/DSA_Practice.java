@@ -1,5 +1,5 @@
 package dsa_practice;
-
+import java.util.Scanner;
 public class DSA_Practice {
 
     public static void main(String[] args) {
@@ -16,9 +16,31 @@ public class DSA_Practice {
         System.out.println(daysOfWeeks[i]);
     }
     
-    LargestNumber maximum = new LargestNumber();
-    maximum.printArray();
+    //LargestNumber maximum = new LargestNumber();
+    //maximum.printArray();
+    printArray();
     
    }
+    
+    public static void printArray(){
+        Scanner nicky = new Scanner(System.in);
+        int max, n;
+        System.out.println("Enter size of the Array: ");
+        n = nicky.nextInt();
+        int a[] = new int[n];
+        //looping through the array populating the array
+        for(int i=0; i<n; i++){
+            System.out.println("Enter Elements of the Array: ");
+            a[i] = nicky.nextInt();
+        }
+        //printing the largest Element  of the Array
+        max = a[0];
+        for(int z=0; z< a.length; z++){
+            if(max < a[z]){
+                max = a[z];
+            }
+        }
+        System.out.println("The largest Element of the Array is: "+max);
+    }
 
 }
