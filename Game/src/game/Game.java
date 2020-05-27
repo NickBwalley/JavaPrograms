@@ -20,7 +20,7 @@ public class Game {
         System.out.println("---------------------------------------------");
         System.out.println("Guessing-Game: Hint(Arg): You have 3Trials");
         System.out.println("---------------------------------------------");
-        
+                
         while(guess!=secret_word && out_of_guesses == false){
             if(guess_count < guess_limit){
                 System.out.println("Enter Your Guess: ");
@@ -31,7 +31,6 @@ public class Game {
             }
                 
         }
-       
 
         if (out_of_guesses){
             System.out.println("Out of Guesses, YOU LOSE!..");
