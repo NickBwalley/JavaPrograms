@@ -27,5 +27,6 @@ public class Main {
 		System.out.println("Element at index 1 is: "+vector.indexOf(96.499));
 		System.out.println("Element at index 4 is: "+vector.elementAt(4));
 		System.out.println("The Element at index 3 is: "+vector.get(3));
+		System.out.println(vector.isEmpty());//checks if the vector is empty
 	}
 }
