@@ -12,11 +12,11 @@ public class Main {
 		System.out.println("Initial Capacity of the Vector is: "+vector.capacity());
 		vector.addElement(new String("Nick"));
 		vector.addElement(new Integer(99));
-		vector.addElement(new Float(87.999999994));
+		vector.addElement(new Float(87.99994));
 		vector.addElement(new Double(96.499));
 		vector.addElement(new String("I Love C++"));
-		vector.add(1, "Bwalley");//adds an element at a specific index
-		vector.add(2, 79);
+		vector.add(1, "Bwalley");//adds an element at index 1
+		vector.add(2, 79);//adds an element at index 2 
 		System.out.println("-------------------------------------------");
 		System.out.println(vector);
 		System.out.println("-------------------------------------------");
@@ -24,5 +24,8 @@ public class Main {
 		System.out.println("This Vector is of size: "+vector.size());		
 		System.out.println("The first Element is: "+vector.firstElement());
 		System.out.println("The Last Element is: "+vector.lastElement());
+		System.out.println("Element at index 1 is: "+vector.indexOf(96.499));
+		System.out.println("Element at index 4 is: "+vector.elementAt(4));
+		System.out.println("The Element at index 3 is: "+vector.get(3));
 	}
 }
