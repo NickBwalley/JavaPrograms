@@ -3,6 +3,29 @@ package dsa;
 //Java program to implement 
 //a Singly Linked List 
 public class Linkedlist { 
+	// Driver code 
+	public static void main(String[] args) 
+	{ 
+		/* Start with the empty list. */
+		Linkedlist list = new Linkedlist(); 
+
+		// 
+		// ******INSERTION****** 
+		// 
+
+		// Insert the values 
+		list = insert(list, 1); 
+		list = insert(list, 2); 
+		list = insert(list, 33); 
+		list = insert(list, 43); 
+		list = insert(list, 533); 
+		list = insert(list, 63); 
+		list = insert(list, 73); 
+		list = insert(list, 8); 
+
+		// Print the LinkedList 
+		printList(list); 
+	}
 
 	Node head; // head of list 
 
@@ -67,27 +90,5 @@ public class Linkedlist {
 		} 
 	} 
 
-	// Driver code 
-	public static void main(String[] args) 
-	{ 
-		/* Start with the empty list. */
-		Linkedlist list = new Linkedlist(); 
-
-		// 
-		// ******INSERTION****** 
-		// 
-
-		// Insert the values 
-		list = insert(list, 1); 
-		list = insert(list, 2); 
-		list = insert(list, 33); 
-		list = insert(list, 43); 
-		list = insert(list, 533); 
-		list = insert(list, 63); 
-		list = insert(list, 73); 
-		list = insert(list, 8); 
-
-		// Print the LinkedList 
-		printList(list); 
-	} 
+ 
 } 
