@@ -28,5 +28,9 @@ public class Main {
 		System.out.println("Element at index 4 is: "+vector.elementAt(4));
 		System.out.println("The Element at index 3 is: "+vector.get(3));
 		System.out.println(vector.isEmpty());//checks if the vector is empty
+		System.out.println(vector.remove(1));//removes the element at the index		
+		System.out.println(vector);
+		System.out.println(vector.set(1, "BronzeBomber"));//replaces the index at position with the new 
+		System.out.println(vector);
 	}
 }
