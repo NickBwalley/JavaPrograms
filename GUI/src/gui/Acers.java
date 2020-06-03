@@ -2,21 +2,48 @@ package gui;
 import javax.swing.JOptionPane;
 public class Acers {
     
-    public void jOptionPopUp(){
-        String firstNumber;
-        String secondNumber;
-        int first;
-        int second;
+    public void guiAddNumbers(){
+        String first;
+        String second;
+        String operator;
+        
+        first = JOptionPane.showInputDialog("Enter Your First Number: ");
+        operator = JOptionPane.showInputDialog("Enter Operator(+,-,*,/): ");
+        second = JOptionPane.showInputDialog("Enter Second Numbers: ");
+        
+        int firstNumber;
+        int secondNumber;
+        char Op;
         int result;
         
-        firstNumber = JOptionPane.showInputDialog(null, "Enter First Number: ");
-        secondNumber = JOptionPane.showInputDialog(null, "Enter Second Number: ");
+        firstNumber = Integer.parseInt(first);
+        secondNumber = Integer.parseInt(second);
+        Op = operator.charAt(0);
         
-        first = Integer.parseInt(firstNumber);
-        second = Integer.parseInt(secondNumber);
-        result = first + second;
+        switch(Op){
+            case '+':
+                result = firstNumber + secondNumber;
+                JOptionPane.showMessageDialog(null, "Answer is: "+result, "Calculator", JOptionPane.PLAIN_MESSAGE);
+                break;
+            case '-':
+                result = firstNumber - secondNumber;
+                JOptionPane.showMessageDialog(null, "Answer is: "+result, "Calculator", JOptionPane.PLAIN_MESSAGE);
+                break;
+            case '*':
+                result = firstNumber * secondNumber;
+                JOptionPane.showMessageDialog(null, "Answer is: "+result, "Calculator", JOptionPane.PLAIN_MESSAGE);
+                break;
+            case '/':
+                result = firstNumber / secondNumber;
+                JOptionPane.showMessageDialog(null, "Answer is: "+result, "Calculator", JOptionPane.PLAIN_MESSAGE);
+                break;
+            default:
+                System.out.println("Invalid Operator!.."); 
+                
+        }
         
-        JOptionPane.showMessageDialog(null, "Answer: "+result, "Results", JOptionPane.PLAIN_MESSAGE);
+    //JOptionPane.showMessageDialog(null, "Answer is: "+result, "Calculator", JOptionPane.PLAIN_MESSAGE);
+                
         
     }
 

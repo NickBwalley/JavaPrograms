@@ -10,7 +10,7 @@ public class GUI {
         winners.setVisible(true); */
         
         Acers ace = new Acers();
-        ace.jOptionPopUp();
+        ace.guiAddNumbers();
     }
     
 }
