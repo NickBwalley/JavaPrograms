@@ -11,6 +11,11 @@ public class Polymorphism {
         Mammals nicky = new Mammals();
         nicky.eat(dog);
         nicky.eat(cat);
+        System.out.println("*****************");
+        Animal animal = new Dog();
+        Animal animal2 = new Cat();
+        animal.eat();
+        animal2.eat();
     }
     
 }
