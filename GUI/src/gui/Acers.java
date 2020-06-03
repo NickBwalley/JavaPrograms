@@ -38,7 +38,7 @@ public class Acers {
                 JOptionPane.showMessageDialog(null, "Answer is: "+result, "Calculator", JOptionPane.PLAIN_MESSAGE);
                 break;
             default:
-                System.out.println("Invalid Operator!.."); 
+                JOptionPane.showMessageDialog(null, "Invalid Operator!..", "Calculator", JOptionPane.PLAIN_MESSAGE);
                 
         }
         
