@@ -1,9 +1,9 @@
 package variablelengtharguments;
-import java.util.Scanner;
+
 public class VariableLengthArguments {
 
     public static void main(String[] args) {
-        Scanner nicky = new Scanner(System.in);
+        
         int counter = 0;
         int rikki[] = new int[6];
         rikki[0] = 45;
