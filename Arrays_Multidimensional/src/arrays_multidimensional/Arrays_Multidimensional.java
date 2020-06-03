@@ -10,6 +10,8 @@ public class Arrays_Multidimensional {
         System.out.println("-----------------------------------");
         printArray(Mango);
         System.out.println("***********************************");
+        NickFury nick = new NickFury();
+        nick.getInput();
         
     }
     //method to print out the multi-dimensional Array
