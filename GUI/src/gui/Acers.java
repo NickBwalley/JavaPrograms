@@ -42,7 +42,7 @@ public class Acers {
                 
         }
         
-    //JOptionPane.showMessageDialog(null, "Answer is: "+result, "Calculator", JOptionPane.PLAIN_MESSAGE);
+    JOptionPane.showMessageDialog(null, "Thank-You: \t Nick Bwalley", "Calculator", JOptionPane.OK_CANCEL_OPTION);
                 
         
     }
