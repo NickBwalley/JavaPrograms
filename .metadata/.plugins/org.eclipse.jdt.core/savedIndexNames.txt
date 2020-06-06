@@ -40,7 +40,6 @@ INDEX VERSION 1.131+/home/nickbwalley/Eclipse_Java/.metadata/.plugins/org.eclips
 1260165007.index
 821608291.index
 3763108725.index
-1859740479.index
 3172495013.index
 813341167.index
 49439707.index

@@ -7,7 +7,7 @@ public class PassingArraysToMethods {
 	public static void main(String[] args) {
 		Scanner nicky = new Scanner(System.in);
 		int rikki[] = new int[5];
-		for(int i=0; i<1; i++) {//this loop will execute once 
+		 
 			System.out.println("Enter First Number: ");
 			rikki[0] = nicky.nextInt();
 			System.out.println("Enter Second Number: ");
@@ -18,7 +18,7 @@ public class PassingArraysToMethods {
 			rikki[3] = nicky.nextInt();
 			System.out.println("Enter Fifth Number: ");
 			rikki[4] = nicky.nextInt();
-		}
+		
 		
 		change(rikki);
 		for(int n: rikki) {
