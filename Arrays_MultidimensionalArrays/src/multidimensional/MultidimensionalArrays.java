@@ -11,8 +11,11 @@ public class MultidimensionalArrays {
 		//System.out.println("The Second Array carries: ");
 		//displayArray(secondArr);
 		
-		Scurry apples = new Scurry();
-		apples.printArray(firstArr);
+		System.out.println("Scurry Multidimensional Array: ");
+		//notice that whenever you make a method static you don't have to create an object to access that method
+		Scurry.printArray(firstArr); 
+		
+		
 		
 		
 	}	
