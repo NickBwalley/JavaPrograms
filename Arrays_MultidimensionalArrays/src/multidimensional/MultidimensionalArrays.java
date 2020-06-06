@@ -6,10 +6,13 @@ public class MultidimensionalArrays {
 		int firstArr[][] = {{19, 29, 39}, {49, 59, 69}, {79, 89, 99}};
 		int secondArr[][] = {{17, 27, 37}, {47, 57, 67}, {77, 87, 97}};
 		//invoking the method to call print out the array list
-		System.out.println("The first Array carries: ");
-		displayArray(firstArr);
-		System.out.println("The Second Array carries: ");
-		displayArray(secondArr);
+		//System.out.println("The first Array carries: ");
+		//displayArray(firstArr);
+		//System.out.println("The Second Array carries: ");
+		//displayArray(secondArr);
+		
+		Scurry apples = new Scurry();
+		apples.printArray(firstArr);
 		
 		
 	}	
@@ -22,4 +25,5 @@ public class MultidimensionalArrays {
 			System.out.println();
 		}
 	}
+	
 }
