@@ -3,8 +3,9 @@ import java.util.Scanner;
 public class Arrays {
 
     public static void main(String[] args) {
-        printDaysOfWeek();
-        largestNumber();
+        //printDaysOfWeek();
+        //largestNumber();
+        System.out.println(checkElement());
     }
     //method to print out days of week using array
     public static void printDaysOfWeek(){
@@ -35,6 +36,21 @@ public class Arrays {
         }
         System.out.println("-------------------------------------------");
         System.out.println("Largest Number inside our Array is: " + max);
+    }
+    
+    //method to check if an element exists inside our Array:
+    public static boolean checkElement(){
+        Scanner check = new Scanner(System.in);
+        int number;
+        int nicky[] = {0,1,2,3,4,5,6,7,8,9};
+        System.out.println("Enter Element To Search: ");
+        number = check.nextInt();
+        for(int i = 0; i < nicky.length; i++){
+            if(number == nicky[i]){
+                return true;
+            }
+        }
+        return false;
     }
 
 }
