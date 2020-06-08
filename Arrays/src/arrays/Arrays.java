@@ -7,7 +7,8 @@ public class Arrays {
         //largestNumber();
         //System.out.println(checkElement());
         //sumOfArray();
-        evenNumbers();
+        //evenNumbers();
+        print2DArray();
     }
     //method to print out days of week using array
     public static void printDaysOfWeek(){
@@ -91,6 +92,18 @@ public class Arrays {
             if(nicky[a]%2 == 0){                
                 System.out.println(nicky[a]);
             }
+        }
+        
+    }
+    
+    public static void print2DArray(){
+        int Aicy[][] = {{2,3,4},{5,6,7},{8,9,10},{11,12,13}};
+        System.out.println("Elements inside Your Array is: ");
+        for(int row = 0; row < Aicy.length; row++){
+            for(int column = 0; column < Aicy[row].length; column++){
+                System.out.print(Aicy[row][column]+ "\t");
+            }
+            System.out.println("");
         }
         
     }
