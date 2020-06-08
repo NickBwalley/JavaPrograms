@@ -5,7 +5,8 @@ public class Arrays {
     public static void main(String[] args) {
         //printDaysOfWeek();
         //largestNumber();
-        System.out.println(checkElement());
+        //System.out.println(checkElement());
+        sumOfArray();
     }
     //method to print out days of week using array
     public static void printDaysOfWeek(){
@@ -51,6 +52,24 @@ public class Arrays {
             }
         }
         return false;
+    }
+    
+    //creating a sentinel controlled program to compute the sum of elements inside our array
+    public static void sumOfArray(){
+        Scanner sentinel  =  new Scanner(System.in);
+        int num;
+        int total = 0;
+        int Elements = 0;
+        
+        System.out.println("Enter Your Numbers (Press -1 to QUIT): ");
+        num = sentinel.nextInt();
+        while(num != -1){
+            total += num;
+            num = sentinel.nextInt();
+            Elements++;
+        }
+        System.out.println("Total = " + total);
+        System.out.println("Elements Entered are: "+ Elements);
     }
 
 }
