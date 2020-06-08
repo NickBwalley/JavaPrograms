@@ -104,8 +104,8 @@ public class Arrays {
                 System.out.print(Aicy[row][column]+ "\t");
             }
             System.out.println("");
-        }
-        
+        }  
+                
     }
 
 }
