@@ -6,7 +6,8 @@ public class Arrays {
         //printDaysOfWeek();
         //largestNumber();
         //System.out.println(checkElement());
-        sumOfArray();
+        //sumOfArray();
+        evenNumbers();
     }
     //method to print out days of week using array
     public static void printDaysOfWeek(){
@@ -70,6 +71,28 @@ public class Arrays {
         }
         System.out.println("Total = " + total);
         System.out.println("Elements Entered are: "+ Elements);
+    }
+    
+    //method to print out the Even numbers inside our array
+    public static void evenNumbers(){
+        Scanner even = new Scanner(System.in);
+        int number;
+        System.out.println("Declare Size of Your Array: ");
+        number = even.nextInt();
+        int nicky[] = new int[number];
+        System.out.println("Enter the Elements of Your Array: ");
+        for(int y = 0; y < number; y++){
+            nicky[y] = even.nextInt();
+        }
+        //for-loop to loop inside our array and check if there are elements which are even
+        System.out.println("Even Numbers are: ");
+        for(int a = 0; a < nicky.length; a++){
+            
+            if(nicky[a]%2 == 0){                
+                System.out.println(nicky[a]);
+            }
+        }
+        
     }
 
 }
