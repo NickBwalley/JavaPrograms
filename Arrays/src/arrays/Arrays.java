@@ -3,20 +3,16 @@ package arrays;
 public class Arrays {
 
     public static void main(String[] args) {
-        int nick[] = new int[5];
-        nick[0] = 41;
-        nick[1] = 79;
-        nick[2] = 35;
-        nick[3] = 29;
-        nick[4] = 42;
-        
-        /*This is the first way of how to print elements of an array*/
-        System.out.println(nick[0]);
-        System.out.println(nick[1]);
-        System.out.println(nick[2]);
-        System.out.println(nick[3]);
-        System.out.println(nick[4]);
-
+        printDaysOfWeek();
+    }
+    //method to print out days of week using array
+    public static void printDaysOfWeek(){
+        String days[] = {"Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"};
+        System.out.println("Days Of The Week are:");
+        for(String A: days){
+            System.out.println(A);
+        }
+        System.out.println("------------------------");
     }
 
 }
