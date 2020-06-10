@@ -40,7 +40,15 @@ public class BubbleSort {
 			int m;
 			m = nicky.nextInt();
 		}
+		//printing out the elements inside your array unsorted 
+		for(int w = 0; w < nick.length; w++) {
+			System.out.printf("%s ", nick[w]);
+		}
 		//sorting the array using bubble sort;
+		int sort = nick.length;
+		for(int x = 0; x < sort; x++) {
+			
+		}
 	}
 
 }
