@@ -26,10 +26,10 @@ public class TimeClass {
 		hour = ((h>=0 && h<24) ? h : 0);
 	}
 	public void setMinute(int m) {
-		minute = ((m>=0 && m<24) ? m : 0);
+		minute = ((m>=0 && m<60) ? m : 0);
 	}
 	public void setSecond(int s) {
-		second = ((s>=0 && s<24) ? s : 0);
+		second = ((s>=0 && s<60) ? s : 0);
 	}
 	//return method to return setTime
 	public int getHour() {

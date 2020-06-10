@@ -7,7 +7,7 @@ public class OverloadedConstructors {
 		ConstructorOverloading rikki = new ConstructorOverloading(12);
 		ConstructorOverloading cleo = new ConstructorOverloading(12,19);
 		ConstructorOverloading emma = new ConstructorOverloading(12,19,49);
-		TimeClass NickFury = new TimeClass();
+		TimeClass NickFury = new TimeClass(23,00,33);
 		
 		
 		System.out.printf("%s\n", nicky.toMillitary());
