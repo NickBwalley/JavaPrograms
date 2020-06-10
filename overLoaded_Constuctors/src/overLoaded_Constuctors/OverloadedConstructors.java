@@ -13,6 +13,6 @@ public class OverloadedConstructors {
 		System.out.printf("%s\n", cleo.toMillitary());
 		System.out.printf("%s\n", emma.toMillitary());
 		
-	}
+	}		
 
 }
