@@ -41,5 +41,8 @@ public class TimeClass {
 	public int getSecond() {
 		return second;
 	}
-	
+	//return toMillitary Time 
+	public String toMillitary() {
+		return String.format("%02d:%02d:%02d", getHour(), getMinute(), getSecond());
+	}
 }
