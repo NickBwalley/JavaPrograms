@@ -1,5 +1,5 @@
 package bubbleSort;
-
+import java.util.Scanner;
 public class BubbleSort {
 
 	public static void main(String[] args) {
@@ -26,6 +26,21 @@ public class BubbleSort {
 			}
 		}
 		return arr;
+	}
+	
+	//method to prompt user enter an array then sorts it using bubble sort
+	public static int[] bubbleSortAlgorithm() {
+		Scanner nicky = new Scanner(System.in);
+		System.out.println("Declare the Size of Your Array: ");
+		int n; 
+		n = nicky.nextInt();
+		int[] nick = new int[n];
+		System.out.println("Enter Your Numbers in Any Order: ");
+		for(int i = 0; i < nick.length; i++) {
+			int m;
+			m = nicky.nextInt();
+		}
+		//sorting the array using bubble sort;
 	}
 
 }
