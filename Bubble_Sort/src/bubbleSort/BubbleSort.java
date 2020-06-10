@@ -47,8 +47,16 @@ public class BubbleSort {
 		//sorting the array using bubble sort;
 		int sort = nick.length;
 		for(int x = 0; x < sort; x++) {
-			
+			for(int y = 0; y < (sort - 1); y++) {
+				if(nick[y] > nick[y+1]) {
+					int temp = nick[y];
+					nick[y] = nick[y+1];
+					nick[y+1] = temp;
+				}
+				
+			}
 		}
+		return nick;
 	}
 
 }
