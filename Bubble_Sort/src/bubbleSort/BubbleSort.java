@@ -10,7 +10,8 @@ public class BubbleSort {
 		for (int i = 0; i < sortedArray.length; i++) {
 			System.out.printf("%s ", sortedArray[i]);
 		}
-		
+		System.out.println("---------------------------------------");
+		bubbleSortAlgorithm();
 	}
 	
 	//method to sort an Array using Bubble Sort
@@ -29,7 +30,7 @@ public class BubbleSort {
 	}
 	
 	//method to prompt user enter an array then sorts it using bubble sort
-	public static int[] bubbleSortAlgorithm() {
+	public static void bubbleSortAlgorithm() {
 		Scanner nicky = new Scanner(System.in);
 		System.out.println("Declare the Size of Your Array: ");
 		int n; 
@@ -37,8 +38,7 @@ public class BubbleSort {
 		int[] nick = new int[n];
 		System.out.println("Enter Your Numbers in Any Order: ");
 		for(int i = 0; i < nick.length; i++) {
-			int m;
-			m = nicky.nextInt();
+			nick[i] = nicky.nextInt();
 		}
 		//printing out the elements inside your array unsorted 
 		for(int w = 0; w < nick.length; w++) {
@@ -56,7 +56,13 @@ public class BubbleSort {
 				
 			}
 		}
-		return nick;
+		//printing the elements after being sorted in ascending order
+		System.out.println();
+		System.out.println("Elements in sorted order are: \n");
+		for(int z = 0; z < sort; z++) {
+			System.out.println(nick[z]);
+		}
+		
 	}
 
 }
