@@ -36,6 +36,7 @@ public class Main {
 		myNumber.remove(0);
 		System.out.println(myNumber);
 		System.out.println(myNumber.contains(49));//returns boolean value 
+		System.out.println(myNumber.indexOf(44));//index of
 	}
 
 }
