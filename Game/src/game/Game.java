@@ -12,7 +12,7 @@ public class Game {
         int guess_count = 0;
         int guess_limit = 3;
         
-        lucky_number = 79;
+        lucky_number = 99;
         guess = 0;
         
         Scanner nicky = new Scanner(System.in);
