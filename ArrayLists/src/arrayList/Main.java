@@ -18,6 +18,7 @@ public class Main {
 		System.out.println(cars);
 		System.out.println(cars.size());//prints out the size of the Array 
 		System.out.println("---------------------------------------------");
+		arrayList();
 		
 		
 		
@@ -26,7 +27,11 @@ public class Main {
 	public static void arrayList() {
 		ArrayList<Integer> myNumber = new ArrayList<Integer>();
 		myNumber.add(79);
-		myNumber
+		myNumber.add(49);
+		myNumber.add(87);
+		myNumber.add(44);
+		myNumber.add(99);
+		System.out.println(myNumber);
 	}
 
 }
