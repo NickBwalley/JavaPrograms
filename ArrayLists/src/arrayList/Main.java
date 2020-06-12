@@ -19,6 +19,8 @@ public class Main {
 		System.out.println(cars.size());//prints out the size of the Array 
 		System.out.println("---------------------------------------------");
 		arrayList();
+		System.out.println("\n---------------------------------------------");
+		sortingArrayLists();
 		
 		
 		
@@ -54,6 +56,15 @@ public class Main {
 		girlFriend.add("Catherine");
 		girlFriend.add("Lisa");
 		girlFriend.add("Amanda");
+		//printing out
+		System.out.println(girlFriend);
+		girlFriend.set(2, "Karen");//replace the element at index 2
+		girlFriend.remove(0);
+		System.out.println(girlFriend);
+		System.out.println(girlFriend.get(4));
+		System.out.println(girlFriend.size());
+		
+		
 	}
 
 }
