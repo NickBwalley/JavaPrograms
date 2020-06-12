@@ -16,6 +16,9 @@ public class Main {
 		System.out.println(cars);//used to remove an element from the list
 		cars.clear();//clears all the elements inside the ArrayList
 		System.out.println(cars);
+		System.out.println(cars.size());//prints out the size of the Array 
+		
+		
 		
 	}
 
