@@ -20,6 +20,13 @@ public class Main {
 		System.out.println("---------------------------------------------");
 		
 		
+		
+	}
+	
+	public static void arrayList() {
+		ArrayList<Integer> myNumber = new ArrayList<Integer>();
+		myNumber.add(79);
+		myNumber
 	}
 
 }
