@@ -44,7 +44,12 @@ public class Main {
 	}
 	
 	public static void sortingArrayLists() {
-		
+		ArrayList<String> girlFriend = new ArrayList<String>();
+		girlFriend.add("Janice");
+		girlFriend.add("Chelsea");
+		girlFriend.add("Amina");
+		girlFriend.add("Daisy");
+		girlFriend.add("Lorna");
 	}
 
 }
