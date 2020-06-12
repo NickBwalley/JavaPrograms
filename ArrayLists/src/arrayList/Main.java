@@ -9,6 +9,8 @@ public class Main {
 		cars.add("Subaru");
 		cars.add("Porche Cayenne");
 		System.out.println(cars);
+		System.out.println(cars.get(1));//used to print out a value at a specific index
+		
 	}
 
 }
