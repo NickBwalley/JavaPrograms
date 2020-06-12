@@ -42,5 +42,9 @@ public class Main {
 			System.out.printf("%d, ", i);
 		}
 	}
+	
+	public static void sortingArrayLists() {
+		
+	}
 
 }
