@@ -1,5 +1,6 @@
 package arrayList;
 import java.util.ArrayList;
+import java.util.Collections;
 public class Main {
 
 	public static void main(String[] args) {
@@ -63,6 +64,10 @@ public class Main {
 		System.out.println(girlFriend);
 		System.out.println(girlFriend.get(4));
 		System.out.println(girlFriend.size());
+		Collections.sort(girlFriend);
+		//printing elements in ascending order
+		for(String i: girlFriend)
+			System.out.println(i);
 		
 		
 	}
