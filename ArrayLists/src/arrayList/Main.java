@@ -32,6 +32,10 @@ public class Main {
 		myNumber.add(44);
 		myNumber.add(99);
 		System.out.println(myNumber);
+		myNumber.set(4, 109);
+		myNumber.remove(0);
+		System.out.println(myNumber);
+		System.out.println(myNumber.contains(49));//returns boolean value 
 	}
 
 }
