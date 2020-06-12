@@ -49,7 +49,11 @@ public class Main {
 		girlFriend.add("Chelsea");
 		girlFriend.add("Amina");
 		girlFriend.add("Daisy");
-		girlFriend.add("Lorna");
+		girlFriend.add("Cynthia");
+		girlFriend.add("Zahra");
+		girlFriend.add("Catherine");
+		girlFriend.add("Lisa");
+		girlFriend.add("Amanda");
 	}
 
 }
