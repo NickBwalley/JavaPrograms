@@ -4,6 +4,17 @@ public class SelectionSort {
 
     public static void main(String[] args) {
         int[] sampleArray = {991,349,244,576,871,561,845};
+        //enhanced for loop to print out the values before array being sorted
+        System.out.println("Array before sorting: ");
+        for(int y: sampleArray)
+            System.out.printf("%s , ", y);
+        int[] result = selectionSort(sampleArray);
+        
+        //creating a forloop to print out the values after being sorted 
+        System.out.println("\n--------------------------------------");
+        System.out.println("Array after being sorted is: ");
+        for(int z: result)
+            System.out.printf("%s , ", z);
         
     }
     
