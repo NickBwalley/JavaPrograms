@@ -37,6 +37,10 @@ public class Main {
 		System.out.println(myNumber);
 		System.out.println(myNumber.contains(49));//returns boolean value 
 		System.out.println(myNumber.indexOf(44));//index of
+		//creating a for-each Loop
+		for(int i : myNumber) {
+			System.out.printf("%d, ", i);
+		}
 	}
 
 }
