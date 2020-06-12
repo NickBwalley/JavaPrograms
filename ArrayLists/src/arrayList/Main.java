@@ -10,6 +10,8 @@ public class Main {
 		cars.add("Porche Cayenne");
 		System.out.println(cars);
 		System.out.println(cars.get(1));//used to print out a value at a specific index
+		cars.set(2, "Jeep");//used to replace the value at that index to the new value defined
+		System.out.println(cars);
 		
 	}
 
