@@ -7,14 +7,15 @@ public class myBirthday {
 	
 	//constructor 
 	public myBirthday(int d, int m, int y) {
-		d = day;
-		m = month;
-		y = year;
+		day = d;
+		month = m;
+		year = y;
+		
 		System.out.printf("Your Were Born on %s", this);
 	}
 	
 	//toString method
 	public String toString() {
-		return String.format("%d - %d - %d", day, month, year);
+		return String.format("%02d - %02d - %02d", day, month, year);
 	}
 }
