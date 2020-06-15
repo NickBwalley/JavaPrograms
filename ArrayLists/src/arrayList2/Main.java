@@ -4,7 +4,7 @@ import java.util.ArrayList;
 public class Main {
 
 	public static void main(String[] args) {
-		
+		classArrayList();
 	}
 
 	//array list 
@@ -16,7 +16,7 @@ public class Main {
 		
 		while(quit == 'Y') {
 			System.out.println("Enter Your Student-Number: ");
-			stdNo = nicky.nextLine();
+			stdNo = nicky.next();
 			
 			DBIT.add(stdNo);
 			
