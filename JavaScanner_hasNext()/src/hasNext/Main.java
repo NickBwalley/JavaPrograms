@@ -20,8 +20,9 @@ public class Main {
 		String bestLanguage = "My Best Language is JAVA!..";
 		bestLanguage = bestLanguage.toLowerCase();
 		Scanner nicky = new Scanner(bestLanguage);
-		System.out.println("Result: " + nicky.hasNext());
+		System.out.println("Result Before: " + nicky.hasNext());
 		System.out.println(nicky.nextLine());
+		System.out.println("Result After: " + nicky.hasNext());
 	}
 	
 
