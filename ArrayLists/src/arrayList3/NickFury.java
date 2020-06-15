@@ -9,6 +9,7 @@ public class NickFury {
 		String name; 
 		String age;
 		String points;
+		String concat;
 		char quit = 'Y'; //terminator character;
 		
 		while(quit == 'Y') {
@@ -18,9 +19,21 @@ public class NickFury {
 			age = nicky.next();
 			System.out.println("Enter Players all-Time points: ");
 			points = nicky.next();
-			
+			concat = "---------------------------------";
+			players.add(name);
+			players.add(age);
+			players.add(points);
+			players.add(concat);
+			System.out.println("ADD ANOTHER PLAYER? (Y/N): ");
+			String word;
+			word = nicky.next();
+			word.toUpperCase();
+			quit = word.charAt(0);
 			
 		}
+		
+		for(String z: players)
+			System.out.println(z);
 		
 	}
 }
