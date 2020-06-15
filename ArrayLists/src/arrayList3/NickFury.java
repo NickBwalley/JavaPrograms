@@ -27,7 +27,7 @@ public class NickFury {
 			System.out.println("ADD ANOTHER PLAYER? (Y/N): ");
 			String word;
 			word = nicky.next();
-			word.toUpperCase();
+			word = word.toUpperCase();
 			quit = word.charAt(0);
 			
 		}
