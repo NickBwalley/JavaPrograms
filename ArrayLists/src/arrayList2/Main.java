@@ -4,7 +4,8 @@ import java.util.ArrayList;
 public class Main {
 
 	public static void main(String[] args) {
-		classArrayList();
+		//classArrayList();
+		arrayLists nick = new arrayLists();
 	}
 
 	//array list 
