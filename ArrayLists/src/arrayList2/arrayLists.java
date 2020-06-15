@@ -6,9 +6,7 @@ public class arrayLists {
 	public arrayLists() {
 		Scanner nicky = new Scanner(System.in);
 		ArrayList<String> records = new ArrayList<String>();
-		 int numbers;
-		 numbers = 0;
-		
+		 		
 		String firstName;
 		String lastName;
 		String stdNo;
@@ -28,7 +26,6 @@ public class arrayLists {
 			records.add(lastName);
 			records.add(stdNo);
 			records.add(concat);
-			numbers++;
 			
 			String word;
 			System.out.println("ADD ANOTHER RECORD? Y/N: ");
