@@ -18,7 +18,9 @@ public class Main {
 	
 	public static void checkHasNext() {
 		String bestLanguage = "My Best Language is JAVA!..";
+		char language;
 		bestLanguage = bestLanguage.toLowerCase();
+		bestLanguage = bestLanguage.toUpperCase();
 		Scanner nicky = new Scanner(bestLanguage);
 		System.out.println("Result Before: " + nicky.hasNext());
 		System.out.println(nicky.nextLine());
