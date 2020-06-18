@@ -35,8 +35,11 @@ public class Window extends JFrame {
 		item1.addActionListener(handler);
 		item2.addActionListener(handler);
 		item3.addActionListener(handler);
-		password.addActionListener(handler);
+		password.addActionListener(handler);		
 		
+	}
+	
+	private class myHandler implements ActionListener{
 		
 	}
 }
