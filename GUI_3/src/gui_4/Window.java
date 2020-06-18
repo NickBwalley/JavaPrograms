@@ -31,6 +31,11 @@ public class Window extends JFrame {
 		add(password);
 		
 		myHandler handler = new myHandler();
+		//actionListener implementation
+		item1.addActionListener(handler);
+		item2.addActionListener(handler);
+		item3.addActionListener(handler);
+		password.addActionListener(handler);
 		
 		
 	}
