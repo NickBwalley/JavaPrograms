@@ -24,6 +24,7 @@ public class Window extends JFrame{
 		password = new JPasswordField("",10);
 		add(item1);
 		add(item2);
+		add(item3);
 		add(password);
 		
 		//adding the actionListener to the frame
