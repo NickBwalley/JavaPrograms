@@ -40,7 +40,13 @@ public class NickBiiy extends JFrame {
 	//class Nesting
 	private class theHandler implements ActionListener{
 		public void actionPerformed(ActionEvent event) {
+			String nick = "";
+			if(event.getSource()==entry1)
+				nick = String.format("Your Name is: %s", event.getActionCommand());
+			else if(event.getSource() == password)
+				nick = String.format("Your Password is: %s", event.getActionCommand());
 			
+			JOptionPane.showMessageDialog(null, nick, "Student-Details", JOptionPane.PLAIN_MESSAGE);
 		}
 	}
 
