@@ -3,7 +3,8 @@ package classes_nesting;
 public class Classes_Nesting {
 
     public static void main(String[] args) {
-        getNested1();        
+        getNested1();//firstWay
+        getNested2(); //secondWay
     }
     
     public static void getNested1(){
@@ -15,7 +16,13 @@ public class Classes_Nesting {
     }
     
     public static void getNested2(){
-        
+        //second way to access nestedClass
+        //1.create an object of the outer class
+        //2.Access the inner class and create an object using the outer objects class-Object
+        StoneCold nick = new StoneCold();
+        StoneCold.GoldBerg bwalley = nick.new GoldBerg();
+        nick.stunner();
+        bwalley.spear();
     }
 
 }
