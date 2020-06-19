@@ -14,6 +14,8 @@ public class Window extends JFrame{
 	private JPasswordField password;
 	
 	public Window() {
+		super("Registration-Form");
+		setLayout(new FlowLayout());		
 		item1 = new JTextField("What is Your Name", 20);
 		item1.setEditable(false);
 		item2 = new JTextField("",10);
