@@ -23,5 +23,7 @@ public class Window extends JFrame{
 		add(item1);
 		add(item2);
 		add(password);
+		
+		
 	}
 }
