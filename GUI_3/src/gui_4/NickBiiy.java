@@ -22,11 +22,26 @@ public class NickBiiy extends JFrame {
 		item2 = new JTextField("Set Your Password");;
 		item2.setEditable(false);
 		password = new JPasswordField("",20);
-		//implementing the the ActionListener and ActionEvent
+		
 		add(item1);
 		add(entry1);
 		add(item2);
 		add(password);
+		
+		//implementing the the ActionListener and ActionEvent
+		theHandler handler = new theHandler();
+		item1.addActionListener(handler);
+		entry1.addActionListener(handler);
+		item2.addActionListener(handler);
+		password.addActionListener(handler);
+	}
+	
+	//class to implement the ActionListener
+	//class Nesting
+	private class theHandler implements ActionListener{
+		public void actionPerformed(ActionEvent event) {
+			
+		}
 	}
 
 }
