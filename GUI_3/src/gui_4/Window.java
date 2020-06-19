@@ -26,6 +26,25 @@ public class Window extends JFrame{
 		add(item2);
 		add(password);
 		
-		
+		//adding the actionListener to the frame
+		myHandler handler = new myHandler();
+		item1.addActionListener(handler);
+		item2.addActionListener(handler);
+		item3.addActionListener(handler);
+		password.addActionListener(handler);
+			
 	}
+	
+	//creating private class 
+			private class myHandler implements ActionListener {
+				public void actionPerformed(ActionEvent event) {
+					String string = "";
+					if(event.getSource()==item2)
+						string = String.format("Field 1: %s", event.getActionCommand() );
+					else if(event.getSource()==password)
+						string = String.format("Password: %s", event.getActionCommand());
+					//creating a JOptionPane
+					JOptionPane.showMessageDialog(null, string,"Events", JOptionPane.PLAIN_MESSAGE);
+				}
+			}
 }
