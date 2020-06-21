@@ -18,7 +18,7 @@ public class Diamond {
     
     public void Window(){
         JFrame nicky = new JFrame();
-        nicky.setSize(400,300);
+        nicky.setSize(400,200);
         nicky.setLocation(400,100);
 
         nicky.setTitle("Nicky's Restaurant");//super is used in first stmt of a constructor
