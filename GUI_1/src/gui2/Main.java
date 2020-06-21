@@ -1,9 +1,13 @@
 package gui2;
-
+import javax.swing.JFrame;
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("Hello World!");
+		Apples apples = new Apples();
+		apples.setSize(400,300);
+		apples.setLocation(400,100);
+		apples.setVisible(true);
+		apples.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}	
 
 }
