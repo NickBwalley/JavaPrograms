@@ -13,6 +13,7 @@ public class Main {
         System.out.println("---------------------------");
         Food nicky2 = new Food();
         nicky2.digest(rice);
+        nicky2.digest(beans);
     }
 
 }
