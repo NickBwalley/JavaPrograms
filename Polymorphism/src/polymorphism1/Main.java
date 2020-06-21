@@ -4,16 +4,22 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("---------------------------");
-        Food nicky = new Food();
+       //Food nicky = new Food();
         Rice rice = new Rice();
         Beans beans = new Beans();
-        nicky.eat();
+        //nicky.eat();
         rice.eat();
         beans.eat();
         System.out.println("---------------------------");
-        Food nicky2 = new Food();
-        nicky2.digest(rice);
-        nicky2.digest(beans);
+        //Food nicky2 = new Food();
+        //nicky2.digest(rice);
+        //nicky2.digest(beans);
+        digest(rice);
+        digest(beans);
+    }
+    
+        public static void digest(Food x){
+        x.eat();
     }
 
 }
