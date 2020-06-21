@@ -10,6 +10,9 @@ public class Main {
         nicky.eat();
         rice.eat();
         beans.eat();
+        System.out.println("---------------------------");
+        Food nicky2 = new Food();
+        nicky2.digest(rice);
     }
 
 }
