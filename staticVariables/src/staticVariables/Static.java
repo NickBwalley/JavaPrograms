@@ -6,6 +6,7 @@ public class Static {
 		nickFury apples = new nickFury("Enid", "Sanaipei");
 		nickFury mangoes = new nickFury("Ivy", "Felicia");
 		nickFury pears = new nickFury("Serena", "Nduta");
+		nickFury nicky = new nickFury("Nick", "Bwalley");
 	}
 
 }

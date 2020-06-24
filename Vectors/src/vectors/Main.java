@@ -1,5 +1,5 @@
 package vectors;
-import java.util.*;
+import java.util.Vector;
 public class Main {
 
 	public static void main(String[] args) {
