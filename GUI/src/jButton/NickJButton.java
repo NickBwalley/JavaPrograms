@@ -31,8 +31,8 @@ public class NickJButton extends JFrame{
 	}
 	
 	private class handlerClass implements ActionListener{
-		public void actionPerformed(ActionEvent e) {
-			
+		public void actionPerformed(ActionEvent event) {
+			JOptionPane.showMessageDialog(null, String.format("%s", event.getActionCommand()));
 		}
 	}
 }
