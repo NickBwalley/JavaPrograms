@@ -1,6 +1,7 @@
 package jButton;
 import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import javax.swing.JFrame;
 import javax.swing.JButton;
 import javax.swing.Icon;
@@ -23,5 +24,15 @@ public class NickJButton extends JFrame{
 		custom = new JButton("Customized", nick1);
 		custom.setRolloverIcon(nick2);
 		add(custom);
+		//creating a class to handler our events 
+		handlerClass handler = new handlerClass();
+		regular.addActionListener(handler);//adding our actionListeners to the buttons
+		custom.addActionListener(handler);
+	}
+	
+	private class handlerClass implements ActionListener{
+		public void actionPerformed(ActionEvent e) {
+			
+		}
 	}
 }
