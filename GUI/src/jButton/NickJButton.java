@@ -6,6 +6,19 @@ import javax.swing.JButton;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
-public class NickJButton extends JFrame{
 
+public class NickJButton extends JFrame{
+	private JButton regular;
+	private JButton custom;
+	
+	public NickJButton() {
+		super("Title-Bar");
+		setLayout(new FlowLayout());
+		
+		regular = new JButton("Regular Button");
+		add(regular);
+		
+		Icon nick1 = new ImageIcon(getClass().getResource("nick1.png"));
+		Icon nick2 = new ImageIcon(getClass().getResource("nick2.png"));
+	}
 }
