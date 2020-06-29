@@ -18,7 +18,29 @@ public class JCheck_box extends JFrame{
 		
 		boldBox = new JCheckBox("Bold");
 		italicBox = new JCheckBox("italic");
+		add(boldBox);
+		add(italicBox);
+		//implementing the action listener 
+		handlerClass handler = new handlerClass();
 		
-		
+		boldBox.addItemListener(handler);
+		italicBox.addItemListener(handler);
+				
+	}
+	
+	private class handlerClass implements ItemListener{
+		public void itemStateChanged(ItemEvent event) {
+			Font font = null;
+			if(boldBox.isSelected() && italicBox.isSelected())
+				font = new Font("Serif", Font.BOLD + font.ITALIC, 14);
+			else if(boldBox.isSelected())
+				font = new Font("Serif", Font.BOLD, 14);
+			else if(italicBox.isSelected())
+				font = new Font("Serif", Font.ITALIC, 14);
+			else
+				font = new Font("Serif", Font.PLAIN, 14);
+			text1.setFont(font);
+				
+		}
 	}
 }
