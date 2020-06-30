@@ -25,13 +25,19 @@ public class Window1 extends JFrame{
         textfield2 = new JTextField("",20);
         label3 = new JLabel("Enter Your Password: ");
         password1 = new JPasswordField("",20);
+        button1 = new JButton("Sports");
+        Icon nicky1 = new ImageIcon(getClass().getResource("cool1.png"));
+        Icon nicky2 = new ImageIcon(getClass().getResource("cool2.png"));
+        button2 = new JButton("Reports", nicky1);
+        button2.setRolloverIcon(nicky2);
         add(label1);
         add(textfield1);
         add(label2);
         add(textfield2);
         add(label3);       
         add(password1);
-        
+        add(button1);
+        add(button2);
         // creating the actionListener
         handlerClass handler = new handlerClass();
         textfield1.addActionListener(handler);
@@ -54,7 +60,7 @@ public class Window1 extends JFrame{
         }
         
         public String toString(){
-            return String.format(nick, "hello", JOptionPane.PLAIN_MESSAGE);
+            return String.format(nick, JOptionPane.PLAIN_MESSAGE);
         }
     }
     
