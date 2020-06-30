@@ -43,6 +43,8 @@ public class Window1 extends JFrame{
         textfield1.addActionListener(handler);
         textfield2.addActionListener(handler);
         password1.addActionListener(handler);
+        button1.addActionListener(handler);
+        button2.addActionListener(handler);
                 
     }
     //implementing the ActionListener Class
@@ -55,6 +57,10 @@ public class Window1 extends JFrame{
                 nick = String.format("Your Email is: %s", event.getActionCommand());
             else if(event.getSource() == password1)
                 nick = String.format("Password set: %s", event.getActionCommand());
+            else if(event.getSource() == button1)
+                nick = String.format("Fancy Button: %s", event.getActionCommand());
+            else if(event.getSource() == button2)
+                nick = String.format("Fancy Button: %s", event.getActionCommand());
             
             JOptionPane.showMessageDialog(null, this);
         }
