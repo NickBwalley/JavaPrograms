@@ -13,12 +13,27 @@ public class Window1 extends JFrame{
     private JTextField textfield1;
     private JTextField textfield2;
     private JTextField textfield3;
+    private JLabel textfont1;
+    private JTextField textfont2;
     private JPasswordField password1;
-    
+    private JCheckBox boldBox;
+    private JCheckBox italicBox;
+    private JTextField emptyLine;
     // creating a constructor 
     public Window1(){
         super("Students_Registration_System");
         setLayout(new FlowLayout());
+        textfont1 = new JLabel("JCheckBox");
+        textfont2 = new JTextField("Welcome to Strathmore University!..",20);
+        textfont2.setFont(new Font("Serif",Font.PLAIN, 14));
+        boldBox = new JCheckBox("Bold");
+        italicBox = new JCheckBox("Italic");
+        emptyLine = new JTextField("",100);
+        add(textfont1);
+        add(textfont2);
+        add(boldBox);
+        add(italicBox);
+        add(emptyLine);
         label1 = new JLabel("Enter Your Name: ");
         textfield1 = new JTextField("",20);
         label2 = new JLabel("Enter Your E-Mail: ");
@@ -45,7 +60,10 @@ public class Window1 extends JFrame{
         password1.addActionListener(handler);
         button1.addActionListener(handler);
         button2.addActionListener(handler);
-                
+        //Creating the ItemListener
+        itemList item = new itemList();
+        boldBox.addItemListener(item); 
+        italicBox.addItemListener(item);
     }
     //implementing the ActionListener Class
     private class handlerClass implements ActionListener{
@@ -67,6 +85,22 @@ public class Window1 extends JFrame{
         
         public String toString(){
             return String.format(nick, JOptionPane.PLAIN_MESSAGE);
+        }
+    }
+    
+    //implementing the ItemListener Class
+    private class itemList implements ItemListener{
+        public void itemStateChanged(ItemEvent event){
+            Font nick = null;
+            if(boldBox.isSelected() && italicBox.isSelected())
+                nick = new Font("Serif", Font.BOLD + Font.ITALIC, 14);
+            else if(boldBox.isSelected())
+                nick = new Font("Serif", Font.BOLD, 14);
+            else if(italicBox.isSelected())
+                nick = new Font("Serif", Font.ITALIC, 14);
+            else 
+                nick = new Font("Serif", Font.PLAIN, 14);
+            textfont2.setFont(nick);
         }
     }
     

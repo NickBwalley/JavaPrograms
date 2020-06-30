@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         Window1 nicky = new Window1();
         nicky.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        nicky.setSize(400,400);
+        nicky.setSize(400,600);
         nicky.setLocation(400,100);
         nicky.setVisible(true);
         
