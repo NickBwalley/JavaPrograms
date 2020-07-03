@@ -11,7 +11,16 @@ public class Main {
 		c.meow();
 		c.barks();
 		c.sound();
+		System.out.println("***********");
+		
 	}
 	
-
+	/*TYPES OF INHERITANCE 
+	 * 1. Single Inheritance 
+	 * 2. MultiLevel Inheritance 
+	 * 3. Hierarchial Inheritance 
+	 * 4. Multiple Inheritance (Java Does not support Multiple Inheritance)
+	 *  Since java does not allow to have Multiple Inheritance because it is ambiguous(Not Clear)
+	 *  You can have interfaces instead
+	 * */
 }

@@ -8,7 +8,7 @@ public class Main {
 	}
 	
 	public static void hasNext() {
-		String myName = "";
+		String myName = "Nick";
 		Scanner nicky = new Scanner(myName);
 		boolean stmt;
 		stmt = nicky.hasNext();
