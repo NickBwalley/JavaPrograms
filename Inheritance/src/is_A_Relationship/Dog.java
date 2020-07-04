@@ -1,5 +1,5 @@
 package is_A_Relationship;
 
-public class Dog extends Animal{
+public class Dog extends Cat{
 
 }
