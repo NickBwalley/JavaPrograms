@@ -1,5 +1,5 @@
 package interfaces;
 
-public class Dog {
-
+public interface Dog {
+	public void barks();
 }

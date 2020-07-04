@@ -1,5 +1,5 @@
 package interfaces;
 
-public class Cat {
-
+public interface Cat {
+	public void Meow();
 }
