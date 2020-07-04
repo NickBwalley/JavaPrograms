@@ -1,7 +1,8 @@
 package is_A_Relationship;
 
 public class Main {
-
+	/*IS-A is a way of saying: This object is a type of that object.
+	 *Let us see how the extends keyword is used to achieve inheritance.*/
 	public static void main(String[] args) {
 		Animal a = new Animal();
 		Dog d = new Dog();
