@@ -1500,3 +1500,531 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+!SESSION 2020-07-07 10:35:23.470 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=1.8.0_252
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2020-07-07 10:47:58.359
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2020-07-07 10:47:58.359
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2020-07-07 10:47:58.359
+!MESSAGE "Eclipse XML Editors and Tools" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2020-07-07 10:47:58.359
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.359
+!MESSAGE Software being installed: Eclipse Web Developer Tools 3.3.2.v201111030500-7O7IFj6EMjB7yO1Xs_G1kMtQeOye6HTXFWve95_R (org.eclipse.wst.web_ui.feature.feature.group 3.3.2.v201111030500-7O7IFj6EMjB7yO1Xs_G1kMtQeOye6HTXFWve95_R)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.359
+!MESSAGE Software currently installed: Eclipse XML Editors and Tools 3.16.0.v201911262138 (org.eclipse.wst.xml_ui.feature.feature.group 3.16.0.v201911262138)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-07-07 10:47:58.359
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.359
+!MESSAGE DTD Editor infopops 1.0.400.v201008112018 (org.eclipse.wst.dtd.ui.infopop 1.0.400.v201008112018)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.359
+!MESSAGE DTD Editor infopops 1.0.400.v201903222120 (org.eclipse.wst.dtd.ui.infopop 1.0.400.v201903222120)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-07-07 10:47:58.359
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.359
+!MESSAGE From: Eclipse Web Developer Tools 3.3.2.v201111030500-7O7IFj6EMjB7yO1Xs_G1kMtQeOye6HTXFWve95_R (org.eclipse.wst.web_ui.feature.feature.group 3.3.2.v201111030500-7O7IFj6EMjB7yO1Xs_G1kMtQeOye6HTXFWve95_R)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.359
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.wst.xml_ui.feature.feature.group [3.3.2.v201112072049-7H7EFZ7DxumTmce4khcSkIiqoD8eDMKlT8Oz011P,3.3.2.v201112072049-7H7EFZ7DxumTmce4khcSkIiqoD8eDMKlT8Oz011P]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-07-07 10:47:58.359
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.359
+!MESSAGE From: Eclipse XML Editors and Tools 3.16.0.v201911262138 (org.eclipse.wst.xml_ui.feature.feature.group 3.16.0.v201911262138)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.359
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.wst.dtd.ui.infopop [1.0.400.v201903222120,1.0.400.v201903222120]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-07-07 10:47:58.359
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.359
+!MESSAGE From: Eclipse XML Editors and Tools 3.3.2.v201112072049-7H7EFZ7DxumTmce4khcSkIiqoD8eDMKlT8Oz011P (org.eclipse.wst.xml_ui.feature.feature.group 3.3.2.v201112072049-7H7EFZ7DxumTmce4khcSkIiqoD8eDMKlT8Oz011P)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.359
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.wst.dtd.ui.infopop [1.0.400.v201008112018,1.0.400.v201008112018]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2020-07-07 10:47:58.390
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2020-07-07 10:47:58.390
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2020-07-07 10:47:58.390
+!MESSAGE "Eclipse XML Editors and Tools" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2020-07-07 10:47:58.390
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.390
+!MESSAGE Software being installed: Eclipse Web Developer Tools 3.3.2.v201111030500-7O7IFj6EMjB7yO1Xs_G1kMtQeOye6HTXFWve95_R (org.eclipse.wst.web_ui.feature.feature.group 3.3.2.v201111030500-7O7IFj6EMjB7yO1Xs_G1kMtQeOye6HTXFWve95_R)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.390
+!MESSAGE Software currently installed: Eclipse XML Editors and Tools 3.16.0.v201911262138 (org.eclipse.wst.xml_ui.feature.feature.group 3.16.0.v201911262138)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-07-07 10:47:58.390
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.390
+!MESSAGE DTD Editor infopops 1.0.400.v201008112018 (org.eclipse.wst.dtd.ui.infopop 1.0.400.v201008112018)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.390
+!MESSAGE DTD Editor infopops 1.0.400.v201903222120 (org.eclipse.wst.dtd.ui.infopop 1.0.400.v201903222120)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-07-07 10:47:58.390
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.390
+!MESSAGE From: Eclipse Web Developer Tools 3.3.2.v201111030500-7O7IFj6EMjB7yO1Xs_G1kMtQeOye6HTXFWve95_R (org.eclipse.wst.web_ui.feature.feature.group 3.3.2.v201111030500-7O7IFj6EMjB7yO1Xs_G1kMtQeOye6HTXFWve95_R)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.390
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.wst.xml_ui.feature.feature.group [3.3.2.v201112072049-7H7EFZ7DxumTmce4khcSkIiqoD8eDMKlT8Oz011P,3.3.2.v201112072049-7H7EFZ7DxumTmce4khcSkIiqoD8eDMKlT8Oz011P]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-07-07 10:47:58.390
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.390
+!MESSAGE From: Eclipse XML Editors and Tools 3.16.0.v201911262138 (org.eclipse.wst.xml_ui.feature.feature.group 3.16.0.v201911262138)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.390
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.wst.dtd.ui.infopop [1.0.400.v201903222120,1.0.400.v201903222120]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-07-07 10:47:58.390
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.390
+!MESSAGE From: Eclipse XML Editors and Tools 3.3.2.v201112072049-7H7EFZ7DxumTmce4khcSkIiqoD8eDMKlT8Oz011P (org.eclipse.wst.xml_ui.feature.feature.group 3.3.2.v201112072049-7H7EFZ7DxumTmce4khcSkIiqoD8eDMKlT8Oz011P)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.390
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.wst.dtd.ui.infopop [1.0.400.v201008112018,1.0.400.v201008112018]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2020-07-07 10:47:58.425
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2020-07-07 10:47:58.425
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2020-07-07 10:47:58.425
+!MESSAGE "Eclipse XML Editors and Tools" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2020-07-07 10:47:58.425
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.425
+!MESSAGE Software being installed: Eclipse Web Developer Tools 3.3.2.v201111030500-7O7IFj6EMjB7yO1Xs_G1kMtQeOye6HTXFWve95_R (org.eclipse.wst.web_ui.feature.feature.group 3.3.2.v201111030500-7O7IFj6EMjB7yO1Xs_G1kMtQeOye6HTXFWve95_R)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.425
+!MESSAGE Software currently installed: Eclipse XML Editors and Tools 3.16.0.v201911262138 (org.eclipse.wst.xml_ui.feature.feature.group 3.16.0.v201911262138)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-07-07 10:47:58.425
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.425
+!MESSAGE DTD Editor infopops 1.0.400.v201008112018 (org.eclipse.wst.dtd.ui.infopop 1.0.400.v201008112018)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.425
+!MESSAGE DTD Editor infopops 1.0.400.v201903222120 (org.eclipse.wst.dtd.ui.infopop 1.0.400.v201903222120)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-07-07 10:47:58.425
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.425
+!MESSAGE From: Eclipse Web Developer Tools 3.3.2.v201111030500-7O7IFj6EMjB7yO1Xs_G1kMtQeOye6HTXFWve95_R (org.eclipse.wst.web_ui.feature.feature.group 3.3.2.v201111030500-7O7IFj6EMjB7yO1Xs_G1kMtQeOye6HTXFWve95_R)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.425
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.wst.xml_ui.feature.feature.group [3.3.2.v201112072049-7H7EFZ7DxumTmce4khcSkIiqoD8eDMKlT8Oz011P,3.3.2.v201112072049-7H7EFZ7DxumTmce4khcSkIiqoD8eDMKlT8Oz011P]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-07-07 10:47:58.425
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.425
+!MESSAGE From: Eclipse XML Editors and Tools 3.16.0.v201911262138 (org.eclipse.wst.xml_ui.feature.feature.group 3.16.0.v201911262138)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.425
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.wst.dtd.ui.infopop [1.0.400.v201903222120,1.0.400.v201903222120]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-07-07 10:47:58.425
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.425
+!MESSAGE From: Eclipse XML Editors and Tools 3.3.2.v201112072049-7H7EFZ7DxumTmce4khcSkIiqoD8eDMKlT8Oz011P (org.eclipse.wst.xml_ui.feature.feature.group 3.3.2.v201112072049-7H7EFZ7DxumTmce4khcSkIiqoD8eDMKlT8Oz011P)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.425
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.wst.dtd.ui.infopop [1.0.400.v201008112018,1.0.400.v201008112018]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2020-07-07 10:47:58.426
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2020-07-07 10:47:58.426
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2020-07-07 10:47:58.426
+!MESSAGE "Eclipse XML Editors and Tools" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2020-07-07 10:47:58.426
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.426
+!MESSAGE Software being installed: Eclipse Web Developer Tools 3.3.2.v201111030500-7O7IFj6EMjB7yO1Xs_G1kMtQeOye6HTXFWve95_R (org.eclipse.wst.web_ui.feature.feature.group 3.3.2.v201111030500-7O7IFj6EMjB7yO1Xs_G1kMtQeOye6HTXFWve95_R)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.426
+!MESSAGE Software currently installed: Eclipse XML Editors and Tools 3.16.0.v201911262138 (org.eclipse.wst.xml_ui.feature.feature.group 3.16.0.v201911262138)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-07-07 10:47:58.426
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.426
+!MESSAGE DTD Editor infopops 1.0.400.v201008112018 (org.eclipse.wst.dtd.ui.infopop 1.0.400.v201008112018)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.426
+!MESSAGE DTD Editor infopops 1.0.400.v201903222120 (org.eclipse.wst.dtd.ui.infopop 1.0.400.v201903222120)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-07-07 10:47:58.426
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.426
+!MESSAGE From: Eclipse Web Developer Tools 3.3.2.v201111030500-7O7IFj6EMjB7yO1Xs_G1kMtQeOye6HTXFWve95_R (org.eclipse.wst.web_ui.feature.feature.group 3.3.2.v201111030500-7O7IFj6EMjB7yO1Xs_G1kMtQeOye6HTXFWve95_R)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.426
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.wst.xml_ui.feature.feature.group [3.3.2.v201112072049-7H7EFZ7DxumTmce4khcSkIiqoD8eDMKlT8Oz011P,3.3.2.v201112072049-7H7EFZ7DxumTmce4khcSkIiqoD8eDMKlT8Oz011P]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-07-07 10:47:58.426
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.426
+!MESSAGE From: Eclipse XML Editors and Tools 3.16.0.v201911262138 (org.eclipse.wst.xml_ui.feature.feature.group 3.16.0.v201911262138)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.427
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.wst.dtd.ui.infopop [1.0.400.v201903222120,1.0.400.v201903222120]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-07-07 10:47:58.427
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.427
+!MESSAGE From: Eclipse XML Editors and Tools 3.3.2.v201112072049-7H7EFZ7DxumTmce4khcSkIiqoD8eDMKlT8Oz011P (org.eclipse.wst.xml_ui.feature.feature.group 3.3.2.v201112072049-7H7EFZ7DxumTmce4khcSkIiqoD8eDMKlT8Oz011P)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 10:47:58.427
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.wst.dtd.ui.infopop [1.0.400.v201008112018,1.0.400.v201008112018]
+
+!ENTRY org.eclipse.core.jobs 4 2 2020-07-07 11:10:14.274
+!MESSAGE An internal error occurred during: "Install download2".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.equinox.internal.p2.artifact.processors.checksum.ChecksumUtilities.getChecksumComparatorConfigurations(ChecksumUtilities.java:76)
+	at org.eclipse.equinox.internal.p2.artifact.processors.checksum.ChecksumUtilities.getChecksumVerifiers(ChecksumUtilities.java:50)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addChecksumVerifiers(SimpleArtifactRepository.java:507)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:480)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1128)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:771)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:319)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:289)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:225)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:155)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:759)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2020-07-07 11:10:14.320
+!MESSAGE An error occurred while committing the engine session for profile: epp.package.java.
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2020-07-07 11:10:14.320
+!MESSAGE An error occurred while undoing the org.eclipse.equinox.internal.p2.engine.phases.Collect phase.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.equinox.internal.p2.engine.EngineSession.getProfileDataDirectory(EngineSession.java:81)
+	at org.eclipse.equinox.internal.p2.engine.Phase.prePerform(Phase.java:117)
+	at org.eclipse.equinox.internal.p2.engine.EngineSession.rollBackPhase(EngineSession.java:233)
+	at org.eclipse.equinox.internal.p2.engine.EngineSession.rollback(EngineSession.java:182)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:89)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:181)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:190)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2020-07-07 11:10:15.395 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=1.8.0_252
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2020-07-07 11:18:48.027
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2020-07-07 11:18:48.027
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2020-07-07 11:18:48.027
+!MESSAGE "Eclipse XML Editors and Tools" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2020-07-07 11:18:48.027
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.027
+!MESSAGE Software being installed: Eclipse Web Developer Tools 3.3.2.v201111030500-7O7IFj6EMjB7yO1Xs_G1kMtQeOye6HTXFWve95_R (org.eclipse.wst.web_ui.feature.feature.group 3.3.2.v201111030500-7O7IFj6EMjB7yO1Xs_G1kMtQeOye6HTXFWve95_R)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.027
+!MESSAGE Software currently installed: Eclipse XML Editors and Tools 3.16.0.v201911262138 (org.eclipse.wst.xml_ui.feature.feature.group 3.16.0.v201911262138)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-07-07 11:18:48.027
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.027
+!MESSAGE DTD Editor infopops 1.0.400.v201008112018 (org.eclipse.wst.dtd.ui.infopop 1.0.400.v201008112018)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.028
+!MESSAGE DTD Editor infopops 1.0.400.v201903222120 (org.eclipse.wst.dtd.ui.infopop 1.0.400.v201903222120)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-07-07 11:18:48.028
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.028
+!MESSAGE From: Eclipse Web Developer Tools 3.3.2.v201111030500-7O7IFj6EMjB7yO1Xs_G1kMtQeOye6HTXFWve95_R (org.eclipse.wst.web_ui.feature.feature.group 3.3.2.v201111030500-7O7IFj6EMjB7yO1Xs_G1kMtQeOye6HTXFWve95_R)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.028
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.wst.xml_ui.feature.feature.group [3.3.2.v201112072049-7H7EFZ7DxumTmce4khcSkIiqoD8eDMKlT8Oz011P,3.3.2.v201112072049-7H7EFZ7DxumTmce4khcSkIiqoD8eDMKlT8Oz011P]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-07-07 11:18:48.028
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.028
+!MESSAGE From: Eclipse XML Editors and Tools 3.16.0.v201911262138 (org.eclipse.wst.xml_ui.feature.feature.group 3.16.0.v201911262138)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.028
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.wst.dtd.ui.infopop [1.0.400.v201903222120,1.0.400.v201903222120]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-07-07 11:18:48.028
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.028
+!MESSAGE From: Eclipse XML Editors and Tools 3.3.2.v201112072049-7H7EFZ7DxumTmce4khcSkIiqoD8eDMKlT8Oz011P (org.eclipse.wst.xml_ui.feature.feature.group 3.3.2.v201112072049-7H7EFZ7DxumTmce4khcSkIiqoD8eDMKlT8Oz011P)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.028
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.wst.dtd.ui.infopop [1.0.400.v201008112018,1.0.400.v201008112018]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2020-07-07 11:18:48.036
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2020-07-07 11:18:48.036
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2020-07-07 11:18:48.036
+!MESSAGE "Eclipse XML Editors and Tools" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2020-07-07 11:18:48.036
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.036
+!MESSAGE Software being installed: Eclipse Web Developer Tools 3.3.2.v201111030500-7O7IFj6EMjB7yO1Xs_G1kMtQeOye6HTXFWve95_R (org.eclipse.wst.web_ui.feature.feature.group 3.3.2.v201111030500-7O7IFj6EMjB7yO1Xs_G1kMtQeOye6HTXFWve95_R)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.036
+!MESSAGE Software currently installed: Eclipse XML Editors and Tools 3.16.0.v201911262138 (org.eclipse.wst.xml_ui.feature.feature.group 3.16.0.v201911262138)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-07-07 11:18:48.036
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.036
+!MESSAGE DTD Editor infopops 1.0.400.v201008112018 (org.eclipse.wst.dtd.ui.infopop 1.0.400.v201008112018)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.036
+!MESSAGE DTD Editor infopops 1.0.400.v201903222120 (org.eclipse.wst.dtd.ui.infopop 1.0.400.v201903222120)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-07-07 11:18:48.036
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.036
+!MESSAGE From: Eclipse Web Developer Tools 3.3.2.v201111030500-7O7IFj6EMjB7yO1Xs_G1kMtQeOye6HTXFWve95_R (org.eclipse.wst.web_ui.feature.feature.group 3.3.2.v201111030500-7O7IFj6EMjB7yO1Xs_G1kMtQeOye6HTXFWve95_R)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.036
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.wst.xml_ui.feature.feature.group [3.3.2.v201112072049-7H7EFZ7DxumTmce4khcSkIiqoD8eDMKlT8Oz011P,3.3.2.v201112072049-7H7EFZ7DxumTmce4khcSkIiqoD8eDMKlT8Oz011P]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-07-07 11:18:48.036
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.036
+!MESSAGE From: Eclipse XML Editors and Tools 3.16.0.v201911262138 (org.eclipse.wst.xml_ui.feature.feature.group 3.16.0.v201911262138)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.036
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.wst.dtd.ui.infopop [1.0.400.v201903222120,1.0.400.v201903222120]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-07-07 11:18:48.036
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.036
+!MESSAGE From: Eclipse XML Editors and Tools 3.3.2.v201112072049-7H7EFZ7DxumTmce4khcSkIiqoD8eDMKlT8Oz011P (org.eclipse.wst.xml_ui.feature.feature.group 3.3.2.v201112072049-7H7EFZ7DxumTmce4khcSkIiqoD8eDMKlT8Oz011P)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.037
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.wst.dtd.ui.infopop [1.0.400.v201008112018,1.0.400.v201008112018]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2020-07-07 11:18:48.107
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2020-07-07 11:18:48.107
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2020-07-07 11:18:48.107
+!MESSAGE "Eclipse XML Editors and Tools" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2020-07-07 11:18:48.107
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.107
+!MESSAGE Software being installed: Eclipse Web Developer Tools 3.3.2.v201111030500-7O7IFj6EMjB7yO1Xs_G1kMtQeOye6HTXFWve95_R (org.eclipse.wst.web_ui.feature.feature.group 3.3.2.v201111030500-7O7IFj6EMjB7yO1Xs_G1kMtQeOye6HTXFWve95_R)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.107
+!MESSAGE Software currently installed: Eclipse XML Editors and Tools 3.16.0.v201911262138 (org.eclipse.wst.xml_ui.feature.feature.group 3.16.0.v201911262138)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-07-07 11:18:48.107
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.107
+!MESSAGE DTD Editor infopops 1.0.400.v201008112018 (org.eclipse.wst.dtd.ui.infopop 1.0.400.v201008112018)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.107
+!MESSAGE DTD Editor infopops 1.0.400.v201903222120 (org.eclipse.wst.dtd.ui.infopop 1.0.400.v201903222120)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-07-07 11:18:48.107
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.107
+!MESSAGE From: Eclipse Web Developer Tools 3.3.2.v201111030500-7O7IFj6EMjB7yO1Xs_G1kMtQeOye6HTXFWve95_R (org.eclipse.wst.web_ui.feature.feature.group 3.3.2.v201111030500-7O7IFj6EMjB7yO1Xs_G1kMtQeOye6HTXFWve95_R)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.107
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.wst.xml_ui.feature.feature.group [3.3.2.v201112072049-7H7EFZ7DxumTmce4khcSkIiqoD8eDMKlT8Oz011P,3.3.2.v201112072049-7H7EFZ7DxumTmce4khcSkIiqoD8eDMKlT8Oz011P]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-07-07 11:18:48.107
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.107
+!MESSAGE From: Eclipse XML Editors and Tools 3.16.0.v201911262138 (org.eclipse.wst.xml_ui.feature.feature.group 3.16.0.v201911262138)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.107
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.wst.dtd.ui.infopop [1.0.400.v201903222120,1.0.400.v201903222120]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-07-07 11:18:48.107
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.107
+!MESSAGE From: Eclipse XML Editors and Tools 3.3.2.v201112072049-7H7EFZ7DxumTmce4khcSkIiqoD8eDMKlT8Oz011P (org.eclipse.wst.xml_ui.feature.feature.group 3.3.2.v201112072049-7H7EFZ7DxumTmce4khcSkIiqoD8eDMKlT8Oz011P)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.107
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.wst.dtd.ui.infopop [1.0.400.v201008112018,1.0.400.v201008112018]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2020-07-07 11:18:48.108
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2020-07-07 11:18:48.108
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2020-07-07 11:18:48.108
+!MESSAGE "Eclipse XML Editors and Tools" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2020-07-07 11:18:48.108
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.108
+!MESSAGE Software being installed: Eclipse Web Developer Tools 3.3.2.v201111030500-7O7IFj6EMjB7yO1Xs_G1kMtQeOye6HTXFWve95_R (org.eclipse.wst.web_ui.feature.feature.group 3.3.2.v201111030500-7O7IFj6EMjB7yO1Xs_G1kMtQeOye6HTXFWve95_R)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.108
+!MESSAGE Software currently installed: Eclipse XML Editors and Tools 3.16.0.v201911262138 (org.eclipse.wst.xml_ui.feature.feature.group 3.16.0.v201911262138)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-07-07 11:18:48.108
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.108
+!MESSAGE DTD Editor infopops 1.0.400.v201008112018 (org.eclipse.wst.dtd.ui.infopop 1.0.400.v201008112018)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.108
+!MESSAGE DTD Editor infopops 1.0.400.v201903222120 (org.eclipse.wst.dtd.ui.infopop 1.0.400.v201903222120)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-07-07 11:18:48.108
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.108
+!MESSAGE From: Eclipse Web Developer Tools 3.3.2.v201111030500-7O7IFj6EMjB7yO1Xs_G1kMtQeOye6HTXFWve95_R (org.eclipse.wst.web_ui.feature.feature.group 3.3.2.v201111030500-7O7IFj6EMjB7yO1Xs_G1kMtQeOye6HTXFWve95_R)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.108
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.wst.xml_ui.feature.feature.group [3.3.2.v201112072049-7H7EFZ7DxumTmce4khcSkIiqoD8eDMKlT8Oz011P,3.3.2.v201112072049-7H7EFZ7DxumTmce4khcSkIiqoD8eDMKlT8Oz011P]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-07-07 11:18:48.108
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.108
+!MESSAGE From: Eclipse XML Editors and Tools 3.16.0.v201911262138 (org.eclipse.wst.xml_ui.feature.feature.group 3.16.0.v201911262138)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.108
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.wst.dtd.ui.infopop [1.0.400.v201903222120,1.0.400.v201903222120]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-07-07 11:18:48.108
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.108
+!MESSAGE From: Eclipse XML Editors and Tools 3.3.2.v201112072049-7H7EFZ7DxumTmce4khcSkIiqoD8eDMKlT8Oz011P (org.eclipse.wst.xml_ui.feature.feature.group 3.3.2.v201112072049-7H7EFZ7DxumTmce4khcSkIiqoD8eDMKlT8Oz011P)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-07-07 11:18:48.109
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.wst.dtd.ui.infopop [1.0.400.v201008112018,1.0.400.v201008112018]
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2020-07-07 11:25:46.740
+!MESSAGE Connection to http://mirror.nbtelecom.com.br/eclipse/eclipse/updates/3.7/R-3.7.2-201202080800/plugins/org.apache.commons.logging_1.0.4.v201101211617.jar failed on Connect to mirror.nbtelecom.com.br:80 [mirror.nbtelecom.com.br/189.45.5.90] failed: connect timed out. Retry attempt 0 started
+!STACK 0
+org.apache.http.conn.ConnectTimeoutException: Connect to mirror.nbtelecom.com.br:80 [mirror.nbtelecom.com.br/189.45.5.90] failed: connect timed out
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:394)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 13 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2020-07-07 11:29:50.675
+!MESSAGE Connection to http://mirror.nbtelecom.com.br/eclipse/releases/indigo/201202240900/aggregate/plugins/org.eclipse.dltk_3.0.0.v20101209.jar.pack.gz failed on Connect to mirror.nbtelecom.com.br:80 [mirror.nbtelecom.com.br/189.45.5.90] failed: connect timed out. Retry attempt 0 started
+!STACK 0
+org.apache.http.conn.ConnectTimeoutException: Connect to mirror.nbtelecom.com.br:80 [mirror.nbtelecom.com.br/189.45.5.90] failed: connect timed out
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:394)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 13 more
+!SESSION 2020-07-07 12:20:06.882 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=1.8.0_252
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -data file:/home/nickbwalley/Eclipse_Java/ -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2020-07-07 12:20:19.255
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-07-07 12:20:19.255
+!MESSAGE A conflict occurred for CTRL+SHIFT+I:
+Binding(CTRL+SHIFT+I,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Inspect,Inspect,
+		Inspect result of evaluating selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6528d339,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(CTRL+SHIFT+I,
+	ParameterizedCommand(Command(org.eclipse.php.debug.ui.commands.Inspect,Inspect,
+		Inspect result of evaluating selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2dd2ff87,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+
+!ENTRY org.eclipse.jface 2 0 2020-07-07 12:20:21.538
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-07-07 12:20:21.538
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.ui.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@65b1693c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@9a74a93,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-07-07 12:20:21.538
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.ui.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@255d4d7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@426bf2f2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jface.text 2 0 2020-07-07 12:20:25.310
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2020-07-07 12:20:25.311
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2020-07-07 12:27:46.301
+!MESSAGE already installed: org.eclipse.jst.server.generic.jonas4
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2020-07-07 12:28:06.049
+!MESSAGE Connection to http://jope.ow2.org/update/jope/site.xml failed on jope.ow2.org: Name or service not known. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: jope.ow2.org: Name or service not known
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:929)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1324)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1277)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:394)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2020-07-07 12:28:06.258
+!MESSAGE Connection to http://jope.ow2.org/update/jope/p2.index failed on jope.ow2.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: jope.ow2.org
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:394)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
