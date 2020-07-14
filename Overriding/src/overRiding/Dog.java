@@ -2,6 +2,8 @@ package overRiding;
 
 public class Dog extends Animal {
 	public void move() {
+		super.move();
+		super.barks();
 		System.out.println("A Dog Walks and Runs!..");
 	}
 	
