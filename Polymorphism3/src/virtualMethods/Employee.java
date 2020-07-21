@@ -25,6 +25,16 @@ public class Employee {
 		return name;
 	}
 	
-	pu
+	public String getAddress() {
+		return address;
+	}
+	
+	public void setAddress(String newAddress) {
+		address = newAddress;
+	}
+	
+	public int getNumber() {
+		return number;
+	}
 
 }

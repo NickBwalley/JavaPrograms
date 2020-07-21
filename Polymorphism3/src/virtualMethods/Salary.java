@@ -1,5 +1,5 @@
 package virtualMethods;
 
-public class Salary {
+public class Salary extends Employee {
 
 }
