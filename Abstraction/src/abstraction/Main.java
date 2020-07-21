@@ -3,7 +3,14 @@ package abstraction;
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("Hello World");
+		Employee e = new Salary("Nick", "nick@gmail.com", 4,  500000);
+		Salary s = new Salary("Bryan", "kobe@gmail.com", 3, 450000);
+		
+		System.out.println("Calling mailcheck using Employee Reference... ");
+		e.mailCheck();
+		System.out.println("\nCalling mailCheck using Salary reference...");
+		s.mailCheck();
+		
 	}
 
 }

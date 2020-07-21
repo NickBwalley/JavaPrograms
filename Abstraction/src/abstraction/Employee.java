@@ -6,7 +6,7 @@ public abstract class Employee {
 	private String address;
 	private int number;
 	//constructor
-	public Employee(String name, String address, int number) {
+	public Employee(String name, String address, int number, double salary) {
 		System.out.println("Constructing an Employee");
 		this.name = name;
 		this.address = address;
