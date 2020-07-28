@@ -16,6 +16,7 @@ public class Main {
 		System.out.println(r.id + " " + r.name);
 		System.out.println(n.id + " " + n.name);
 		System.out.println("-----------------------");
+		// 2. initialization through method
 		ByMethod m1 = new ByMethod();
 		ByMethod m2 = new ByMethod();
 		m1.studentDetails(122790, "Nicholas");
@@ -23,6 +24,14 @@ public class Main {
 		m1.displayInformation();
 		m2.displayInformation();
 		System.out.println("-----------------------");
+		// 3. Initialization through a constructor
+		ByConstructor c1 = new ByConstructor(122790, "Nicholas");
+		ByConstructor c2 = new ByConstructor(122994, "Lorna");
+		c1.studentDetails();
+		c2.studentDetails();
+		System.out.println("-----------------------");
+		
+		
 		
 	}
 /*	DIFFERENT WAYS TO INITIALIZE OBJECTS
