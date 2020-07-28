@@ -30,6 +30,19 @@ public class Main {
 		c1.studentDetails();
 		c2.studentDetails();
 		System.out.println("-----------------------");
+		new AnonymousObject().factorial(5); 	// calling method within anonymous object...
+		System.out.println("-----------------------");
+		System.out.println("BANK ACCOUNT SYSTEM");
+		System.out.println("-----------------------");
+		BankAccountSystem myAccount = new BankAccountSystem();
+		myAccount.insert(122790, "Nicholas", 89000); //creating an account and adding cash
+		myAccount.display();
+		myAccount.checkBalance();
+		myAccount.deposit(14000.89);
+		myAccount.checkBalance();
+		myAccount.withdraw(49000);
+		myAccount.checkBalance();
+		
 		
 		
 		
