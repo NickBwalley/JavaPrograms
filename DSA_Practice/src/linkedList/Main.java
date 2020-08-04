@@ -8,7 +8,6 @@ public class Main {
         //linkedList();
         int [] sampleArray = {49,12,49,14,79,99,71,12,10,94,71};
         duplicates(sampleArray);
-        
 
     }
     
