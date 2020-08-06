@@ -4,8 +4,11 @@ public class Main {
 
 	public static void main(String[] args) {
 		//printVector();
-		Nicky bwalley = new Nicky();
-		bwalley.nickyVectors();
+		
+		//creating anonymous object in Java 
+		new Nicky(); 
+		new Nicky().nickyVectors();
+		new Nicky().anonymousMethod();
 	}
 	
 	//method for creating a vector

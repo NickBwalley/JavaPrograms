@@ -34,9 +34,11 @@ public class Nicky {
 		System.out.println(nick.set(0, "Arsenal"));
 		System.out.println(nick);
 		nick.clear();
-		System.out.println(nick);//prints an empty set
+		System.out.println(nick); // prints an empty set
 		System.out.println(nick.isEmpty()); // Returns true
-		
-		
+	}
+	
+	public void anonymousMethod() {
+		System.out.println("Hello this is an Anonymous method");
 	}
 }
