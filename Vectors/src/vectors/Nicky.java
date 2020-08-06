@@ -19,6 +19,7 @@ public class Nicky {
 		nick.addElement( "Undertaker");
 		nick.addElement( "BobbyLashley");
 		nick.addElement( "DrewMcIntyre");
+		System.out.println(nick);
 		System.out.println("Vector Capacity: " + nick.capacity());
 		/*
 		 * 1. notice that as the vector capacity becomes full it multiplies its capacity by two*/
@@ -26,6 +27,15 @@ public class Nicky {
 		System.out.println("FirstElement: " + nick.firstElement());
 		System.out.println("LastElement: " + nick.lastElement());
 		System.out.println("VectorIndexOf: " + nick.indexOf("BobbyLashley"));
+		System.out.println("VectorElementAtIndex3: " + nick.elementAt(3));
+		System.out.println("VectorGetAttrib: " + nick.get(4));
+		System.out.println(nick.remove(0));
+		System.out.println(nick.isEmpty());
+		System.out.println(nick.set(0, "Arsenal"));
+		System.out.println(nick);
+		nick.clear();
+		System.out.println(nick);//prints an empty set
+		System.out.println(nick.isEmpty()); // Returns true
 		
 		
 	}
