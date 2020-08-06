@@ -3,7 +3,9 @@ import java.util.Vector;
 public class Main {
 
 	public static void main(String[] args) {
-		printVector();
+		//printVector();
+		Nicky bwalley = new Nicky();
+		bwalley.nickyVectors();
 	}
 	
 	//method for creating a vector
