@@ -6,7 +6,6 @@ public class Main {
 		//printVector();
 		
 		//creating anonymous object in Java 
-		new Nicky(); 
 		new Nicky().nickyVectors();
 		new Nicky().anonymousMethod();
 	}
