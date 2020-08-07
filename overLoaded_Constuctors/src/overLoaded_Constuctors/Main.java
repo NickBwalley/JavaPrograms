@@ -1,6 +1,6 @@
 package overLoaded_Constuctors;
 
-public class OverloadedConstructors {
+public class Main {
 
 	public static void main(String[] args) {
 		ConstructorOverloading nicky = new ConstructorOverloading();

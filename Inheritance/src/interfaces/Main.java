@@ -6,6 +6,9 @@ public class Main {
 		Animal a = new Animal();
 		a.barks();
 		a.Meow();
+		// using anonymous objects in java 
+		new Animal().barks();
+		new Animal().Meow();
 	}
 
 }
