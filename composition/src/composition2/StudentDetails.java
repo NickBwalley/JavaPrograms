@@ -13,6 +13,6 @@ public class StudentDetails {
 	
 	//implements this
 	public String toString() {
-		return String.format("Name: %s\n Birthday: %s", name, birthday);
+		return String.format("Name: %s\n", name, birthday);
 	}
 }

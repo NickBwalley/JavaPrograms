@@ -10,7 +10,7 @@ public class StudentBirthday {
 		month = m;
 		year = y;
 		
-		System.out.print(this);
+		System.out.printf("Birthday: %s\n", this);
 	}
 	
 	//implements this keyword
