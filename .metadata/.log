@@ -3413,3 +3413,9 @@ Binding(ALT+SHIFT+D R,
 
 !ENTRY org.eclipse.jface.text 2 0 2020-08-14 15:52:48.454
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2020-08-14 16:08:39.243
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2020-08-14 16:08:39.244
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
