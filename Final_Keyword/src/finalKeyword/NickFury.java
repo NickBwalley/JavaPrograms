@@ -2,7 +2,7 @@ package finalKeyword;
 
 public class NickFury {
 	private int sum;
-	private final int NUMBER;//whenever you create a final variable you cannot change that variable  
+	private final int NUMBER;//whenever you create a final variable you cannot change that variable
 	
 	public NickFury(int x) {
 		NUMBER = x;
