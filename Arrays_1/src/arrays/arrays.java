@@ -3,7 +3,7 @@ package arrays;
 public class arrays {
 
 	public static void main(String[] args) {
-		int nicky[] = new int[5];
+		int nicky[] = new int[5]; // Array Creation but not initialized 
 		nicky[0] = 79;
 		nicky[1] = 49;
 		nicky[2] = 59;
@@ -14,7 +14,7 @@ public class arrays {
 		
 		//second way of how to initialize and print arrays 
 		
-		int rikki[] = {46,30,21,41,39};
+		int rikki[] = {46,30,21,41,39}; // Array initializer 
 		System.out.println(rikki[2]);
 		
 		
