@@ -61,6 +61,7 @@ public class Main {
 		//printing out
 		System.out.println(girlFriend);
 		girlFriend.set(2, "Karen");//replace the element at index 2
+		System.out.println(girlFriend);
 		girlFriend.remove(0);
 		System.out.println(girlFriend);
 		System.out.println(girlFriend.get(4));
