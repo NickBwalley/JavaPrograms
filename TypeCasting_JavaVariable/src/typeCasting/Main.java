@@ -8,6 +8,7 @@ public class Main {
 		int a = (int)f;
 		System.out.println(f);
 		System.out.println(a);
+		
 
 	}
 
