@@ -18,7 +18,7 @@ public class Main {
 		//ternary operator
 		int a = 10;
 		int b = 20;
-		int min = (a<b)?a:b;
+		int min = (b<a)?a:b;
 		System.out.println(min);
 		 
 	}
