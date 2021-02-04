@@ -12,6 +12,19 @@ public class Arrays {
 		  for(int i = 0; i < myArray4.length; i++) {
 			  System.out.println(myArray4[i]);
 		  }
+		  System.out.println("---------");
+		  int index = 0;
+		  while(index < myArray3.length) {
+			  System.out.println(myArray3[index]);
+			  index++;
+		  }
+		  System.out.println("------------");
+		  int index2 = 0;
+		  do {
+			  System.out.println(myArray4[index2]);
+			  index2++;
+			  
+		  }while(index2 < 5);
 
 	}
 
