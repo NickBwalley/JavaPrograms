@@ -8,6 +8,8 @@ public class Arrays {
 		  int [] myArray2 = new int[3];
 		  int [] myArray3 = {1,2,3,4,5};
 		  int [] myArray4 = new int[] {1,2,3,4,5};
+		  int [] myArray5 = new int[] {49, 66,40,300,2938,303};
+		 
 		  
 		  for(int i = 0; i < myArray4.length; i++) {
 			  System.out.println(myArray4[i]);
@@ -25,6 +27,10 @@ public class Arrays {
 			  index2++;
 			  
 		  }while(index2 < myArray4.length);
+		  System.out.println("--------------");
+		  for (int elements: myArray5) {
+			  System.out.println(elements);
+		  }
 
 	}
 
