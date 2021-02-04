@@ -24,7 +24,7 @@ public class Arrays {
 			  System.out.println(myArray4[index2]);
 			  index2++;
 			  
-		  }while(index2 < 5);
+		  }while(index2 < myArray4.length);
 
 	}
 
