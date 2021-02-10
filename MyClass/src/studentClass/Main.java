@@ -7,13 +7,13 @@ public class Main {
 		Nick.setId(79);
 		Nick.setAge(20);
 		Nick.setName("Nick");
-		System.out.println("Your Name is: " + Nick.name + "\nYou are " + Nick.age + " Years Old! \n" + "ID NO: " + Nick.id);
+		System.out.println("Your Name is: " + Nick.getName() + "\nYou are " + Nick.getAge() + " Years Old! \n" + "ID NO: " + Nick.getId());
 		System.out.println("\n");
 		Student Tom = new Student();
 		Tom.setId(49);
 		Tom.setAge(19);
 		Tom.setName("Tom");
-		System.out.println("Your Name is: " + Tom.name + "\nYou are " + Tom.age + " Years Old! \n" + "ID NO: " + Tom.id);
+		System.out.println("Your Name is: " + Tom.getName() + "\nYou are " + Tom.getAge() + " Years Old! \n" + "ID NO: " + Tom.getId());
 		
 
 	}
