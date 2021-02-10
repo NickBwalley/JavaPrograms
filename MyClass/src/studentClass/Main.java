@@ -4,10 +4,16 @@ public class Main {
 
 	public static void main(String[] args) {
 		Student Nick = new Student();
-		Nick.id = 49;
-		Nick.age = 20;
-		Nick.name = "Nick";
-		System.out.println(Nick.id + " " + Nick.age + " " + Nick.name);
+		Nick.setId(79);
+		Nick.setAge(20);
+		Nick.setName("Nick");
+		System.out.println("Your Name is: " + Nick.name + "\nYou are " + Nick.age + " Years Old! \n" + "ID NO: " + Nick.id);
+		System.out.println("\n");
+		Student Tom = new Student();
+		Tom.setId(49);
+		Tom.setAge(19);
+		Tom.setName("Tom");
+		System.out.println("Your Name is: " + Tom.name + "\nYou are " + Tom.age + " Years Old! \n" + "ID NO: " + Tom.id);
 		
 
 	}
