@@ -5,10 +5,11 @@ public class Static {
 	public static void main(String[] args) {
 		//static members belong to the class instead of  a specific instance.
 		HelloStatic nick = new HelloStatic();
-	
+		HelloStatic.age = 40;
+		System.out.println(HelloStatic.age);
 		System.out.println(HelloStatic.doSomething("Hello Buddies!")); //accessed via the class 
 		System.out.println(nick.doSomethingElse("Hello yeah Buddy!")); // accessed via the instance of a class 
-		System.out.println();
+		
 		//HelloStatic nick2 = new HelloStatic();
 		//HelloStatic nick3 = new HelloStatic();
 

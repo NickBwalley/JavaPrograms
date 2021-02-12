@@ -1,6 +1,9 @@
 package staticKeyword;
 
 public class HelloStatic {
+	
+	public static int age;
+	
 	public static String doSomething(String message) {
 		return(message);
 	}
