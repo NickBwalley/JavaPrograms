@@ -3,6 +3,14 @@ package staticKeyword;
 public class StudentExample {
 	String name;
 	int age;
+	static int noOfStudents; //static variable
+	
+	StudentExample(){ //constructor
+		noOfStudents++;
+	}
+	public static int getNoOfStudents() {
+		return noOfStudents;
+	}
 	
 	public String getName() {
 		return name;
@@ -18,5 +26,4 @@ public class StudentExample {
 	}
 	
 	
-
 }
