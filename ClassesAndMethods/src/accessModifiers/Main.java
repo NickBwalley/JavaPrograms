@@ -12,6 +12,7 @@ public class Main {
 		System.out.println(stud.getName());
 		stud.setAge(20);
 		System.out.println(stud.getAge());
+		System.out.println("-------");
 	}
 
 }
