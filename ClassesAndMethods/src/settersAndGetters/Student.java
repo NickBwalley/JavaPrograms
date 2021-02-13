@@ -1,4 +1,4 @@
-package studentClass;
+package settersAndGetters;
 
 public class Student {
 		
