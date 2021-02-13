@@ -3,10 +3,15 @@ package accessModifiers;
 public class Main {
 
 	public static void main(String[] args) {
-		Student.name = "Nick";	 // defined statically
+		/*Student.name = "Nick";	 // defined statically
 		Student stu = new Student();
-		stu.age = 40; 	// defined non-statically
-
+		System.out.println(stu.age = 40); 	// defined non-statically
+		*/
+		Student stud = new Student();
+		stud.setName("Nicholas Bwalley");
+		System.out.println(stud.getName());
+		stud.setAge(20);
+		System.out.println(stud.getAge());
 	}
 
 }

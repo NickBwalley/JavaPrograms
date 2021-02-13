@@ -8,6 +8,19 @@ package accessModifiers;
  * No Modifier	Y			N			N				N
  * */
 public class Student {
-	static String name; 
-	int age;
+	private String name; 
+	private int age;
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public int getAge() {
+		return age;
+	}
 }
