@@ -21,6 +21,6 @@ public class Main {
  * MODIFIER		CLASS 		PACKAGE		SUBCLASS		WORLD
  * Public		Y			Y			Y				Y
  * Protected	Y			Y			Y				N
- * Private 		Y			Y			N				N
- * No Modifier	Y			N			N				N
+ * Private 		Y			N			N				N
+ * No Modifier	Y			Y			N				N
  * */		
