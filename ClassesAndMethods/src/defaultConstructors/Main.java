@@ -1,4 +1,4 @@
-package cube;
+package defaultConstructors;
 
 public class Main {
 
