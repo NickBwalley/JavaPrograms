@@ -6,7 +6,6 @@ public class Main {
 		MainBank equity = new Bank_A();
 		System.out.println(equity.getInterestRate());
 		
-
 	}
 
 }
