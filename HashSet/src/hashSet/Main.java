@@ -17,6 +17,7 @@ public class Main {
 		while(itr.hasNext())
 			System.out.println(itr.next()); // prints the value in forward direction
 		
+		
 	}
 
 }
