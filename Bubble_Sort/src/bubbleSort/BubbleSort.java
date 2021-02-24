@@ -10,7 +10,7 @@ public class BubbleSort {
 		for (int i = 0; i < sortedArray.length; i++) {
 			System.out.printf("%s ", sortedArray[i]);
 		}
-		System.out.println("---------------------------------------");
+		System.out.println("----------------------------------------");
 		bubbleSortAlgorithm();
 	}
 	
