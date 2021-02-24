@@ -7,5 +7,6 @@ public class conditionalOperator {
 		int age;
 		age = nicky.nextInt();
 		System.out.println(age > 50 ? "Your are old!" : "You are young");
+		nicky.close();
 	}
 }
