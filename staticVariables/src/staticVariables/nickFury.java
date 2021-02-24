@@ -12,10 +12,7 @@ public class nickFury {
 		System.out.printf("Your Name is: %s, %s, Your are the %d Member in the club;\n", first, last, members );
 	}
 	
-	public int totalMembers() {
+	public static int totalMembers() {
 		return members;
-	}
-	public void helloWorld() {
-		System.out.println("Hello World!..");
 	}
 }
