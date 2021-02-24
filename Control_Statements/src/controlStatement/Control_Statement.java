@@ -5,6 +5,7 @@ public class Control_Statement {
 	public static void main(String[] args) {
 		//ifStatement();
 		ternaryOperator();
+		
 	}
 	
 	public static void ifStatement() {
@@ -16,6 +17,7 @@ public class Control_Statement {
 			System.out.println("Your are a child\n Go Back to School and Learn!..");
 		else
 			System.out.println("You are fit to have an Id");
+		nicky.close();
 	}
 	
 	//using the ternary operator 
@@ -28,6 +30,7 @@ public class Control_Statement {
 		
 		output = ((age1%2 == 0)?"Even Age":"Odd Age");
 		System.out.println(output);
+		nicky.close();
 	}
 /*
  * RELATED CONCEPTS
