@@ -12,6 +12,8 @@ public class basic_Calculator {
 		lNum = rikki.nextDouble();
 		answer = fNum + lNum;
 		System.out.println(answer);
+		rikki.close();
+		
 	}
 
 }
