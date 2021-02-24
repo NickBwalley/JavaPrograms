@@ -11,7 +11,7 @@ public class if_Statement2 {
 		System.out.println("Enter Girls age: ");
 		age2 = nicky.nextInt();
 		
-		if(age1 > 18 && age2 > 18) {
+		if(age1 >= 18 && age2 >= 18) {
 			System.out.println("Wow you are now welcome to BeersPoint!");
 		}else {
 			System.out.println("You are still Kids Go back to School and Learn!!");

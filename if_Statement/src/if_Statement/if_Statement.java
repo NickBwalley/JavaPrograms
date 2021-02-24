@@ -12,6 +12,7 @@ public class if_Statement {
 		}else {
 			System.out.println("Wow! Splendid! You have passed therefore you are qualified!");
 		}
+		rikki.close();
 	}
 
 }
