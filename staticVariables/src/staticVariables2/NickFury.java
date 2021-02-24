@@ -10,7 +10,7 @@ public class NickFury {
 		last = lname;
 		members++;
 		
-		System.out.printf("Your name is: %s, %s >> You are the [%d] Member in the Club\n", first , last, members);
+		System.out.printf("Your name is: %s, %s \tYou are the %d Member in the Club\n", first , last, members);
 	}
 	public String getFirst() {
 		return first;
