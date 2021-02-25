@@ -1,5 +1,7 @@
 package javaMath_Methods;
 
+import java.util.Scanner;
+
 public class mathMethods {
 
 	public static void main(String[] args) {
@@ -10,6 +12,18 @@ public class mathMethods {
 		System.out.println(Math.min(19.49, 14));//compares two values and returns the minimum of the two values
 		System.out.println(Math.pow(5, 3));// a number raised to which power
 		System.out.println(Math.sqrt(81));//takes a number and determines the square-Root
+	}
+	
+	public static void getMax() {
+		Scanner input = new Scanner(System.in);
+		int num1, num2, result;
+		System.out.println("Enter First Number: ");
+		num1 = input.nextInt();
+		System.out.println("Enter Second Number: ");
+		num2 = input.nextInt();
+		result = Math.max(num1, num2);
+		System.out.printf("Largest Number is: %d", result );
+		input.close();
 	}
 
 }
