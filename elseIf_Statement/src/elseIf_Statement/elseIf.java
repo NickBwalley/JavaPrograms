@@ -23,6 +23,7 @@ public class elseIf {
 			System.out.println("You are fit to have an ID!");
 		else
 			System.out.println("Your Just a Kid...Go Back To Schoo!");
+		nicky.close();
 	}
 
 }
