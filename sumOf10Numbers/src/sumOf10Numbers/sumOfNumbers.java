@@ -7,7 +7,7 @@ public class sumOfNumbers {
 		int counter = 0;
 		int total = 0;
 		int number;
-		int average;
+		double average = 0;
 		//creating a while loop
 		while(counter < 10) {
 			System.out.println("Enter Number:");
