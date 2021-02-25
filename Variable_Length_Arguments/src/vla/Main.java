@@ -1,11 +1,11 @@
 package vla;
 
-public class vla {
+public class Main {
 
 	public static void main(String[] args) {
 		//invoking this method 
-	System.out.println("The Result is: "+ sum(12,12,12,12,12));
-	System.out.println("The Multiplication Answer: " + multiplication(33,33));
+	System.out.println("The Result is: "+ sum(20,20,20,20,20));
+	System.out.println("The Multiplication Answer: " + multiplication(20,20));
 	}
 	//method definitions
 	public static int sum(int...numbers) {
