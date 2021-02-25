@@ -1,6 +1,6 @@
 package multidimensional;
 
-public class MultidimensionalArrays {
+public class Main {
 
 	public static void main(String[] args) {
 		int firstArr[][] = {{19, 29, 39}, {49, 59, 69}, {79, 89, 99}};
@@ -11,9 +11,9 @@ public class MultidimensionalArrays {
 		//System.out.println("The Second Array carries: ");
 		//displayArray(secondArr);
 		
-		System.out.println("Scurry Multidimensional Array: ");
+		System.out.println("Multidimensional Array: ");
 		//notice that whenever you make a method static you don't have to create an object to access that method
-		Scurry.printArray(firstArr); 
+		MdArray.printArray(firstArr); 
 		
 		
 		
@@ -21,8 +21,8 @@ public class MultidimensionalArrays {
 	}	
 	//method to print the array in the list
 	public static void displayArray(int x[][]) {
-		for(int row=0; row<x.length; row++) {
-			for(int column=0; column<x[row].length; column++) {
+		for(int row=0; row < x.length; row++) {
+			for(int column=0; column < x[row].length; column++) {
 				System.out.print(x[row][column]+"\t");
 			}
 			System.out.println();

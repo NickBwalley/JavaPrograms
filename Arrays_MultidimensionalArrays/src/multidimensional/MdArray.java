@@ -1,6 +1,6 @@
 package multidimensional;
 
-public class Scurry {
+public class MdArray {
 
 	public static void printArray(int z[][]) {
 		for(int row = 0; row < z.length; row++) {
