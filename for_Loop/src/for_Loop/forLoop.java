@@ -13,7 +13,7 @@ public class forLoop {
 		for(int counter = start; counter <= stop; counter++) {
 			System.out.println(counter);
 		}
-		
+		nicky.close();
 	}
 
 }
