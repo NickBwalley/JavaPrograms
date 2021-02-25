@@ -13,7 +13,7 @@ public class NickFury {
 			System.out.println("Enter Your Number: ");
 			rikki[x] = nicky.nextInt();			
 		}
-		//for loop to hold the variables the user has inputted
+		//for loop to hold the variables the user has inputed
 		for(int y=0; y<rikki.length; y++) {
 			total+=rikki[y];
 		}		
