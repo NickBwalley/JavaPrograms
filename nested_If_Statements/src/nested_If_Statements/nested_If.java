@@ -4,7 +4,7 @@ public class nested_If {
 
 	public static void main(String[] args) {
 		int age;
-		age = 90;
+		age = 67;
 		
 		if(age < 50) {
 			System.out.println("You are still Young!");
