@@ -1,7 +1,7 @@
-package gui;
+package guiJFrame;
 
 import javax.swing.JFrame;
-public class Gui {
+public class Main {
 
 	public static void main(String[] args) {
 		NickFury nicky = new NickFury();
