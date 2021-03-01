@@ -1,4 +1,4 @@
-package polymorphism;
+package polymorphismAbstraction;
 
 public class Digest {
 	void digest(Food x) {

@@ -1,4 +1,4 @@
-package polymorphism;
+package polymorphismAbstraction;
 
 abstract public class Food {
 	public abstract void eat();

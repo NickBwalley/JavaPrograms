@@ -1,4 +1,4 @@
-package polymorphism;
+package polymorphismAbstraction;
 
 public class Rice extends Food{
 	public void eat() {
