@@ -1,6 +1,6 @@
-package polymorphism;
+package polymorphism1;
 
-public class Polymorphism {
+public class Main {
 
 	public static void main(String[] args) {
 		FoodStuff foodObj = new FoodStuff();
@@ -20,14 +20,14 @@ public class Polymorphism {
 			nicky[x].eat();
 		}
 		System.out.println("-------------");
-		FoodStuff fo = new FoodStuff();
-		FoodStuff ap = new Apple();
-		FoodStuff or = new Orange();
+		FoodStuff food_stuff = new FoodStuff();
+		FoodStuff apple = new Apple();
+		FoodStuff orange = new Orange();
 		Digests dig = new Digests();
 		
-		dig.digest(fo);
-		dig.digest(ap);
-		dig.digest(or);
+		dig.digest(food_stuff);
+		dig.digest(apple);
+		dig.digest(orange);
 	}
 
 }

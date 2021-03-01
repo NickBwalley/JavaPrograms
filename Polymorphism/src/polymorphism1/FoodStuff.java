@@ -1,4 +1,4 @@
-package polymorphism;
+package polymorphism1;
 
 public class FoodStuff {
 	void eat() {

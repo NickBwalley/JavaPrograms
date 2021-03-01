@@ -1,4 +1,4 @@
-package programs;
+package polymorphism2;
 
 public class Hyena extends Animals {
 	public void speed() {
