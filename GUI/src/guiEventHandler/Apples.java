@@ -1,4 +1,4 @@
-package gui2;
+package guiEventHandler;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JTextField;
@@ -14,6 +14,7 @@ public class Apples extends JFrame {
 	private JLabel label3;
 	private JTextField textField1;
 	private JTextField textField2;
+	private JTextField uneditable;
 	private JPasswordField password;
 	
 	//constructor
@@ -32,17 +33,23 @@ public class Apples extends JFrame {
 		
 		label3 = new JLabel("Enter New Password: ");
 		password = new JPasswordField("",15);
+		
+		//uneditable textfield
+		uneditable = new JTextField("I Agree on the Terms and Conditions", 30);
+		uneditable.setEditable(false);
 		add(label3);
 		add(password);
+		add(uneditable);
 		
-		events handler = new events();//implementing the action listeners
+		
+		theHandler handler = new theHandler();//implementing the action listeners
 		textField1.addActionListener(handler);
 		textField2.addActionListener(handler);
 		password.addActionListener(handler);
 	}
 	
 	//creating a class to implement the action listener inside our constructor 
-	public class events implements ActionListener{
+	private class theHandler implements ActionListener{
 		String nicky = "";
 		public void actionPerformed(ActionEvent event) {
 			

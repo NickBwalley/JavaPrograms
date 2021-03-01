@@ -1,4 +1,4 @@
-package jButton;
+package guiJButton;
 import javax.swing.JFrame;
 public class Main {
 

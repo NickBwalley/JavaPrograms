@@ -1,4 +1,4 @@
-package gui2;
+package guiEventHandler;
 import javax.swing.JFrame;
 public class Main {
 

@@ -1,4 +1,4 @@
-package jCheckbox;
+package guiJCheckBox;
 import javax.swing.JFrame;
 public class Main {
 
