@@ -14,10 +14,13 @@ public class Apples extends JFrame {
 	private JLabel label3;
 	private JTextField textField1;
 	private JTextField textField2;
-	private JTextField uneditable;
+	private JTextField textField3;
 	private JPasswordField password;
 	
 	//constructor
+	/**
+	 * 
+	 */
 	public Apples() {
 		super("Nicky's Restaurant System.");
 		setLayout(new FlowLayout());
@@ -34,12 +37,12 @@ public class Apples extends JFrame {
 		label3 = new JLabel("Enter New Password: ");
 		password = new JPasswordField("",15);
 		
-		//uneditable textfield
-		uneditable = new JTextField("I Agree on the Terms and Conditions", 30);
-		uneditable.setEditable(false);
+		// un-editable text field
+		textField3 = new JTextField("I Agree on the Terms and Conditions", 30);
+		textField3.setEditable(false);
 		add(label3);
 		add(password);
-		add(uneditable);
+		add(textField3);
 		
 		
 		theHandler handler = new theHandler();//implementing the action listeners
