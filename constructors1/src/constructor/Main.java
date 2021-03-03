@@ -1,6 +1,6 @@
-package constructors1;
+package constructor;
 
-public class constructor {
+public class Main {
 
 	public static void main(String[] args) {
 		
