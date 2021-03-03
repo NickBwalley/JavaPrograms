@@ -19,4 +19,5 @@ public class Main {
  * 2. When you have a method inside a class the whole class needs to be labeled abstract
  * 3. Abstract class does not have a body
  * 4. Each time you have an abstract class in the super class then the subclasses need to override this abstract class
+ * NOTE: You can have an abstract class but still have no abstract method 
  * */
