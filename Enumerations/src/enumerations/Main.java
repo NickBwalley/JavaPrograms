@@ -1,6 +1,6 @@
 package enumerations;
 
-public class Enum {
+public class Main {
 
 	public static void main(String[] args) {
 		for(apples wrestlers: apples.values())

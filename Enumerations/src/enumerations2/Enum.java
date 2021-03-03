@@ -1,4 +1,4 @@
-package enumeratons;
+package enumerations2;
 
 import java.util.EnumSet;
 public class Enum {

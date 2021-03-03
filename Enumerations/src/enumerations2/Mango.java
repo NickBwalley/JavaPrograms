@@ -1,9 +1,9 @@
-package enumeratons;
+package enumerations2;
 
 public enum Mango {
 	BobbyLashley("Spear", "278LBS"),
 	BillGoldBerg("JackHammer", "282LBS"),
-	CharlotteFlair("Figure4", "168LBS"),
+	CharlotteFlair("Figure8", "168LBS"),
 	FinnBalor("1960", "218LBS"),
 	AleisterBlack("Black-Mass", "270LBS"),
 	ShinsukeNakamura("Kinshasa", "240"),
