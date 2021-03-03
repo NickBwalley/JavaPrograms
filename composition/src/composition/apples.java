@@ -4,6 +4,7 @@ public class apples {
 	private String name;
 	private guavas birthday;
 	
+	//constructor
 	public apples(String myName, guavas myBirthday) {
 		name = myName;
 		birthday = myBirthday;
