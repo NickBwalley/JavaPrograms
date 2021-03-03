@@ -8,6 +8,13 @@ public class Main {
 		DogList doglist = new DogList();
 		doglist.add(d1);
 		doglist.add(d2);
+		AnimalList ALO  = new AnimalList();
+		Dog d3 = new Dog();
+		Fish f1 = new Fish();
+		ALO.add(d3);
+		ALO.add(f1);
+		
+		
 
 	}
 
