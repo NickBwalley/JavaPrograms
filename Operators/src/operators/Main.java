@@ -4,8 +4,12 @@ public class Main {
 
 	public static void main(String[] args) {
 		//unaryOperator();
-		leftShiftOperator();
-		rightShiftOperator();
+		//leftShiftOperator();
+		//rightShiftOperator();
+		
+		//new Main().logicalAndBitwiseAnd();
+		//new Main().logicalOrBitwiseOr();
+		new Main().ternaryOperator();
 
 	}
 	
@@ -68,6 +72,46 @@ public class Main {
 	    //In this case, the MSB is 0 and the LSB is 1..
 	}
 	
+//	The logical && operator doesn't check second condition if first condition is false. 
+//	It checks second condition only if first one is true.
+//	The bitwise & operator always checks both conditions whether first condition is true or false.
+	public void logicalAndBitwiseAnd() {
+		int a = 10;
+		int b = 5;
+		int c = 20;
+		
+		System.out.println(a<b&&a<c);//false && true = false  
+		System.out.println(a<b&a<c);//false & true = false  
+		System.out.println(a<b&&a++<c);//false && true = false  
+		System.out.println(a);//10 because second condition is not checked  
+		System.out.println(a<b&a++<c);//false && true = false  
+		System.out.println(a);//11 because second condition is checked  
+	}
+	
+//	The logical || operator doesn't check second condition if first condition is true. 
+//	It checks second condition only if first one is false.
+//	The bitwise | operator always checks both conditions whether first condition is true or false.
+	public void logicalOrBitwiseOr() {
+		int a=10;  
+		int b=5;  
+		int c=20;  
+		System.out.println(a>b||a<c);//true || true = true  
+		System.out.println(a>b|a<c);//true | true = true  
+		//|| vs |  
+		System.out.println(a>b||a++<c);//true || true = true  
+		System.out.println(a);//10 because second condition is not checked  
+		System.out.println(a>b|a++<c);//true | true = true  
+		System.out.println(a);//11 because second condition is checked  	
+	}
+	
+//	Java Ternary operator is used as one liner replacement for if-then-else statement and used a lot in Java programming. 
+//	it is the only conditional operator which takes three operands.
+	public void ternaryOperator() {
+		int a = 10;
+		int b = 20;
+		int min = (a<b)? a : b;
+		System.out.println("Minimum Value: " + min);
+	}
 
 }
 
