@@ -6,6 +6,15 @@ public class Main {
 		Variables variables = new Variables();
 		variables.method();
 		System.out.println(Variables.m);
+		variables.addTwoNumbers();
+		System.out.println("--------------");
+		variables.widening();
+		System.out.println("--------------");
+		variables.narrowingTypeCasting();
+		System.out.println("--------------");
+		variables.overflow();
+		System.out.println("--------------");
+		variables.addingLowerType();
 	}
 	
 //	A variable is a container which holds the value while the Java program is executed. 
