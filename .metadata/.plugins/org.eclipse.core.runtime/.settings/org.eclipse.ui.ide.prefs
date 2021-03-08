@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 PROBLEMS_FILTERS_MIGRATE=true
 eclipse.preferences.version=1
 platformState=1606289562865
+=======
+EXIT_PROMPT_ON_CLOSE_LAST_WINDOW=false
+PROBLEMS_FILTERS_MIGRATE=true
+eclipse.preferences.version=1
+platformState=1599726981497
+>>>>>>> JavaPrograms4/master
 quickStart=false
 tipsAndTricks=true
