@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 INDEX VERSION 1.131+/home/nickbwalley/Eclipse/.metadata/.plugins/org.eclipse.jdt.core
 2564791835.index
 1212848884.index
@@ -92,3 +93,13 @@ INDEX VERSION 1.131+/home/nickbwalley/Eclipse/.metadata/.plugins/org.eclipse.jdt
 2744878784.index
 1116641895.index
 425228403.index
+=======
+INDEX VERSION 1.131+C:\Users\SALLY KOSKEI\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core
+4101574149.index
+2772189863.index
+1970890131.index
+1546338019.index
+224243609.index
+1088511091.index
+53656004.index
+>>>>>>> JavaPrograms2/master

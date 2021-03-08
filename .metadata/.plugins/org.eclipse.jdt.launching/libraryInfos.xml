@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <libraryInfos>
+<<<<<<< HEAD
 <libraryInfo home="/usr/lib/jvm/java-8-openjdk-amd64/jre" version="1.8.0_252">
 <bootpath>
 <entry path="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar"/>
@@ -38,4 +39,8 @@
 <entry path="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
 </endorsedDirs>
 </libraryInfo>
+=======
+    <libraryInfo home="C:\Users\SALLY KOSKEI\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_14.0.2.v20200815-0932" version="14.0.2"/>
+    <libraryInfo home="C:\Users\SALLY KOSKEI\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_14.0.2.v20200815-0932\jre" version="14.0.2"/>
+>>>>>>> JavaPrograms2/master
 </libraryInfos>
