@@ -1,9 +1,0 @@
-1. Write java code on any text editor of your choice 
-2. save as filename.java
-3. go to unix command locate the folder and file 
-
-4. command "javac filaname.java"
-*This converts the filename.java to a class in order for the compiler to run the file 
-*therefore you will get a new file called filename.class
-
-5. command "java filename" to run the file 
