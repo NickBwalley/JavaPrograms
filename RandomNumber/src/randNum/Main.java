@@ -1,8 +1,11 @@
-package random_Numbers1;
+package randNum;
 import java.util.Random;
-public class randomNumbers {
+public class Main {
 
 	public static void main(String[] args) {
+		int rand_number = (int) (Math.random()*101);
+		System.out.println(rand_number);
+		System.out.println();
 		generateRandNum();
 	}
 	
