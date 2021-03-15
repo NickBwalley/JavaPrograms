@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<entry loc="/usr/lib/jvm/java-8-openjdk-amd64" stamp="1599478089000"/>
-=======
-    <entry loc="C:\Users\SALLY KOSKEI\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_14.0.2.v20200815-0932" stamp="1606037032071"/>
-    <entry loc="C:\Users\SALLY KOSKEI\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_14.0.2.v20200815-0932\jre" stamp="1606037032065"/>
->>>>>>> JavaPrograms2/master
-=======
-<entry loc="C:\Program Files\Java\jre1.8.0_261" stamp="1599726557032"/>
->>>>>>> JavaPrograms4/master
+    <entry loc="/home/nickbwalley/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_15.0.2.v20210201-0955" stamp="1615792928617"/>
+    <entry loc="/home/nickbwalley/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_15.0.2.v20210201-0955/jre" stamp="1615792928617"/>
 </dirs>
