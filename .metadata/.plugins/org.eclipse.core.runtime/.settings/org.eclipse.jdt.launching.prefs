@@ -1,5 +1,2 @@
-=\=\=\=\=\=\=
-<<<<<<<=HEAD
->>>>>>>=JavaPrograms4/master
 eclipse.preferences.version=1
-org.eclipse.jdt.launching.PREF_VM_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<vmSettings defaultVM\="57,org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType13,1615794191216" defaultVMConnector\="">\n    <vmType id\="org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType">\n        <vm id\="1600165469031" name\="jre1.8.0_261" path\="/home/nickbwalley/C\:\\Program Files\\Java\\jre1.8.0_261"/>\n        <vm id\="1615794191216" javadocURL\="https\://docs.oracle.com/en/java/javase/15/docs/api/" name\="jre" path\="/home/nickbwalley/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_15.0.2.v20210201-0955/jre"/>\n    </vmType>\n</vmSettings>\n
+org.eclipse.jdt.launching.PREF_VM_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<vmSettings defaultVM\="57,org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType13,1615794873206">\n    <vmType id\="org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType">\n        <vm id\="1615794873206" name\="jre" path\="/home/nickbwalley/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_15.0.2.v20210201-0955/jre"/>\n    </vmType>\n</vmSettings>\n
