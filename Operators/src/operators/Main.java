@@ -1,16 +1,16 @@
 package operators;
 
-public class MainClass {
+public class Main {
 
 	public static void main(String[] args) {
 	//unaryOperator();	
 	//arithmeticOperator();
 	//leftShiftOperator();
-	//rightShiftOperator();
-	//new MainClass().logicalAndBitwiseAnd();
-	//new MainClass().logicalOrBitwiseOr();
-	//new MainClass().ternaryOperator();
-	new MainClass().assignmentOperator();
+	rightShiftOperator();
+	//new Main().logicalAndBitwiseAnd();
+	//new Main().logicalOrBitwiseOr();
+	//new Main().ternaryOperator();
+	//new Main().assignmentOperator();
 	
 	}
 	
