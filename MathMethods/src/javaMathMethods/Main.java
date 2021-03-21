@@ -13,7 +13,14 @@ public class Main {
 		System.out.println(Math.pow(5, 3));// a number raised to which power
 		System.out.println(Math.sqrt(81));//takes a number and determines the square-Root
 		System.out.println();
-		new Main().getMax();
+		// Math.random() returns a random number between 0.0 (inclusive), and 1.0 (exclusive):
+		System.out.println(Math.random());
+		// To get more control over the random number, e.g. you only want a random 
+			//number between 0 and 100, you can use the following formula:
+		int randomNumber = (int)(Math.random() * 101);
+		System.out.println(randomNumber);
+		System.out.println();
+		//new Main().getMax();
 	}
 	
 	public void getMax() {
