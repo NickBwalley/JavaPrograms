@@ -1,12 +1,12 @@
-package switch_Statement;
+package switchStatement;
 import java.util.Scanner;
-public class switchStatement {
+public class Main {
 
 	public static void main(String[] args) {
-		Scanner nicky = new Scanner(System.in);
+		Scanner input = new Scanner(System.in);
 		int age;
 		System.out.println("What is your Age: ");
-		age = nicky.nextInt();
+		age = input.nextInt();
 		
 		switch(age) {
 		case 18:
@@ -25,7 +25,7 @@ public class switchStatement {
 			System.out.println("You are either too young or too old to play this game!");
 				
 		}
-		nicky.close();
+		input.close();
 	}
 
 }
