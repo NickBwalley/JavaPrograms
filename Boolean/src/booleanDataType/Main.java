@@ -1,4 +1,4 @@
-package booleanDatatype;
+package booleanDataType;
 
 public class Main {
 
