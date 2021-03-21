@@ -1,8 +1,8 @@
-package javaMath_Methods;
+package javaMathMethods;
 
 import java.util.Scanner;
 
-public class mathMethods {
+public class Main {
 
 	public static void main(String[] args) {
 		System.out.println(Math.abs(-23.4));//absolute value (how much from 0 is the value )
@@ -12,9 +12,11 @@ public class mathMethods {
 		System.out.println(Math.min(19.49, 14));//compares two values and returns the minimum of the two values
 		System.out.println(Math.pow(5, 3));// a number raised to which power
 		System.out.println(Math.sqrt(81));//takes a number and determines the square-Root
+		System.out.println();
+		new Main().getMax();
 	}
 	
-	public static void getMax() {
+	public void getMax() {
 		Scanner input = new Scanner(System.in);
 		int num1, num2, result;
 		System.out.println("Enter First Number: ");
