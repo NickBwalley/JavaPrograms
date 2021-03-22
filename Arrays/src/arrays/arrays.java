@@ -10,12 +10,19 @@ public class arrays {
 		nicky[3] = 69;
 		nicky[4] = 99;
 		
-		System.out.println(nicky[0]);
+		// print out one element at an index in an array
+		System.out.println(nicky[0] + "\n");
+		// printing out all the elements of the nicky[] array
+		for(int i : nicky) {
+			System.out.println(i);
+		}
 		
+		System.out.println();
 		//second way of how to initialize and print arrays 
 		
 		int rikki[] = {46,30,21,41,39}; // Array initializer 
 		System.out.println(rikki[2]);
+		System.out.println(rikki.length); // printing out the number of values inside the rikki[] array	
 		
 		
 		
