@@ -1,4 +1,4 @@
-package apples;
+package methodsWithParameters2;
 
 public class Tuna {
 	public void yourGrade(String grade) {

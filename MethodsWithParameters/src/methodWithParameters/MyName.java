@@ -1,6 +1,6 @@
-package methods_with_Param;
+package methodWithParameters;
 
-public class myName {
+public class MyName {
 	public void setName(String name) {
 		System.out.println("Hello " + name);
 	}

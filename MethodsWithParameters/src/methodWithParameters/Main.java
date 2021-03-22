@@ -1,10 +1,10 @@
-package methods_with_Param;
+package methodWithParameters;
 import java.util.Scanner;
-public class customFunction {
+public class Main {
 
 	public static void main(String[] args) {
 		Scanner nicky = new Scanner(System.in);
-		myName nickyObj = new myName();
+		MyName nickyObj = new MyName();
 		String name;
 		System.out.println("What is your Name: ");
 		name = nicky.nextLine();
