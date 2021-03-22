@@ -9,6 +9,7 @@ public class Factorial {
 		n = nicky.nextInt();
 		findFactorial(n);
 		System.out.println("Factorial of "+n +" is "+findFactorial(n));
+		nicky.close();
 	}
 	
 	//method to calculate factorial using recursion
