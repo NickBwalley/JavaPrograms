@@ -6,6 +6,7 @@ public class Main {
 
 		// In the example below, we overload the plusMethod method to work for both int and double:
 
+		// Note: Multiple methods can have the same name as long as the number and/or type of parameters are different.
 	
 		static int plusMethod(int x, int y) {
 		  return x + y;
