@@ -2,7 +2,7 @@ package finallyBlock;
 // The finally block always execute when the try block exists
 // This ensures that the finally block executes even if an unexpected  exception occurs.
 	
-public class Main {
+public class MainClass {
 	
 	public static int retInt() {
 		int a = 100;
