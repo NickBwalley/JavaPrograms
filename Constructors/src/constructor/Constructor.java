@@ -1,9 +1,9 @@
 package constructor;
 
-public class apples {
+public class Constructor {
 	private String girlfriend;
 	
-	public apples(String name) {
+	public Constructor(String name) {
 		girlfriend = name;
 	}
 		
