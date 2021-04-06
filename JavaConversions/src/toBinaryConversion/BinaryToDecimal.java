@@ -1,4 +1,4 @@
-package binaryConversions;
+package toBinaryConversion;
 import java.util.Scanner;
 public class BinaryToDecimal {
 	
