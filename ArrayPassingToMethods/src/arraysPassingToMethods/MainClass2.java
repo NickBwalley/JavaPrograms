@@ -3,7 +3,7 @@ package arraysPassingToMethods;
 import java.util.Scanner;
 
 // program to allow the user to input numbers in an array and the program displays the output incremented by one
-public class Main2 {
+public class MainClass2 {
 	
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

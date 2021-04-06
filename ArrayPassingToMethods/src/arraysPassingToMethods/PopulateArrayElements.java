@@ -1,7 +1,7 @@
 package arraysPassingToMethods;
 import java.util.Scanner;
 
-public class Prickler {
+public class PopulateArrayElements {
 	
 	private static int counter = 1;
 	Scanner input = new Scanner(System.in);

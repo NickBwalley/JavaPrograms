@@ -2,7 +2,7 @@ package arraysPassingToMethods;
 
 import java.util.Scanner;
 
-public class Main {
+public class MainClass {
 
 	public static void main(String[] args) {
 		Scanner nicky = new Scanner(System.in);
@@ -24,12 +24,15 @@ public class Main {
 		for(int n: rikki) {
 			System.out.println(n);
 		}
-		nicky.close();
 		
-//		Prickler bwalley  = new Prickler();
-//		bwalley.passArray();
+		// method invoked to populate array elements from the PopulateArrayElements Class
+		PopulateArrayElements nick  = new PopulateArrayElements();
+		nick.passArray();
+		
+		
+		nicky.close();
 	}
-	
+		// method to add one to each element in the array
 		public static void change(int x[]) {//passing an array into a method
 			for(int z=0; z<x.length; z++)
 				x[z]+=1; // adds one to each element inside the array
