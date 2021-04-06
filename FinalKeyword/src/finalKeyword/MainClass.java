@@ -1,6 +1,6 @@
 package finalKeyword;
 
-public class Main {
+public class MainClass {
 
 	public static void main(String[] args) {
 		NickFury nicky = new NickFury(10);
