@@ -2,7 +2,7 @@ package arrayList;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Main {
+public class MainClass {
 
 	public static void main(String[] args) {
 		ArrayList<String> cars = new ArrayList<String>();
@@ -47,6 +47,7 @@ public class Main {
 		}
 	}
 	
+	// sortingArrayLists using an arrayList
 	public static void sortingArrayLists() {
 		ArrayList<String> girlFriend = new ArrayList<String>();
 		girlFriend.add("Janice");
