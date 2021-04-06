@@ -1,6 +1,6 @@
 package enumerations;
 
-public enum apples {
+public enum Wrestlers1 {
 	BraunStrowman("MonsterAmongMen", "385LBS"),
 	BrockLesnar("TheBeast", "285LBS"),
 	SethRollins("MondayNightMessiah", "245LBS");
@@ -8,7 +8,7 @@ public enum apples {
 	private final String ringName;
 	private final String weight;
 	
-	apples(String theNames, String theWeights){
+	Wrestlers1(String theNames, String theWeights){
 		ringName = theNames;
 		weight = theWeights;
 	}

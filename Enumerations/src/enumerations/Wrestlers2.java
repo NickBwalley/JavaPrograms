@@ -1,6 +1,6 @@
 package enumerations;
 
-public enum NickFury {
+public enum Wrestlers2 {
 	DeontayWilder("The Bronze Bomber", "112kgs"),
 	TysonFury("The Gypsy King", "130kgs"),
 	MikeTyson("The Destroyer", "110kgs");
@@ -8,7 +8,7 @@ public enum NickFury {
 	private final String nickName;
 	private final String weights;
 	
-	NickFury(String n, String w){
+	Wrestlers2(String n, String w){
 		nickName = n;
 		weights = w;
 	}

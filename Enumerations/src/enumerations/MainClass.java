@@ -1,12 +1,12 @@
 package enumerations;
 
-public class Main {
+public class MainClass {
 
 	public static void main(String[] args) {
-		for(apples wrestlers: apples.values())
+		for(Wrestlers1 wrestlers: Wrestlers1.values())
 			 System.out.printf("%s\t%s\t%s\n", wrestlers, wrestlers.getNames(), wrestlers.getWeights() );
 		System.out.println("----------------------------------");
-		for(NickFury bronzeBomber: NickFury.values())
+		for(Wrestlers2 bronzeBomber: Wrestlers2.values())
 			System.out.printf("%s  %s  %s\n", bronzeBomber, bronzeBomber.getNickName(), bronzeBomber.getWeights());
 	}
 
