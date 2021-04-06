@@ -1,6 +1,6 @@
 package staticKeyword;
 
-public class Static {
+public class MainClass {
 	//what does static keyword do in a class
 	public static void main(String[] args) {
 		//static members belong to the class instead of  a specific instance.

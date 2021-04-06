@@ -1,6 +1,6 @@
 package accessModifiers;
 
-public class Main {
+public class MainClass {
 
 	public static void main(String[] args) {
 		/*Student.name = "Nick";	 // defined statically
