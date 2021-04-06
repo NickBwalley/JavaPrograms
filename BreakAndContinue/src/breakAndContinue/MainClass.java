@@ -33,6 +33,9 @@ public class MainClass {
 		System.out.println();
 		
 		// continue statement in while loop
+		// NOTE: in the continue statement the increment comes after the while loop so that when the code 
+		// is executed, then it does not terminate and continues instead as opposed to the break statement where
+		// the increment came before the while loop
 		int j = 0;
 		while(j<10) {
 			if(j==4) {
