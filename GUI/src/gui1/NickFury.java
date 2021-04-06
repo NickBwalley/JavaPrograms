@@ -1,4 +1,4 @@
-package gui3;
+package gui1;
 
 import java.awt.FlowLayout;
 import javax.swing.JFrame;

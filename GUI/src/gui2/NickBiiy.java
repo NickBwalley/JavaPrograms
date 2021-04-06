@@ -1,4 +1,4 @@
-package gui_4;
+package gui2;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JTextField;

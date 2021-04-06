@@ -1,6 +1,6 @@
-package gui_4;
+package gui2;
 import javax.swing.JFrame;
-public class Main {
+public class MainClass {
 
 	public static void main(String[] args) {
 		NickBiiy nicky = new NickBiiy();
