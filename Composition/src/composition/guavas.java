@@ -1,6 +1,7 @@
 package composition;
 
 public class guavas {
+	
 	private int day;
 	private int month;
 	private int year;

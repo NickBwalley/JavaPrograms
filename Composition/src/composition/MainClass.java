@@ -1,6 +1,7 @@
 package composition;
+
 // composition concepts in java
-public class Main {
+public class MainClass {
 
 	public static void main(String[] args) {
 		guavas guavasObject = new guavas(12,7,2020);
