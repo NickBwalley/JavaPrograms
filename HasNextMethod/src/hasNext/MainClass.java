@@ -1,6 +1,6 @@
 package hasNext;
 import java.util.Scanner;
-public class Main {
+public class MainClass {
 
 	public static void main(String[] args) {
 		//hasNext();
