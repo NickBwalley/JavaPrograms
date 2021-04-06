@@ -4,11 +4,11 @@ public class MainClass {
 
 	public static void main(String[] args) {
 		int nicky[] = new int[5]; // Array Creation but not initialized 
-		nicky[0] = 79;
-		nicky[1] = 49;
-		nicky[2] = 59;
-		nicky[3] = 69;
-		nicky[4] = 99;
+		nicky[0] = 10;
+		nicky[1] = 20;
+		nicky[2] = 30;
+		nicky[3] = 40;
+		nicky[4] = 50;
 		
 		// print out one element at an index in an array
 		System.out.println(nicky[0] + "\n");
