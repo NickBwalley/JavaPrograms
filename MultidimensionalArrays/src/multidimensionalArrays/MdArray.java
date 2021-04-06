@@ -1,4 +1,4 @@
-package multidimensional;
+package multidimensionalArrays;
 
 public class MdArray {
 
