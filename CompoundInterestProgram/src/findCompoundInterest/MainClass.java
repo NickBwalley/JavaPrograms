@@ -1,6 +1,6 @@
-package compound_Interest;
+package findCompoundInterest;
 import java.util.Scanner;
-public class compoundInterest {
+public class MainClass {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
