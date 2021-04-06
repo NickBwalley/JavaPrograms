@@ -3,13 +3,15 @@ import java.util.Scanner;
 public class BubbleSort {
 
 	public static void main(String[] args) {
-		int [] sampleArray = {91,99,71,48,93,94,88,59,41,19,65};
+		// unoredered array 
+		int [] sampleArray = {10,50,20,90,5,15,19,18,17,16};
 		//array to print out the sorted array
 		int [] sortedArray = bubbleSort(sampleArray);
 		//using a for loop to print out the values inside the array 
 		for (int i = 0; i < sortedArray.length; i++) {
 			System.out.printf("%s ", sortedArray[i]);
 		}
+		System.out.println();
 		System.out.println("----------------------------------------");
 		bubbleSortAlgorithm();
 	}
