@@ -1,6 +1,6 @@
 package inheritance;
 
-public class Main {
+public class MainClass {
 
 	public static void main(String[] args) {
 		Rectangle rec = new Rectangle();
