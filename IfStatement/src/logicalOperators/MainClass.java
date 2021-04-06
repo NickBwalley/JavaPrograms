@@ -1,7 +1,7 @@
 package logicalOperators;
 //concept you need to understand is how to use the logical or and and logical and
 import java.util.Scanner;
-public class Main {
+public class MainClass {
 
 	public static void main(String[] args) {
 		//logicalAnd();
