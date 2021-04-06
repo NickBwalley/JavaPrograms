@@ -9,18 +9,18 @@ public class MainClass {
 	}
 	
 	public static void logicalAnd() {
-		Scanner nicky = new Scanner(System.in);
+		Scanner input = new Scanner(System.in);
 		int age, age1;		
 		System.out.println("Enter Your Boys age: ");
-		age = nicky.nextInt();
+		age = input.nextInt();
 		System.out.println("Enter Your Girls age: ");
-		age1 = nicky.nextInt();
+		age1 = input.nextInt();
 		
 		if(age >= 18 && age1 >= 18)
 			System.out.println("Welcome to this Club! ");
 		else
 			System.out.println("Still Kids go back to School!");
-		nicky.close();
+		input.close();
 	}
 	public static void logicalOr() {
 		Scanner nicky = new Scanner(System.in);
