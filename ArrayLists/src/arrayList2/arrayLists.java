@@ -1,4 +1,4 @@
-package creatingUserProfile;
+package arrayList2;
 import java.util.Scanner;
 import java.util.ArrayList;
 public class arrayLists {
