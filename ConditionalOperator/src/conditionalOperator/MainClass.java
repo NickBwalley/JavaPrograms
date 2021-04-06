@@ -1,6 +1,6 @@
-package conditional_Operator;
+package conditionalOperator;
 import java.util.Scanner;
-public class conditionalOperator {
+public class MainClass {
 	public static void main(String[] args) {
 		System.out.println("Enter your age: ");
 		Scanner nicky = new Scanner(System.in);
