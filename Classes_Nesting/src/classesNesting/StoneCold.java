@@ -1,4 +1,4 @@
-package classes_nesting;
+package classesNesting;
 
 public class StoneCold {
     public void stunner(){
