@@ -1,9 +1,9 @@
-package arrays;
+package sumArrayElements;
 
 public class Main {
 
 	public static void main(String[] args) {
-		NickFury cleo = new NickFury();
+		SumArrayElements cleo = new SumArrayElements();
 		cleo.addNumber();
 		cleo.returnResult();
 	}

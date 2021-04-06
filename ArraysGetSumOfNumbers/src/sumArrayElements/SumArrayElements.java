@@ -1,6 +1,6 @@
-package arrays;
+package sumArrayElements;
 import java.util.Scanner;
-public class NickFury {
+public class SumArrayElements {
 	Scanner nicky = new Scanner(System.in);
 	//creating variables 
 	int total = 0;
