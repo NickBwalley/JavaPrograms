@@ -1,6 +1,6 @@
 package toString2;
 
-public class Main {
+public class MainClass {
 
 	public static void main(String[] args) {
 		// creating an integer of value 10
