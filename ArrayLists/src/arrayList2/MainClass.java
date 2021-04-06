@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.ArrayList;
 import arrayList3.NickFury;
 
-public class Main {
+public class MainClass {
 
 	public static void main(String[] args) {
 		//classArrayList();
