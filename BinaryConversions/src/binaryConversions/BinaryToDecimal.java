@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class BinaryToDecimal {
 	
 	public void binaryToDecimal() {
-		Scanner nicky = new Scanner(System.in);
+		Scanner input = new Scanner(System.in);
 		System.out.println("Enter Binary Number: ");
-		String binaryString = nicky.nextLine();
-		System.out.println("Decimal Equivalent: " + Integer.parseInt(binaryString,2));
-		
+		String toBinary = input.nextLine();
+		System.out.println("Decimal Equivalent: " + Integer.parseInt(toBinary,2));
+		input.close();
 	}
 }
