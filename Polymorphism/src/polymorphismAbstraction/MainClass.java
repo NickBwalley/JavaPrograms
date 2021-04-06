@@ -1,6 +1,6 @@
 package polymorphismAbstraction;
 
-public class Main {
+public class MainClass {
 
 	public static void main(String[] args) {
 		//Food fo = new Food();

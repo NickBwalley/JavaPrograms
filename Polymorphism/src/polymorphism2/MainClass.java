@@ -1,6 +1,6 @@
 package polymorphism2;
 
-public class Main {
+public class MainClass {
 
 	public static void main(String[] args) {
 		Animals[] theAnimal = new Animals[2];
