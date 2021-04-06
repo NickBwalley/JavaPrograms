@@ -5,8 +5,9 @@ public class Main {
 	public static void main(String[] args) {
 		Variables variables = new Variables();
 		variables.method();
-		System.out.println(Variables.m);
+		System.out.println(Variables.m); // variable accessed statically
 		variables.addTwoNumbers();
+		
 		System.out.println("--------------");
 		variables.widening();
 		System.out.println("--------------");
