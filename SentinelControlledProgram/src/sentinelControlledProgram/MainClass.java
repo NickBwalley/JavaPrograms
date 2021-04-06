@@ -1,6 +1,6 @@
-package sentinel_ControlledProgram;
+package sentinelControlledProgram;
 import java.util.Scanner;
-public class sentinel {
+public class MainClass {
 
 	public static void main(String[] args) {
 		Scanner nicky  = new Scanner(System.in);
