@@ -1,5 +1,6 @@
+package arraysSystemInput;
 import java.util.Scanner;
-public class ArraysSystemIn {
+public class MainClass {
 
 	public static void main(String[] args) {
 		Scanner nicky = new Scanner(System.in);
