@@ -1,4 +1,4 @@
-package abstractClass;
+package abstractClassesAndMethods;
 
 public class Bank_A extends MainBank {
 	int getInterestRate() {
