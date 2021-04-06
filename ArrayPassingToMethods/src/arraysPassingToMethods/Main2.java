@@ -1,4 +1,4 @@
-package arraysPassing;
+package arraysPassingToMethods;
 
 import java.util.Scanner;
 
