@@ -1,6 +1,6 @@
 package controlStatement;
 import java.util.Scanner;
-public class Control_Statement {
+public class MainClass {
 
 	public static void main(String[] args) {
 		//ifStatement();
