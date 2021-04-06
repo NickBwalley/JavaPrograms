@@ -1,6 +1,6 @@
 package factorial;
 import java.util.Scanner;
-public class Factorial {
+public class MainClass {
 
 	public static void main(String[] args) {
 		Scanner nicky = new Scanner(System.in);
