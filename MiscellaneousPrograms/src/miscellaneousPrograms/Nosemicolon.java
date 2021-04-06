@@ -1,4 +1,4 @@
-package trickyPrograms;
+package miscellaneousPrograms;
 
 public class Nosemicolon {
 	
