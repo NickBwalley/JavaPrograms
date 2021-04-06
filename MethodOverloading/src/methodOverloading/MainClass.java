@@ -17,8 +17,8 @@ public class MainClass {
 		}
 
 		public static void main(String[] args) {
-		  int myNum1 = plusMethod(8, 5);
-		  double myNum2 = plusMethod(8.5, 5.5);
+		  int myNum1 = plusMethod(8, 5); // invokes the int method
+		  double myNum2 = plusMethod(8.5, 5.5); // invokes the double method
 		  System.out.println("int: " + myNum1);
 		  System.out.println("double: " + myNum2);
 		}
