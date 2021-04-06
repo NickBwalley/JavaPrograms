@@ -1,6 +1,6 @@
 package setterAndGetter;
 import java.util.Scanner;
-public class girlFriend {
+public class MainClass {
 
 	public static void main(String[] args) {
 		Scanner rikki = new Scanner(System.in);
