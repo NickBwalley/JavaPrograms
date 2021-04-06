@@ -1,6 +1,6 @@
 package vla;
 
-public class Main {
+public class MainClass {
 
 	public static void main(String[] args) {
 		//invoking this method 
