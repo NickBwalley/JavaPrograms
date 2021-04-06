@@ -1,6 +1,6 @@
 package vectors;
 import java.util.Vector;
-public class Main {
+public class MainClass {
 
 	public static void main(String[] args) {
 		//printVector();
