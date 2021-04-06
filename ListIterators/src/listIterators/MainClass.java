@@ -7,7 +7,7 @@ package listIterators;
  * */
 import java.util.*;
 
-public class Main {
+public class MainClass {
 
 	public static void main(String[] args) {
 		ArrayList<String> names = new ArrayList<String>();
