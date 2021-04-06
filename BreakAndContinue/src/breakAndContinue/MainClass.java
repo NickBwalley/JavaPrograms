@@ -21,6 +21,7 @@ public class MainClass {
 			  System.out.println(i);
 			}
 		System.out.println();
+		
 		// break statement in while loop
 		int i = 0;
 		while(i<10) {
@@ -30,6 +31,7 @@ public class MainClass {
 				break;
 		}
 		System.out.println();
+		
 		// continue statement in while loop
 		int j = 0;
 		while(j<10) {
