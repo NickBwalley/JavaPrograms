@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 	// The byte data type can store whole numbers from -128 to 127. This can be used instead 
-		//of int or other integer types to save memory when you are certain that the value will be within -128 and 127:
+		// of int or other integer types to save memory when you are certain that the value will be within -128 and 127:
 	// The short data type can store whole numbers from -32768 to 32767:
 	// The int data type can store whole numbers from -2147483648 to 2147483647. In general, 
 		//and in our tutorial, the int data type is the preferred data type when we create variables with a numeric value.
