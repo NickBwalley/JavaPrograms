@@ -1,9 +1,9 @@
 package bubbleSort;
 import java.util.Scanner;
-public class BubbleSort {
+public class MainClass {
 
 	public static void main(String[] args) {
-		// unoredered array 
+		// unordered array 
 		int [] sampleArray = {10,50,20,90,5,15,19,18,17,16};
 		//array to print out the sorted array
 		int [] sortedArray = bubbleSort(sampleArray);
