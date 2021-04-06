@@ -1,6 +1,6 @@
-package tableArray;
+package arrayTableRepresentation;
 
-public class arraysReprensentation {
+public class MainClass {
 
 	public static void main(String[] args) {
 		System.out.println("INDEX\tValue");
