@@ -1,6 +1,6 @@
 package enhancedForLoop;
 
-public class EnhancedForStatement {
+public class MainClass {
 
 	public static void main(String[] args) {
 		int nicky[] = {14,16,19,224,959,779,640};
