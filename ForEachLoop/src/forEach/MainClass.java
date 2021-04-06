@@ -26,7 +26,7 @@ public class MainClass {
 		}
 		
 		//printing Elements of the array(This is using an enhanced for loop in printing elements of the array)
-		System.out.println("The Elements of the Array are: ");
+		System.out.println("\nThe Elements of the Array are: ");
 		for(int z: array) {
 			System.out.println(z);
 		}
