@@ -2,7 +2,7 @@ package javaMathMethods;
 
 import java.util.Scanner;
 
-public class Main {
+public class MainClass {
 
 	public static void main(String[] args) {
 		System.out.println(Math.abs(-23.4));//absolute value (how much from 0 is the value )
