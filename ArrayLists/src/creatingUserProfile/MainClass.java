@@ -1,4 +1,4 @@
-package arrayList2;
+package creatingUserProfile;
 
 import java.util.Scanner;
 import java.util.ArrayList;
@@ -15,7 +15,7 @@ public class MainClass {
 
 	//array list 
 	public static void classArrayList() {
-		Scanner nicky = new Scanner(System.in);
+		Scanner input = new Scanner(System.in);
 		ArrayList<String> DBIT = new ArrayList<String>();
 		String firstName;
 		String surName;
@@ -25,11 +25,11 @@ public class MainClass {
 		
 		while(quit == 'Y') {
 			System.out.println("Enter Your Sur-Name: ");
-			surName = nicky.next();
+			surName = input.next();
 			System.out.println("Enter Your firstName: ");
-			firstName = nicky.next();
+			firstName = input.next();
 			System.out.println("Enter Your Students-Number: ");
-			stdNo = nicky.next();
+			stdNo = input.next();
 			concat = "---------------------------------------";
 			
 			DBIT.add(surName);
@@ -39,7 +39,7 @@ public class MainClass {
 			
 			System.out.println("ANOTHER RECORD? Y/N");
 			String word;
-			word = nicky.next();
+			word = input.next();
 			word = word.toUpperCase();
 			quit = word.charAt(0);
 		}
