@@ -1,6 +1,6 @@
 package forLoop;
 import java.util.Scanner;
-public class Main {
+public class MainClass {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -15,17 +15,20 @@ public class Main {
 		for(int counter = start; counter <= stop; counter++) {
 			System.out.println(counter);
 		}
-		input.close();
 		
 		printEvenNumbers();
+		
+		
+		input.close();
+		
+		
 	}
 	
 	// method print even numbers in a range of values
 	public static void printEvenNumbers() {
 		Scanner input = new Scanner(System.in);
-		int i, j;
-		System.out.println("Enter Start Number: ");
-		i = input.nextInt();
+		int i = 0, j;
+		
 		System.out.println("Enter Last Number: ");
 		j = input.nextInt();
 		
