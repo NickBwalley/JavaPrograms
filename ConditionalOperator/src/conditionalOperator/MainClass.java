@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class MainClass {
 	public static void main(String[] args) {
 		System.out.println("Enter your age: ");
-		Scanner nicky = new Scanner(System.in);
+		Scanner input = new Scanner(System.in);
 		int age;
-		age = nicky.nextInt();
+		age = input.nextInt();
 		System.out.println(age > 50 ? "Your are old!" : "You are young");
-		nicky.close();
+		input.close();
 	}
 }
