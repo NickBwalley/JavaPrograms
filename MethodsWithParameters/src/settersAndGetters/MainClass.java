@@ -1,6 +1,6 @@
 package settersAndGetters;
 
-public class Main {
+public class MainClass {
 
 	public static void main(String[] args) {
 		ClassOne nicky = new ClassOne();
