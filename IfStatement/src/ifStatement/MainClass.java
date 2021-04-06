@@ -1,6 +1,6 @@
 package ifStatement;
 import java.util.Scanner;
-public class if_Statement {
+public class MainClass {
 
 	public static void main(String[] args) {
 		Scanner rikki = new Scanner(System.in);
