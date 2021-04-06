@@ -1,9 +1,9 @@
 package arrayLists;
 import java.util.ArrayList;
-public class Main {
+public class MainClass {
 
 	public static void main(String[] args) {
-		int  simple_array[] = new int[5];
+		
 		ArrayList<Integer> myList = new ArrayList<Integer>(5);
 		myList.add(40);
 		myList.add(33);
