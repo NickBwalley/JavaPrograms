@@ -1,6 +1,6 @@
 package forEach;
 import java.util.Scanner;
-public class Main {
+public class MainClass {
 	// There is also a "for-each" loop, which is used exclusively to loop through elements in an array:
 	/*
 	 * Syntax
