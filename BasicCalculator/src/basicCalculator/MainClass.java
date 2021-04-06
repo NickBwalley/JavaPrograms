@@ -1,18 +1,19 @@
 package basicCalculator;
 import java.util.Scanner;
-public class BasicCalculator {
+public class MainClass {
 
 	public static void main(String[] args) {
-		Scanner nicky = new Scanner(System.in);
+		Scanner input = new Scanner(System.in);
 		double fnum;
 		double snum;
 		double answer; 
 		System.out.println("Enter First Number: ");
-		fnum = nicky.nextDouble();
+		fnum = input.nextDouble();
 		System.out.println("Enter Second Number: ");
-		snum = nicky.nextDouble();
+		snum = input.nextDouble();
 		answer = fnum + snum;
 		System.out.println("Result : " + answer);
+		input.close();
 	}
 
 }
