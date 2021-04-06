@@ -1,6 +1,6 @@
 package javaInterfaces;
 
-public class Main {
+public class MainClass {
 
 	public static void main(String[] args) {
 		MainBank equity = new Bank_B();
