@@ -1,6 +1,6 @@
 package staticVariables2;
 
-public class Main {
+public class MainClass {
 
 	public static void main(String[] args) {
 		NickFury apples = new NickFury("Chelsea", "Green");
