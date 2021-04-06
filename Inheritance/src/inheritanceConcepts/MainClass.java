@@ -1,6 +1,6 @@
 package inheritanceConcepts;
 
-public class Main {
+public class MainClass {
 
 	public static void main(String[] args) {
 		Dog d = new Dog();
