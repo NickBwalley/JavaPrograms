@@ -1,7 +1,7 @@
 package eventHandlers;
 
 import javax.swing.JFrame;
-public class EventHandler {
+public class MainClass {
 
 	public static void main(String[] args) {
 		WorldCup2018 world = new WorldCup2018();
