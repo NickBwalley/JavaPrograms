@@ -1,6 +1,6 @@
-package nested_If_Statements;
+package nestedIfStatements;
 
-public class nested_If {
+public class MainClass {
 
 	public static void main(String[] args) {
 		int age;
