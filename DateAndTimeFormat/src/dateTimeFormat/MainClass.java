@@ -11,7 +11,7 @@ public class MainClass {
 		System.out.println(1+date.getMonth());	//prints the current month from zero so you need to add one to it 
 		System.out.println(date.getDate()); 
 		System.out.println(1900+date.getYear());		//need to add 1900 although its deprecated
-		
+		System.out.println(); // newline
 		SimpleDateFormat sdf = new SimpleDateFormat("E yyyy/MM/DD  HH-mm-ss");
 		//https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html
 		System.out.println(sdf.format(date));
