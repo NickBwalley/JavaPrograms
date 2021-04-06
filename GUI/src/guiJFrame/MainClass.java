@@ -1,12 +1,12 @@
-package guiJButton;
+package guiJFrame;
+
 import javax.swing.JFrame;
-public class Main {
+public class MainClass {
 
 	public static void main(String[] args) {
-		NickJButton nicky = new NickJButton();
+		NickJFrame nicky = new NickJFrame();
 		nicky.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		nicky.setSize(500,400);
-		nicky.setLocation(400,100);
+		nicky.setSize(500, 400);
 		nicky.setVisible(true);
 	}
 
