@@ -1,10 +1,11 @@
 package multidimensionalArrays;
 
-public class Main {
+public class MainClass {
 
 	public static void main(String[] args) {
 		int firstArr[][] = {{19, 29, 39}, {49, 59, 69}, {79, 89, 99}};
 		int secondArr[][] = {{17, 27, 37}, {47, 57, 67}, {77, 87, 97}};
+		
 		//invoking the method to call print out the array list
 		//System.out.println("The first Array carries: ");
 		//displayArray(firstArr);
