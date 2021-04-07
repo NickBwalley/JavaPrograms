@@ -16,5 +16,6 @@ public class GoldBerg{
         System.out.println("Gold-Berg finisher move is the Spear!..");
     }
 }
+
 }
 

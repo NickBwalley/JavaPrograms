@@ -1,6 +1,6 @@
 package classesNesting;
 
-public class MainClass {
+public class Main {
 
     public static void main(String[] args) {
         getNested1();//firstWay
