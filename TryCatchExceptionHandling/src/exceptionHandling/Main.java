@@ -1,7 +1,7 @@
 package exceptionHandling;
 //exception: is an event, which occurs during the execution of a program, that disrupts the normal flow of the 
 // programs instruction
-public class MainClass {
+public class Main {
 
 	public static void main(String[] args) {
 		int [] b = new int[2];
