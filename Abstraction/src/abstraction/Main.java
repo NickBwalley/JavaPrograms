@@ -1,6 +1,6 @@
 package abstraction;
 
-public class MainClass {
+public class Main {
 
 	public static void main(String[] args) {
 		Employee e = new Salary("Nick", "nick@gmail.com", 4,  500000);
