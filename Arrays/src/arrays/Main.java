@@ -1,6 +1,6 @@
 package arrays;
 
-public class MainClass {
+public class Main {
 
 	public static void main(String[] args) {
 		int nicky[] = new int[5]; // Array Creation but not initialized 
