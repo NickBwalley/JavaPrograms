@@ -1,7 +1,7 @@
 package dateTimeFormat;
 import java.util.Date;
 import java.text.*;
-public class MainClass {
+public class Main {
 
 	public static void main(String[] args) {
 		Date date = new Date();
