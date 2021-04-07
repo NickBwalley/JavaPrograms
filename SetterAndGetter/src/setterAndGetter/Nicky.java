@@ -1,6 +1,6 @@
 package setterAndGetter;
 
-public class nicky {
+public class Nicky {
 	private String girlfriend;
 	
 	public void setName(String name) {

@@ -3,13 +3,14 @@ import java.util.Scanner;
 public class MainClass {
 
 	public static void main(String[] args) {
-		Scanner rikki = new Scanner(System.in);
+		Scanner input = new Scanner(System.in);
 		String name;
 		System.out.println("Enter your Ex-Girlfriend's name: ");
-		name = rikki.nextLine();
-		nicky cleo = new nicky();
+		name = input.nextLine();
+		Nicky cleo = new Nicky();
 		cleo.setName(name);
 		cleo.saying();
+		input.close();
 	}
 
 }
