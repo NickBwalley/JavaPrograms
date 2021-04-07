@@ -7,11 +7,11 @@ package typeCasting;
 
 // Narrowing Casting (manually) - converting a larger type to a smaller size type
 // double -> float -> long -> int -> char -> short -> byte
-public class MainClass {
+public class Main {
 
 	public static void main(String[] args) {
 		//wideningCasting();
-		new MainClass().narrowingCasting();
+		new Main().narrowingCasting();
 	}
 	
 	// Widening casting is done automatically when passing a smaller size type to a larger size type:
