@@ -1,6 +1,6 @@
 package arrayGetRandomNumbers;
 import java.util.Random;
-public class MainClass {
+public class Main {
 
 	public static void main(String[] args) {
 		Random rand = new Random();
