@@ -1,11 +1,11 @@
 package staticVariables;
 
-public class nickFury {
+public class NickFury {
 	private String first;
 	private String last;
 	private static int members;
 	
-	public nickFury(String fn, String ln) {
+	public NickFury(String fn, String ln) {
 		first = fn;
 		last = ln;
 		members++;
