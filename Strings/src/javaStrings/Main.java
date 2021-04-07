@@ -1,6 +1,6 @@
 package javaStrings;
 
-public class MainClass {
+public class Main {
 
 	public static void main(String[] args) {
 		// String length
@@ -48,7 +48,7 @@ public class MainClass {
 		String txt5 = "The character \\ is called a backslash";
 		System.out.println(txt5);
 		System.out.println();
-		new MainClass().escapeSequence();
+		new Main().escapeSequence();
 	}
 	
 	// ESCAPE SEQUENCE IN JAVA
