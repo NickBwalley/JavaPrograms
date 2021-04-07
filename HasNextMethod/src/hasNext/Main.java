@@ -1,6 +1,6 @@
 package hasNext;
 import java.util.Scanner;
-public class MainClass {
+public class Main {
 
 	public static void main(String[] args) {
 		//hasNext();
@@ -21,10 +21,11 @@ public class MainClass {
 		//char language;
 		bestLanguage = bestLanguage.toLowerCase();
 		bestLanguage = bestLanguage.toUpperCase();
-		Scanner nicky = new Scanner(bestLanguage);
-		System.out.println("Result Before: " + nicky.hasNext());
-		System.out.println(nicky.nextLine());
-		System.out.println("Result After: " + nicky.hasNext());
+		Scanner input = new Scanner(bestLanguage);
+		System.out.println("Result Before: " + input.hasNext());
+		System.out.println(input.nextLine());
+		System.out.println("Result After: " + input.hasNext());
+		input.close();
 	}
 	
 
