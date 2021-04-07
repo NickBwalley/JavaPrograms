@@ -1,9 +1,9 @@
-package sumOf10Numbers;
+package findSumOf10Numbers;
 import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		Scanner nicky = new Scanner(System.in);
+		Scanner input = new Scanner(System.in);
 		int counter = 0;
 		int total = 0;
 		int number;
@@ -11,7 +11,7 @@ public class Main {
 		//creating a while loop
 		while(counter < 10) {
 			System.out.println("Enter Number:");
-			number = nicky.nextInt();
+			number = input.nextInt();
 			total+=number;
 			counter ++;
 		}
@@ -19,6 +19,7 @@ public class Main {
 		average = total/10;
 		System.out.println("Your Total is: "+ total);
 		System.out.println("Your Average is: "+ average);
+		input.close();
 	}
 
 }
