@@ -1,6 +1,6 @@
 package variables;
 
-public class MainClass {
+public class Main {
 
 	public static void main(String[] args) {
 		Variables variables = new Variables();
