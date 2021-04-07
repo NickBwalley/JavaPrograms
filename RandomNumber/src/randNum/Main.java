@@ -1,6 +1,6 @@
 package randNum;
 import java.util.Random;
-public class MainClass {
+public class Main {
 
 	public static void main(String[] args) {
 		int rand_number = (int) (Math.random()*101);
