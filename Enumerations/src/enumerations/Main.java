@@ -1,6 +1,6 @@
 package enumerations;
 
-public class MainClass {
+public class Main {
 
 	public static void main(String[] args) {
 		for(Wrestlers1 wrestlers: Wrestlers1.values())
