@@ -1,6 +1,6 @@
 package recursion;
 import java.util.Scanner;
-public class MainClass {
+public class Main {
 	// Good example of illustration of recursion is use of factorial
 	// N! = N * (N-1) * (N-2) * (N-3) * ..... * 2 * 1
 	// 5! = 5 * 4 * 3 * 2 * 1
