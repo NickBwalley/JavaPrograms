@@ -1,6 +1,6 @@
 package miscellaneousPrograms;
 
-public class MainClass {
+public class Main {
 
 	public static void main(String[] args) {
 		Nosemicolon.noSemicolon();
