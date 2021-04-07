@@ -1,6 +1,6 @@
 package toBinaryConversion;
 
-public class MainClass {
+public class Main {
 
 	public static void main(String[] args) {
 		BinaryToDecimal b2d = new BinaryToDecimal();
