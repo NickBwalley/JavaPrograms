@@ -1,7 +1,7 @@
 package enumerations2;
 
 import java.util.EnumSet;
-public class Enum {
+public class Main {
 
 	public static void main(String[] args) {
 		for(Mango superstars: Mango.values())
