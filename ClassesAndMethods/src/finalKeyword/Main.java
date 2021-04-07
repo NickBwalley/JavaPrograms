@@ -1,6 +1,6 @@
 package finalKeyword;
 
-public class MainClass {
+public class Main {
 
 	public static void main(String[] args) {
 		Apples apple = new Apples();

@@ -1,6 +1,6 @@
 package methodOverriding;
 
-public class MainClass {
+public class Main {
 
 	public static void main(String[] args) {
 		MainBank myBank = new Bank_A();
