@@ -1,6 +1,6 @@
 package virtualMethods;
 
-public class MainClass {
+public class Main {
 
 	public static void main(String[] args) {
 		Salary s = new Salary("Nick", "Bwalley", 33, 4500);

@@ -1,6 +1,6 @@
 package polymorphism1;
 
-public class MainClass {
+public class Main {
 
 	public static void main(String[] args) {
 		FoodStuff foodObj = new FoodStuff();
