@@ -1,4 +1,4 @@
-package dsa_practice;
+package dsa1;
 import java.util.Scanner;
 public class DSA_Practice {
 

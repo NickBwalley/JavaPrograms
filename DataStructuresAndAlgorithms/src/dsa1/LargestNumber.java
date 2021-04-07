@@ -1,4 +1,4 @@
-package dsa_practice;
+package dsa1;
 import java.util.Scanner;
 public class LargestNumber {
     Scanner nicky = new Scanner(System.in);
