@@ -1,4 +1,4 @@
-package txtFile;
+package txtFileReadWrite;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
