@@ -1,12 +1,12 @@
-package guiJCheckBox;
+package guiJFrame;
+
 import javax.swing.JFrame;
-public class MainClass {
+public class Main {
 
 	public static void main(String[] args) {
-		JCheck_box nicky = new JCheck_box();
+		NickJFrame nicky = new NickJFrame();
 		nicky.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		nicky.setSize(400,300);
-		nicky.setLocation(400,100);
+		nicky.setSize(500, 400);
 		nicky.setVisible(true);
 	}
 

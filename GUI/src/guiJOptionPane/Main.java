@@ -1,6 +1,6 @@
 package guiJOptionPane;
 import javax.swing.JOptionPane;
-public class MainClass {
+public class Main {
 
 	public static void main(String[] args) {
 		String fNum = JOptionPane.showInputDialog("Enter First Number: ");

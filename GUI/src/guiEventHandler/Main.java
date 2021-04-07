@@ -1,6 +1,6 @@
 package guiEventHandler;
 import javax.swing.JFrame;
-public class MainClass {
+public class Main {
 
 	public static void main(String[] args) {
 		Apples apples = new Apples();
