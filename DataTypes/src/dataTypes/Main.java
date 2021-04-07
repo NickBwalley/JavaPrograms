@@ -1,6 +1,6 @@
 package dataTypes;
 
-public class MainClass {
+public class Main {
 
 	public static void main(String[] args) {
 	// The byte data type can store whole numbers from -128 to 127. This can be used instead 
