@@ -1,6 +1,6 @@
 package leapYear2;
 import java.util.Scanner;
-public class LeapYearChecker {
+public class Main2 {
 	
 	public void checkLeapYear() {
 		Scanner nicky = new Scanner(System.in);		

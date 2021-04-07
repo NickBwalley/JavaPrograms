@@ -1,11 +1,11 @@
 package leapYear;
 import leapYear2.*;
 import java.util.Scanner;
-public class LeapYear {
+public class Main {
 
 	public static void main(String[] args) {
 		//leapYear();
-		LeapYearChecker leapYear = new LeapYearChecker();
+		Main2 leapYear = new Main2();
 		leapYear.checkLeapYear();
 	}
 	
