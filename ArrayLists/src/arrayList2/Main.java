@@ -3,14 +3,13 @@ package arrayList2;
 import java.util.Scanner;
 import java.util.ArrayList;
 import arrayList3.NickFury;
-
 public class Main {
 
 	public static void main(String[] args) {
 		//classArrayList();
 		//arrayLists nick = new arrayLists();
-		NickFury bwalley = new NickFury();
-		bwalley.basketBall();
+		NickFury nick = new NickFury();
+		nick.basketBall();
 	}
 
 	//array list 
