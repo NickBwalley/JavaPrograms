@@ -1,6 +1,6 @@
 package abstractClassesAndMethods;
 
-public class MainClass {
+public class Main {
 
 	public static void main(String[] args) {
 		MainBank equity = new Bank_A();
