@@ -1,6 +1,6 @@
 package multidimensionalArrays;
 
-public class MainClass {
+public class Main {
 
 	public static void main(String[] args) {
 		int firstArr[][] = {{19, 29, 39}, {49, 59, 69}, {79, 89, 99}};
