@@ -1,6 +1,6 @@
 package methodOverloading;
 
-public class MainClass {
+public class Main {
 
 		// Instead of defining two methods that should do the same thing, it is better to overload one.
 
