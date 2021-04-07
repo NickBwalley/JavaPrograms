@@ -1,11 +1,11 @@
 package logicalOperators;
 //concept you need to understand is how to use the logical or and and logical and
 import java.util.Scanner;
-public class MainClass {
+public class Main {
 
 	public static void main(String[] args) {
 		//logicalAnd();
-		new MainClass().logicalOr();
+		new Main().logicalOr();
 	}
 	
 	public static void logicalAnd() {
