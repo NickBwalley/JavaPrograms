@@ -1,6 +1,6 @@
 package is_A_Relationship;
 
-public class MainClass2 {
+public class Main2 {
 	
 	public static void main(String[] args) {
 		Tuna tuna = new Tuna();

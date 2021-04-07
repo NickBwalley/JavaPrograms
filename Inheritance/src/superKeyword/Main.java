@@ -1,6 +1,6 @@
 package superKeyword;
 
-public class MainClass {
+public class Main {
 
 	public static void main(String[] args) {
 		SubClass nick = new SubClass();	//Instantiating the SubClass

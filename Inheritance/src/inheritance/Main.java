@@ -1,6 +1,6 @@
 package inheritance;
 
-public class MainClass {
+public class Main {
 
 	public static void main(String[] args) {
 		Coffee rikkis = new Coffee();
