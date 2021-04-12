@@ -1,4 +1,4 @@
-package methodWithParameters;
+package methodswithparameters;
 
 public class MyName {
 	public void setName(String name) {

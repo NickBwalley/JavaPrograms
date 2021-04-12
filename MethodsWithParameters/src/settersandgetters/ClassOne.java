@@ -1,4 +1,4 @@
-package settersAndGetters;
+package settersandgetters;
 
 public class ClassOne {
 	private String name;

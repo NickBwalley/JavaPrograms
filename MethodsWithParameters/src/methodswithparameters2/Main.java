@@ -1,4 +1,4 @@
-package methodsWithParameters2;
+package methodswithparameters2;
 import java.util.Scanner;
 public class Main {
 
