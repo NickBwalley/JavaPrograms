@@ -1,4 +1,4 @@
-package labelledLoop;
+package labelledloop;
 
 public class Main {
 
