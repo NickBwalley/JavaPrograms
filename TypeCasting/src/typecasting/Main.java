@@ -1,4 +1,4 @@
-package typeCasting;
+package typecasting;
 // Type casting is when you assign a value of one primitive data type to another type.
 // In Java, there are two types of casting:
 
