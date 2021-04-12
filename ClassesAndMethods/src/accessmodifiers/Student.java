@@ -1,4 +1,4 @@
-package accessModifiers;
+package accessmodifiers;
 /*
  * ACCESS LEVELS
  * MODIFIER		CLASS 		PACKAGE		SUBCLASS		WORLD

@@ -1,4 +1,4 @@
-package finalKeyword;
+package finalkeyword;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package accessModifiers;
+package accessmodifiers;
 
 public class Main {
 

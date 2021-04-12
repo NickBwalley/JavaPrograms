@@ -1,4 +1,4 @@
-package staticKeyword;
+package statickeyword;
 
 public class Main {
 	//what does static keyword do in a class

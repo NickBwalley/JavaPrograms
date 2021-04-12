@@ -1,4 +1,4 @@
-package methodOverriding;
+package methodoverriding;
 
 public class Bank_A extends MainBank {
 	int getInterestRate() {

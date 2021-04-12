@@ -1,4 +1,4 @@
-package staticKeyword;
+package statickeyword;
 
 public class StudentExample {
 	String name;
