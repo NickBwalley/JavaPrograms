@@ -1,4 +1,4 @@
-package exceptionHandling;
+package exceptionhandling;
 //exception: is an event, which occurs during the execution of a program, that disrupts the normal flow of the 
 // programs instruction
 public class Main {

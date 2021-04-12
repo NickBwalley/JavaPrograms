@@ -1,4 +1,4 @@
-package finallyBlock;
+package finallyblock;
 // The finally block always execute when the try block exists
 // This ensures that the finally block executes even if an unexpected  exception occurs.
 	
