@@ -1,7 +1,7 @@
 package hasnext;
 import java.util.Scanner;
 public class Main {
-
+	// main method
 	public static void main(String[] args) {
 		//hasNext();
 		checkHasNext();
