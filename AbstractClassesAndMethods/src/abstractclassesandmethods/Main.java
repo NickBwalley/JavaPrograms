@@ -1,9 +1,9 @@
-package abstractClassesAndMethods;
+package abstractclassesandmethods;
 
 public class Main {
 
 	public static void main(String[] args) {
-		MainBank equity = new Bank_A();
+		MainBank equity = new BankA();
 		System.out.println(equity.getInterestRate());
 		
 	}
