@@ -1,4 +1,4 @@
-package javaMathMethods;
+package javamathmethods;
 
 import java.util.Scanner;
 
