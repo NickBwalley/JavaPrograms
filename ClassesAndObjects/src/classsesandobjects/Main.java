@@ -1,4 +1,4 @@
-package classsesAndObjects;
+package classsesandobjects;
 
 public class Main {
 	

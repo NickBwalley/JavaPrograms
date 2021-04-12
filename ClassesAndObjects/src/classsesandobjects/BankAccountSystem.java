@@ -1,4 +1,4 @@
-package classsesAndObjects;
+package classsesandobjects;
 // Java program to illustrate the working of banking systems 
 // where we deposit and withdraw money from your bank account
 public class BankAccountSystem {

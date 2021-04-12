@@ -1,4 +1,4 @@
-package classHoldingManyObjects;
+package classholdingmanyobjects;
 
 public class AnimalList {
 	private Animal [] thelist = new Animal[5];
