@@ -1,4 +1,4 @@
-package arrayGetRandomNumbers;
+package arraytogetrandomnumbers;
 import java.util.Random;
 public class Main {
 
