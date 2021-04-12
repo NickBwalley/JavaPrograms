@@ -1,4 +1,4 @@
-package guiEventHandler;
+package guieventhandler;
 import javax.swing.JFrame;
 public class Main {
 

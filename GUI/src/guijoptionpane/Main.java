@@ -1,4 +1,4 @@
-package guiJOptionPane;
+package guijoptionpane;
 import javax.swing.JOptionPane;
 public class Main {
 

@@ -1,4 +1,4 @@
-package guiJFrame;
+package guijframe;
 
 import java.awt.FlowLayout;//imports how things are placed in our workspace//layout 
 import javax.swing.JFrame;//gives you basic features of a window like quit, minimize, maximize
