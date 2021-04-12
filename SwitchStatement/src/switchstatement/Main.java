@@ -1,4 +1,4 @@
-package switchStatement;
+package switchstatement;
 import java.util.Scanner;
 public class Main {
 
