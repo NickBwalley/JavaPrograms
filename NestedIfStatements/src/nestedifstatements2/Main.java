@@ -1,4 +1,4 @@
-package nestedIfStatements2;
+package nestedifstatements2;
 import java.util.Scanner;
 public class Main {
 

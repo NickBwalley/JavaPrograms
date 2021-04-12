@@ -1,4 +1,4 @@
-package nestedIfStatements;
+package nestedifstatements;
 
 public class Main {
 
