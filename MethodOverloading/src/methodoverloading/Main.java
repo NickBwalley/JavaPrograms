@@ -1,4 +1,4 @@
-package methodOverloading;
+package methodoverloading;
 
 public class Main {
 
