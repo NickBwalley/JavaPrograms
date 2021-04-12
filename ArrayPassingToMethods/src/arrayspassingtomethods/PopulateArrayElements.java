@@ -23,7 +23,9 @@ public class PopulateArrayElements {
  * An argument is the instance passed to the method during runtime. The term parameter refers to any 
  * declaration within the parentheses following the method/function name in a method/function 
  * declaration or definition; the term argument refers to any expression within the parentheses 
- * of a method/function call.*/
+ * of a method/function call.
+ */
+
 /*
  * When a parameter is passed to the method, it is called an argument. 
 */
