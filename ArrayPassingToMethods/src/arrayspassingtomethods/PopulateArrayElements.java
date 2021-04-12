@@ -1,4 +1,4 @@
-package arraysPassingToMethods;
+package arrayspassingtomethods;
 import java.util.Scanner;
 
 public class PopulateArrayElements {
