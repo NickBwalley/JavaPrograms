@@ -1,4 +1,4 @@
-package javaInterfaces;
+package javainterfaces;
 
 public interface MainBank {
 	int getInterestRate();

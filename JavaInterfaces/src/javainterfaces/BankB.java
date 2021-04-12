@@ -1,6 +1,6 @@
-package javaInterfaces;
+package javainterfaces;
 
-public class Bank_B implements Bank_A {
+public class BankB implements BankA {
 	public int getInterestRate() {
 		return 5;
 	}

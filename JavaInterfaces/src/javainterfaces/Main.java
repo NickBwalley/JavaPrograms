@@ -1,10 +1,10 @@
-package javaInterfaces;
+package javainterfaces;
 
 public class Main {
 
 	public static void main(String[] args) {
-		MainBank equity = new Bank_B();
-		Bank_A kcb = new Bank_B();
+		MainBank equity = new BankB();
+		BankA kcb = new BankB();
 		System.out.println(equity.getInterestRate());
 		System.out.println(equity.getIncomeTax());
 		System.out.println(kcb.getGrossTax());
