@@ -1,4 +1,4 @@
-package miscellaneousPrograms;
+package miscellaneousprograms;
 
 public class Main {
 
