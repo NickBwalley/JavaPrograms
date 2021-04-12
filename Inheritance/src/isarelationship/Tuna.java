@@ -1,4 +1,4 @@
-package is_A_Relationship;
+package isarelationship;
 
 public class Tuna implements Fish{
 	

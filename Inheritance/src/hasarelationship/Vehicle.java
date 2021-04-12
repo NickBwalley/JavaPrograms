@@ -1,4 +1,4 @@
-package hasA_Relationship;
+package hasarelationship;
 
 public class Vehicle {
 

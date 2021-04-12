@@ -1,4 +1,4 @@
-package superKeyword;
+package superkeyword;
 
 public class SubClass2 extends SuperClass2{
 	// Constructor

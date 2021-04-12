@@ -1,4 +1,4 @@
-package inheritanceConcepts;
+package inheritanceconcepts;
 
 public class Dog extends Animal{
 	public void barks() {

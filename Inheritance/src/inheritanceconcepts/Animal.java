@@ -1,4 +1,4 @@
-package inheritanceConcepts;
+package inheritanceconcepts;
 
 public class Animal {
 	public void sound() {

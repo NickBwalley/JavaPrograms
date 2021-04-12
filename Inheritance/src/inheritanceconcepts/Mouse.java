@@ -1,4 +1,4 @@
-package inheritanceConcepts;
+package inheritanceconcepts;
 
 public class Mouse {
 	public void squeaks() {

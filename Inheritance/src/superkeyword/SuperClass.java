@@ -1,4 +1,4 @@
-package superKeyword;
+package superkeyword;
 
 public class SuperClass {
 

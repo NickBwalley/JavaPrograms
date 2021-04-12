@@ -1,4 +1,4 @@
-package hasA_Relationship;
+package hasarelationship;
 
 public class Main {
 	/*These relationships are mainly based on the usage. 

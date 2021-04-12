@@ -1,4 +1,4 @@
-package is_A_Relationship;
+package isarelationship;
 
 public interface Fish {
 

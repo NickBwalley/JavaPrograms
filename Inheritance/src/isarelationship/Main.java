@@ -1,4 +1,4 @@
-package is_A_Relationship;
+package isarelationship;
 
 public class Main {
 	/*IS-A is a way of saying: This object is a type of that object.
