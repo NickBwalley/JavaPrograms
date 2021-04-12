@@ -1,9 +1,9 @@
 package arraylist2;
 import java.util.Scanner;
 import java.util.ArrayList;
-public class arrayLists {
+public class ArrayLists {
 	//array list to hold names of artists and their songs 
-	public arrayLists() {
+	public ArrayLists() {
 		Scanner nicky = new Scanner(System.in);
 		ArrayList<String> records = new ArrayList<String>();
 		 		
