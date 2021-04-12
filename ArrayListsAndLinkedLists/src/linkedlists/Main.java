@@ -21,7 +21,7 @@ public class Main {
 		for(String x: linkedList)
 			System.out.println(x);
 		System.out.println("size = " + linkedList.size());
-		linkedList.clear(); // clears all the element of the list 
+		linkedList.clear();  // clears all the element of the list 
 
 	}
 
