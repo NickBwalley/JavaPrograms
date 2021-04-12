@@ -1,4 +1,4 @@
-package eventHandlers;
+package eventhandlers;
 
 import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;

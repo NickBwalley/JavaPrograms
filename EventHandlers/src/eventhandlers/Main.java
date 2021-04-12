@@ -1,4 +1,4 @@
-package eventHandlers;
+package eventhandlers;
 
 import javax.swing.JFrame;
 public class Main {
