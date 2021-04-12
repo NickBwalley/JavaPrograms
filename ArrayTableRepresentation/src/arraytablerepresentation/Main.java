@@ -1,4 +1,4 @@
-package arrayTableRepresentation;
+package arraytablerepresentation;
 
 public class Main {
 
