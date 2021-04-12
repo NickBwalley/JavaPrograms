@@ -1,4 +1,4 @@
-package thisKeyword;
+package thiskeyword;
 
 public class Main {
 
