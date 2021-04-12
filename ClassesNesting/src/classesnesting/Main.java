@@ -1,4 +1,4 @@
-package classesNesting;
+package classesnesting;
 
 public class Main {
 
