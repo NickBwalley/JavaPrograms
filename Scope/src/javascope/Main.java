@@ -1,4 +1,4 @@
-package javaScope;
+package javascope;
 
 public class Main {
 
