@@ -1,4 +1,4 @@
-package methodsAndConstructors;
+package methodsandconstructors;
 
 public class Apples {
 	private int sum = 0;

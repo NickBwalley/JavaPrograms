@@ -1,4 +1,4 @@
-package methodsAndConstructors;
+package methodsandconstructors;
 
 public class Main {
 
