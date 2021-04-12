@@ -1,4 +1,4 @@
-package selectionSort;
+package selectionsort;
 
 public class Main {
 
