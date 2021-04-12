@@ -1,4 +1,4 @@
-package setterAndGetter;
+package setterandgetter;
 import java.util.Scanner;
 public class Main {
 

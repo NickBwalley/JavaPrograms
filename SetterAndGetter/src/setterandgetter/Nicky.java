@@ -1,4 +1,4 @@
-package setterAndGetter;
+package setterandgetter;
 
 public class Nicky {
 	private String girlfriend;
