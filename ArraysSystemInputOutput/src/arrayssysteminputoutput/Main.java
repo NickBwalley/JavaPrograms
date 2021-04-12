@@ -17,7 +17,7 @@ public class Main {
 		array[4] = input.nextInt();
 		
 		System.out.println("Index\tValue");
-		
+		// for loop 
 		for(int i = 0; i < array.length; i++) {
 			System.out.println(i + "\t" + array[i]);
 		}
