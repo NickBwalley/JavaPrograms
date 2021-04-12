@@ -1,8 +1,10 @@
-package arrayList2;
+package arraylist2;
 
 import java.util.Scanner;
+
+import arraylist3.NickFury;
+
 import java.util.ArrayList;
-import arrayList3.NickFury;
 public class Main {
 
 	public static void main(String[] args) {
