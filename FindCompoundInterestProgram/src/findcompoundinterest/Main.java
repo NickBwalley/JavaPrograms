@@ -1,4 +1,4 @@
-package findCompoundInterest;
+package findcompoundinterest;
 import java.util.Scanner;
 public class Main {
 
