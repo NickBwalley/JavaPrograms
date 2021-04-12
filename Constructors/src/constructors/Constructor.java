@@ -1,4 +1,4 @@
-package constructor;
+package constructors;
 
 public class Constructor {
 	private String girlfriend;
