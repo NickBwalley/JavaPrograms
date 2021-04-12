@@ -1,4 +1,4 @@
-package toString2;
+package tostring2;
 
 public class Main {
 

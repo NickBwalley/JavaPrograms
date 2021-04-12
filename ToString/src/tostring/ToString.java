@@ -1,4 +1,4 @@
-package toString;
+package tostring;
 
 public class ToString {
 	private int day;
