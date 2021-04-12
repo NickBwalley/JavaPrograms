@@ -1,4 +1,4 @@
-package arraysHoldingManyObjects;
+package arraysholdingmanyobjects;
 
 public class Cat extends Animal {
 	

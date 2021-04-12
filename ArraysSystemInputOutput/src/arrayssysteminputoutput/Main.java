@@ -1,4 +1,4 @@
-package arraysSystemInputOutput;
+package arrayssysteminputoutput;
 import java.util.Scanner;
 public class Main {
 

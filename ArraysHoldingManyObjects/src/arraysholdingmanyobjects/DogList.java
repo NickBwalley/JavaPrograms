@@ -1,4 +1,4 @@
-package arraysHoldingManyObjects;
+package arraysholdingmanyobjects;
 
 public class DogList {
 	private Dog[] theDog = new Dog[5];
