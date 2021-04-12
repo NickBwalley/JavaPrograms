@@ -1,4 +1,4 @@
-package overloadedConstructors;
+package overloadedconstructors;
 
 public class TimeClass {
 	private int hour;
