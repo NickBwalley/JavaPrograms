@@ -1,4 +1,4 @@
-package hasNext;
+package hasnext;
 import java.util.Scanner;
 public class Main {
 
