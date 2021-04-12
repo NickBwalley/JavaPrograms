@@ -1,4 +1,4 @@
-package javaStrings;
+package javastrings;
 
 public class Main {
 
