@@ -1,4 +1,4 @@
-package incrementOperator;
+package incrementoperator;
 
 public class Main {
 
