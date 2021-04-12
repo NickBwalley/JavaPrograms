@@ -1,4 +1,4 @@
-package timeClass1;
+package timeclass1;
 
 public class TimeClass {
 	private int hour;

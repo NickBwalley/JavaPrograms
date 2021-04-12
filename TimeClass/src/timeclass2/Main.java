@@ -1,4 +1,4 @@
-package timeClass2;
+package timeclass2;
 
 public class Main {
 
