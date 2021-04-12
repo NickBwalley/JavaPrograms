@@ -1,4 +1,4 @@
-package vla;
+package variablelengtharguments;
 
 public class Main {
 
