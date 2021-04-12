@@ -1,4 +1,4 @@
-package enhancedForLoop;
+package enhancedforloop;
 
 public class Main {
 
