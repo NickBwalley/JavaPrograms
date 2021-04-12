@@ -1,4 +1,4 @@
-package whileLoop;
+package whileloop;
 
 public class Main {
 
