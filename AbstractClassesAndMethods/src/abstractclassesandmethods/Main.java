@@ -10,6 +10,7 @@ public class Main {
 
 }
 
+
 //An Abstract class is a class which cannot be instantiated
 // SuperClass (Base Class, Parent Class)
 // SubClass (Derived Class, Child Class)
