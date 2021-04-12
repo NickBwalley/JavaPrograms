@@ -1,4 +1,4 @@
-package staticVariables;
+package staticvariables;
 
 public class NickFury {
 	private String first;
