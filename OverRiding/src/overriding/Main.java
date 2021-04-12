@@ -1,4 +1,4 @@
-package overRiding;
+package overriding;
 
 public class Main {
 

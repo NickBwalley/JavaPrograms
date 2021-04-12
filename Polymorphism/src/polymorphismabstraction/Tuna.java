@@ -1,4 +1,4 @@
-package polymorphismAbstraction;
+package polymorphismabstraction;
 
 public class Tuna extends Food{
 	public void eat() {
