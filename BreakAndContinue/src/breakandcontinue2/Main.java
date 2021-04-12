@@ -1,4 +1,4 @@
-package breaksAndContinue2;
+package breakandcontinue2;
 
 public class Main {
 
