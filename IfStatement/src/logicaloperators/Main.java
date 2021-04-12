@@ -1,4 +1,4 @@
-package logicalOperators;
+package logicaloperators;
 //concept you need to understand is how to use the logical or and and logical and
 import java.util.Scanner;
 public class Main {
