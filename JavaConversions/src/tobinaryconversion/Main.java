@@ -1,4 +1,4 @@
-package toBinaryConversion;
+package tobinaryconversion;
 
 public class Main {
 
