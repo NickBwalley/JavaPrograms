@@ -1,4 +1,4 @@
-package findSumOf10Numbers;
+package findsumof10numbers;
 import java.util.Scanner;
 public class Main {
 
