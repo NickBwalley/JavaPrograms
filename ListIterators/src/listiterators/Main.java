@@ -1,4 +1,4 @@
-package listIterators;
+package listiterators;
 /*
  * public boolean hasNext()
  * public Object next()
