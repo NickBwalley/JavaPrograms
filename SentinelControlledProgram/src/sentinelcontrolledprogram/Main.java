@@ -1,4 +1,4 @@
-package sentinelControlledProgram;
+package sentinelcontrolledprogram;
 import java.util.Scanner;
 public class Main {
 
