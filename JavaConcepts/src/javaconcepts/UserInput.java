@@ -1,4 +1,4 @@
-package javaConcepts;
+package javaconcepts;
 import java.util.Scanner;
 public class UserInput {
 
