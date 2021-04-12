@@ -1,4 +1,4 @@
-package sumArrayElements;
+package sumarrayelements;
 import java.util.Scanner;
 public class SumArrayElements {
 	Scanner nicky = new Scanner(System.in);

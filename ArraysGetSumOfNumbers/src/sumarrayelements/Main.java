@@ -1,4 +1,4 @@
-package sumArrayElements;
+package sumarrayelements;
 
 public class Main {
 

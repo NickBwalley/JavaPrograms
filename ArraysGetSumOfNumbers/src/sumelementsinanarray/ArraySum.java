@@ -1,4 +1,4 @@
-package sumElementsinAnArray;
+package sumelementsinanarray;
 
 import java.util.Scanner;
 
